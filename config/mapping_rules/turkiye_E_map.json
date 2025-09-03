@@ -1,0 +1,94 @@
+{
+  "company": "turkiye_E",
+  "version": "2.0",
+  "field_mappings": {
+    "Teminat_Hasarsizlik_Koruma": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Yok"
+        }
+      ]
+    },
+    "ksk_hik_data_value_ext": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Var",
+          "output": "Var"
+        },
+        {
+          "input_pattern": "Yok",
+          "output": "Yok"
+        }
+      ]
+    },
+    "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": true,
+      "output_type": "integer"
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": true,
+      "output_type": "integer"
+    },
+    "Teminat_Servis_Secimi": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+        }
+      ]
+    },
+    "Teminat_Yedek_Parca": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Var"
+        },
+        {
+          "input_pattern": "Orijinal",
+          "output": "Var"
+        }
+      ]
+    },
+    "Teminat_Oto_Cam_Klozu": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Cam Hasarlarına ilişkin özel bir muafiyet uygulaması bulunmamaktadır",
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
+        },
+        {
+          "input_pattern": null,
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        }
+      ]
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "HAYIR",
+          "output": "0"
+        },
+        {
+          "input_pattern": "2X14 GÜN PERT DAHİL",
+          "output": "14"
+        },
+        {
+          "input_pattern": "2X7 GÜN PERT DAHİL",
+          "output": "7"
+        },
+        {
+          "input_pattern": null,
+          "output": "14"
+        }
+      ]
+    }
+  }
+}

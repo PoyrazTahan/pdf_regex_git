@@ -1,0 +1,143 @@
+{
+  "company": "anadolu_E",
+  "description": "ANADOLU_E field mapping configuration for normalizing extracted policy data",
+  "version": "1.0",
+  "field_mappings": {
+    "Teminat_Hasarsizlik_Koruma": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Yok",
+          "description": "Maps null values to business value: Yok"
+        }
+      ],
+      "description": "Field mapping for anadolu_E"
+    },
+    "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+      "type": "numeric_conversion",
+      "output_type": "integer",
+      "turkish_format": true
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "1.000.000,00",
+          "output": "1000000",
+          "description": "Maps extracted text to business value: 1000000"
+        },
+        {
+          "input_pattern": "15.000.000,00",
+          "output": "15000000",
+          "description": "Maps extracted text to business value: 15000000"
+        },
+        {
+          "input_pattern": "20.000.000,00",
+          "output": "20000000",
+          "description": "Maps extracted text to business value: 20000000"
+        },
+        {
+          "input_pattern": "5.000.000,00",
+          "output": "5000000",
+          "description": "Maps extracted text to business value: 5000000"
+        },
+        {
+          "input_pattern": "2.500.000,00",
+          "output": "2500000",
+          "description": "Maps extracted text to business value: 2500000"
+        },
+        {
+          "input_pattern": "10.000.000,00",
+          "output": "10000000",
+          "description": "Maps extracted text to business value: 10000000"
+        }
+      ],
+      "description": "Field mapping for anadolu_E"
+    },
+    "Teminat_Servis_Secimi": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Sigortalı ve sigortacı, herhangi bir hasar durumunda aracın, sigortacının anlaşmalı olduğu özel serviste (herhangi birmotorlu taşıt üreticisi veya distribütörü tarafından yetkilendirilmemiş servis) onarımını kabul eder. Hasar tespiti içineksper görevlendirilmesi durumunda, eksper tarafından belirlenecek hasar tutarı esas alınır. Eksper tarafından tespitedilen hasar tutarına kadar aracın onarımı yaptırılır veya tutar nakden ödenir. Herhangi bir hasar durumunda, kazanınolduğu veya sigortalının ikamet ettiği ilde şirketimizin anlaşmalı özel servisinin bulunmaması durumu hariç olmaküzere aracın yetkili serviste veya şirketimizle anlaşmalı olmayan özel serviste onarılması halinde her bir hasarda,varsa poliçede yer alan diğer muafiyetlerin yanı sıra 3.000TL'den az olmamak kaydıyla eksper tarafından belirlenenhasar tutarının %35’i oranında tenzili muafiyet uygulanacaktır. Sigortacının anlaşmalı olmadığı servislerde yapılacakonarımlarda, tedarik edebildiği durumda parça tedarikinin sigortacı tarafından yapılması; parçanın, aracın onarımınınyapıldığı servis tarafından tedarik edilmesinin sigortacının onayına bağlı olduğu hususunda mutabık kalınmıştır.",
+          "output": "Yalnızca Anlaşmalı Özel Servisler",
+          "description": "Maps extracted text to business value: Yalnızca Anlaşmalı Özel Servisler"
+        },
+        {
+          "input_pattern": "İşbu poliçe ile sigortalı olan aracın hasarının Şirketimizle anlaşmalı olan yetkili servislerdeveya Şirketimizle anlaşmalı olsun olmasın tüm özel servislerde tamir ettirilmesi esastır. Şirketimizle anlaşmalı olmayanyetkili serviste tamir ettirilmesi halinde, varsa poliçede yer alan diğer muafiyetlerin yanı sıra eksper tarafındanbelirlenen hasar tutarının %35'i oranında tenzili muafiyet uygulanır. Kazanın olduğu veya sigortalımızın ikamet ettiğiilde Şirketimizin anlaşmalı yetkili servisinin bulunmaması durumunda bu muafiyet uygulanmayacaktır. Hasar tespiti içineksper görevlendirilmesi durumunda, eksper tarafından belirlenecek hasar tutarı esas alınır. Eksper tarafından tespitedilen hasar tutarına kadar aracın onarımı yaptırılır veya tutar nakden ödenir. Sigortacının anlaşmalı olmadığıservislerde yapılacak onarımlarda, tedarik edebildiği durumda parça tedarikinin sigortacı tarafından yapılacağı;parçanın, aracın onarımının yapıldığı servis tarafından tedarik edilmesinin sigortacının onayına bağlı olduğu hususundamutabık kalınmıştır.",
+          "output": "Anlaşmalı Yetkili Servisler ve Anlaşmalı Özel Servisler",
+          "description": "Maps extracted text to business value: Anlaşmalı Yetkili Servisler ve Anlaşmalı Özel Servisler"
+        },
+        {
+          "input_pattern": "Sigortalı ve sigortacı, herhangi bir hasar durumunda aracın, sigortacının anlaşmalı olduğu özel serviste (herhangi birmotorlu taşıt üreticisi veya distribütörü tarafından yetkilendirilmemiş servis) onarımını kabul eder. Hasar tespiti içineksper görevlendirilmesi durumunda, eksper tarafından belirlenecek hasar tutarı esas alınır. Eksper tarafından tespitedilen hasar tutarına kadar aracın onarımı yaptırılır veya tutar nakden ödenir. Herhangi bir hasar durumunda, kazanınolduğu veya sigortalının ikamet ettiği ilde şirketimizin anlaşmalı özel servisinin bulunmaması durumu hariç olmaküzere aracın yetkili serviste veya şirketimizle anlaşmalı olmayan özel serviste onarılması halinde her bir hasarda,varsa poliçede yer alan diğer muafiyetlerin yanı sıra 3.000TL'den az olmamak kaydıyla eksper tarafından belirlenenhasar tutarının %35’i oranında tenzili muafiyet uygulanacaktır. Sigortacının anlaşmalı olmadığı servislerde yapılacakonarımlarda, tedarik edebildiği durumda parça tedarikinin sigortacı tarafından yapılması; parçanın, aracın onarımınınyapıldığı servis tarafından tedarik edilmesinin sigortacının onayına bağlı olduğu hususunda mutabık kalınmıştır.",
+          "output": "Yalnızca Anlaşmalı Yetkili Servisler",
+          "description": "Maps extracted text to business value: Yalnızca Anlaşmalı Yetkili Servisler"
+        }
+      ],
+      "description": "Field mapping for anadolu_E"
+    },
+    "Teminat_Yedek_Parca": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için sigortacı tarafından orijinal parça tedarikedilir. Parçanın tedarikinin, aracın onarımının yapıldığı servis veya sigortalı tarafından yapılması sigortacının onayınabağlıdır. Bununla birlikte hasarlanan parça orijinal değilse aynı özellikleri taşıyan parça ile değiştirilme yoluna gidilirveya aynı özellikleri taşıyan parçanın bedeli ödenir.",
+          "output": "Var",
+          "description": "Maps extracted text to business value: Var"
+        },
+        {
+          "input_pattern": "Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için sigortacı tarafından orijinalparça tedarik edilir. Parçanın tedarikinin, aracın onarımının yapıldığı servis veya sigortalı tarafından yapılmasısigortacının onayına bağlıdır. Bununla birlikte hasarlanan parça orijinal değilse aynı özellikleri taşıyan parça iledeğiştirilme yoluna gidilir veya aynı özellikleri taşıyan parçanın bedeli ödenir.",
+          "output": "Yok",
+          "description": "Maps extracted text to business value: Yok"
+        },
+        {
+          "input_pattern": "Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için sigortacı tarafından orijinalparça tedarik edilir. Parçanın tedarikinin, aracın onarımının yapıldığı servis veya sigortalı tarafından yapılmasıSayfa : 4/13Poliçe No: 1342688225sigortacının onayına bağlıdır. Bununla birlikte hasarlanan parça orijinal değilse aynı özellikleri taşıyan parça iledeğiştirilme yoluna gidilir veya aynı özellikleri taşıyan parçanın bedeli ödenir.",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        }
+      ],
+      "description": "Field mapping for anadolu_E"
+    },
+    "Teminat_Oto_Cam_Klozu": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli",
+          "description": "Maps null values to business value: Orijinal Cam Yok & Hasar Muafiyetli"
+        },
+        {
+          "input_pattern": null,
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz",
+          "description": "Maps null values to business value: Orijinal Cam Var & Hasar Muafiyetsiz"
+        }
+      ],
+      "description": "Field mapping for anadolu_E"
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "2 kez ve azami 7 günolmak üzere Anadolu Grup 1 sınıfı ikame araç temin edilecektir",
+          "output": "7",
+          "description": "Maps extracted text to business value: 7"
+        },
+        {
+          "input_pattern": "2 kez ve azami 15 günolmak üzere Anadolu Grup 1 sınıfı ikame araç temin edilecektir",
+          "output": "15",
+          "description": "Maps extracted text to business value: 15"
+        },
+        {
+          "input_pattern": "Anadolu Hizmet - İkamesiz",
+          "output": "0",
+          "description": "Maps extracted text to business value: 0"
+        },
+        {
+          "input_pattern": "2 kez ve azami 15 günolmak üzere Anadolu Grup 2 sınıfı ikame araç temin edilecektir",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        }
+      ],
+      "description": "Field mapping for anadolu_E"
+    }
+  }
+}

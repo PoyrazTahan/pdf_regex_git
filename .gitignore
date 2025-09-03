@@ -1,0 +1,11 @@
+*__pycahce__*
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.eggs
+*.log
+.vscode
+*00_raw_pdfs*

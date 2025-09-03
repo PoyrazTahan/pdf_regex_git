@@ -1,0 +1,342 @@
+{
+  "Police_No": {
+    "sompo_E_128280704_307000181214769": "307000181214769",
+    "sompo_E_128281354_307000179998386": "307000179998386",
+    "sompo_E_128286944_307000181168144": "307000181168144",
+    "sompo_E_128287366_307000181237205": "307000181237205",
+    "sompo_E_128293572_307000181291702": "307000181291702",
+    "sompo_E_128294096_307000181257964": "307000181257964",
+    "sompo_E_128299480_307000181274633": "307000181274633",
+    "sompo_E_128304499_307000181292824": "307000181292824",
+    "sompo_E_128310212_307000180966564": "307000180966564"
+  },
+  "Police_Onceki_No": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "Police_Baslangic_Tarihi": {
+    "sompo_E_128280704_307000181214769": "24/07/2025",
+    "sompo_E_128281354_307000179998386": "15/07/2025",
+    "sompo_E_128286944_307000181168144": "05/08/2025",
+    "sompo_E_128287366_307000181237205": "02/08/2025",
+    "sompo_E_128293572_307000181291702": "22/07/2025",
+    "sompo_E_128294096_307000181257964": "14/08/2025",
+    "sompo_E_128299480_307000181274633": "03/08/2025",
+    "sompo_E_128304499_307000181292824": "28/07/2025",
+    "sompo_E_128310212_307000180966564": "21/07/2025"
+  },
+  "Police_Bitis_Tarihi": {
+    "sompo_E_128280704_307000181214769": "24/07/2026",
+    "sompo_E_128281354_307000179998386": "15/07/2026",
+    "sompo_E_128286944_307000181168144": "05/08/2026",
+    "sompo_E_128287366_307000181237205": "02/08/2026",
+    "sompo_E_128293572_307000181291702": "22/07/2026",
+    "sompo_E_128294096_307000181257964": "14/08/2026",
+    "sompo_E_128299480_307000181274633": "03/08/2026",
+    "sompo_E_128304499_307000181292824": "28/07/2026",
+    "sompo_E_128310212_307000180966564": "21/07/2026"
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "sompo_E_128280704_307000181214769": "23*******22",
+    "sompo_E_128281354_307000179998386": "12*******18",
+    "sompo_E_128286944_307000181168144": "34*******46",
+    "sompo_E_128287366_307000181237205": "38*******66",
+    "sompo_E_128293572_307000181291702": "30*******22",
+    "sompo_E_128294096_307000181257964": "51*******12",
+    "sompo_E_128299480_307000181274633": "14*******86",
+    "sompo_E_128304499_307000181292824": "34*******34",
+    "sompo_E_128310212_307000180966564": "34*******94"
+  },
+  "Sigortali_Adi": {
+    "sompo_E_128280704_307000181214769": "GİZEMNUR  NARİN",
+    "sompo_E_128281354_307000179998386": "ERSİN  SÜRÜCÜ",
+    "sompo_E_128286944_307000181168144": "CEMALETTİN  POLAT",
+    "sompo_E_128287366_307000181237205": "AHMET  ÖNDER",
+    "sompo_E_128293572_307000181291702": "BEKİR SELMAN  YILDIRIM",
+    "sompo_E_128294096_307000181257964": "EYÜP  BATMAZ",
+    "sompo_E_128299480_307000181274633": "MUSA  YALÇIN",
+    "sompo_E_128304499_307000181292824": "SELİN  ŞENAY",
+    "sompo_E_128310212_307000180966564": "JÜLİDE  OKTAR"
+  },
+  "Sigortali_Adresi": {
+    "sompo_E_128280704_307000181214769": "CUMHURİYET MAH. MH ONUR SK. SK MERCAN BLOK APARTMANI BİNA NO 10 DAİRE NO 99 DG\nCUMHURİYET MAH. MH. ONUR SK. SK. MERCAN BLOK AP. No: 10 D: 99 BEYLİKDÜZÜ / İSTANBUL\nBEYLİKDÜZÜ İSTANBUL",
+    "sompo_E_128281354_307000179998386": ". MH KÜLLÜK KÜME EVLERİ CD E BLOK APARTMANI BİNA NO 422/4 DAİRE NO 12 DG . MH. KÜLLÜK\nKÜME EVLERİ CD. E BLOK AP. No: 422/4 D: 12 MERKEZ / IĞDIR MERKEZ IĞDIR",
+    "sompo_E_128286944_307000181168144": "ÖZGÜRLÜK MAH. MH 207. SK. SK BİNA NO 6 DAİRE NO 8 DG ÖZGÜRLÜK MAH. MH. 207. SK. SK. No: 6 D: 8\nÇAYIROVA / KOCAELİ ÇAYIROVA KOCAELİ",
+    "sompo_E_128287366_307000181237205": "GÜZELOBA MAH. MH 2138 SK. SK D BLOK APARTMANI MEHTAP EVLERI SITESI SİTESİ BİNA NO 8D\nDAİRE NO 10 DG GÜZELOBA MAH. MH. 2138 SK. SK. MEHTAP EVLERI SITESI SİT. D BLOK AP. No: 8D D: 10\nMURATPAŞA / ANTALYA MURATPAŞA ANTALYA",
+    "sompo_E_128293572_307000181291702": "0 34055 0 16697 0 0 ZÜMRÜTEVLER MAH. MH HANDEGÜL SK. SK A5 BLOK APARTMANI KİPTAŞ ADATEPE\nSİTESİ ANEL İşhanı BİNA NO 96 KAT NO 2 DAİRE NO 56 PK 34768 DG ZÜMRÜTEVLER MAH. HANDEGÜL\nSK. KİPTAŞ ADATEPE SİTESİ A5 BLOK NO: 96  İÇ KAPI NO: 56 MALTEPE / İSTANBUL MERKEZ BELDESİ\nMERKEZ KÖY / BUCAK MALTEPE İSTANBUL",
+    "sompo_E_128294096_307000181257964": "YUNUSLU MAH. MH 91865. SK. SK A BLOK APARTMANI GÜREL SİTESİ SİTESİ BİNA NO 4A DAİRE NO 6 DG\nYUNUSLU MAH. MH. 91865. SK. SK. GÜREL SİTESİ SİT. A BLOK AP. No: 4A D: 6 EREĞLİ / KONYA EREĞLİ\nKONYA",
+    "sompo_E_128299480_307000181274633": "0 34056 0 16708 0 0 CUMHURİYET MAH. MH ÖZBİRLİK SK. SK 26D APARTMANI ARIFLER SITESI SİTESİ\nANEL İşhanı BİNA NO 26D KAT NO 2 DAİRE NO 11 PK 34768 DG CUMHURİYET MAH. MH. ÖZBİRLİK SK. SK.\nARIFLER SITESI SİT. No: 26D D: 11 ÜSKÜDAR / İSTANBUL MERKEZ BELDESİ MERKEZ KÖY / BUCAK\nÜSKÜDAR İSTANBUL",
+    "sompo_E_128304499_307000181292824": "ALEMDAĞ MAH. MH 145. SK. SK ELYSIUM GARDEN SİTESİ SİTESİ BİNA NO 4AB DAİRE NO 1 DG\nALEMDAĞ MAH. MH. 145. SK. SK. ELYSIUM GARDEN SİTESİ SİT. No: 4AB D: 1 ÇEKMEKÖY / İSTANBUL\nÇEKMEKÖY İSTANBUL",
+    "sompo_E_128310212_307000180966564": "GÖZTEPE MAH. MH 104 SK. SK BİNA NO 22 DAİRE NO 3 DG GÖZTEPE MAH. 104 SK. NO: 22  İÇ KAPI NO: 3\nKONAK / İZMİR KONAK İZMİR"
+  },
+  "Sigortali_Eposta": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "Sigortali_GSM": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "Sigortali_Meslegi": {
+    "sompo_E_128280704_307000181214769": "ÖĞRETMEN / AKADEMİSYEN",
+    "sompo_E_128281354_307000179998386": "KAMU ÇALIŞANI",
+    "sompo_E_128286944_307000181168144": "A.Ş. SAHİBİ VE ÇALIŞANI",
+    "sompo_E_128287366_307000181237205": "EMEKLİ",
+    "sompo_E_128293572_307000181291702": "BANKA VE FİNANSAL KURUM",
+    "sompo_E_128294096_307000181257964": "KAMU ÇALIŞANI",
+    "sompo_E_128299480_307000181274633": "EMEKLİ",
+    "sompo_E_128304499_307000181292824": "ÖĞRETMEN / AKADEMİSYEN",
+    "sompo_E_128310212_307000180966564": "MİMAR/MÜHENDİS (SERBEST"
+  },
+  "Sigortali_Musteri_No": {
+    "sompo_E_128280704_307000181214769": "38939818",
+    "sompo_E_128281354_307000179998386": "8886277824",
+    "sompo_E_128286944_307000181168144": "8887330587",
+    "sompo_E_128287366_307000181237205": "8872300895",
+    "sompo_E_128293572_307000181291702": "8816543571",
+    "sompo_E_128294096_307000181257964": "8867477265",
+    "sompo_E_128299480_307000181274633": "8819128041",
+    "sompo_E_128304499_307000181292824": "69152638",
+    "sompo_E_128310212_307000180966564": "38028927"
+  },
+  "Sigortali_Vergi_No": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "SBM_Tramer_Belge_No": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "SBM_Bim_Reference_No": {
+    "sompo_E_128280704_307000181214769": "t1QRPTA8+EaPZkXaIS2QS2kexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128281354_307000179998386": "+zoj9Rbz3Xa4WBMo1lg9VANy+Rs5g6I78ko9W+QjiHw=",
+    "sompo_E_128286944_307000181168144": "ayq0vZVLgCY1c/lBS/XBhGkexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128287366_307000181237205": "ayq0vZVLgCa5n39O1lFiC2kexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128293572_307000181291702": "gELuJH1xuWor/P904KXjbWkexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128294096_307000181257964": "ayq0vZVLgCY1wyuNNQkAhmkexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128299480_307000181274633": "ayq0vZVLgCa5/dBtNRtIaGkexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128304499_307000181292824": "gELuJH1xuWrcf5EoCsMQU2kexPWkXGC38ko9W+QjiHw=",
+    "sompo_E_128310212_307000180966564": "t1QRPTA8+Ea3bvDPwqHdmQzAmM+a6C5H8ko9W+QjiHw="
+  },
+  "Arac_Plaka_No": {
+    "sompo_E_128280704_307000181214769": "34 GZM221",
+    "sompo_E_128281354_307000179998386": "26 ACH514",
+    "sompo_E_128286944_307000181168144": "41 AHR051",
+    "sompo_E_128287366_307000181237205": "07 GPL95",
+    "sompo_E_128293572_307000181291702": "34 NLB502",
+    "sompo_E_128294096_307000181257964": "42 AGS009",
+    "sompo_E_128299480_307000181274633": "34 KG0431",
+    "sompo_E_128304499_307000181292824": "34 RE7486",
+    "sompo_E_128310212_307000180966564": "35 BRA792"
+  },
+  "Arac_Motor_No": {
+    "sompo_E_128280704_307000181214769": "DX*******64",
+    "sompo_E_128281354_307000179998386": "D4*******94",
+    "sompo_E_128286944_307000181168144": "H4*******82",
+    "sompo_E_128287366_307000181237205": "A3*******VL",
+    "sompo_E_128293572_307000181291702": "BY*******20",
+    "sompo_E_128294096_307000181257964": "17*******67",
+    "sompo_E_128299480_307000181274633": "DA*******85",
+    "sompo_E_128304499_307000181292824": "CJ*******03",
+    "sompo_E_128310212_307000180966564": "G3*******85"
+  },
+  "Arac_Sasi_No": {
+    "sompo_E_128280704_307000181214769": "WV*******84",
+    "sompo_E_128281354_307000179998386": "KM*******84",
+    "sompo_E_128286944_307000181168144": "VF*******90",
+    "sompo_E_128287366_307000181237205": "W0*******01",
+    "sompo_E_128293572_307000181291702": "LG*******04",
+    "sompo_E_128294096_307000181257964": "KP*******93",
+    "sompo_E_128299480_307000181274633": "WF*******85",
+    "sompo_E_128304499_307000181292824": "WV*******89",
+    "sompo_E_128310212_307000180966564": "KN*******87"
+  },
+  "Arac_Marka_Tip": {
+    "sompo_E_128280704_307000181214769": "T-ROC 1.5 TSI 150 DSG STYLE",
+    "sompo_E_128281354_307000179998386": "ACCENT BLUE 1.6 CRDI MODE PLUS DCT",
+    "sompo_E_128286944_307000181168144": "CLIO JOY 1.0 TCE ECO 100",
+    "sompo_E_128287366_307000181237205": "MOKKA 1.6 136 AT FWD COSMO",
+    "sompo_E_128293572_307000181291702": "SEAL U DM-I",
+    "sompo_E_128294096_307000181257964": "KORANDO G1.5T 4x2 AT PLATINUM",
+    "sompo_E_128299480_307000181274633": "FIESTA TREND 5K 1.6i 105 POWERSHIFT",
+    "sompo_E_128304499_307000181292824": "POLO 1.2 TSI BMT 90 DSG ALLSTAR",
+    "sompo_E_128310212_307000180966564": "PICANTO COOL 1.0 67 AMT"
+  },
+  "Arac_Model": {
+    "sompo_E_128280704_307000181214769": "VOLKSWAGEN",
+    "sompo_E_128281354_307000179998386": "HYUNDAI",
+    "sompo_E_128286944_307000181168144": "RENAULT (OYAK)",
+    "sompo_E_128287366_307000181237205": "OPEL",
+    "sompo_E_128293572_307000181291702": "BYD",
+    "sompo_E_128294096_307000181257964": "SSANGYONG",
+    "sompo_E_128299480_307000181274633": "FORD",
+    "sompo_E_128304499_307000181292824": "VOLKSWAGEN",
+    "sompo_E_128310212_307000180966564": "KIA"
+  },
+  "Arac_Model_Yili": {
+    "sompo_E_128280704_307000181214769": "2024",
+    "sompo_E_128281354_307000179998386": "2015",
+    "sompo_E_128286944_307000181168144": "2021",
+    "sompo_E_128287366_307000181237205": "2015",
+    "sompo_E_128293572_307000181291702": "2025",
+    "sompo_E_128294096_307000181257964": "2020",
+    "sompo_E_128299480_307000181274633": "2013",
+    "sompo_E_128304499_307000181292824": "2016",
+    "sompo_E_128310212_307000180966564": "2021"
+  },
+  "Arac_Kullanim_Sekli": {
+    "sompo_E_128280704_307000181214769": "JEEP",
+    "sompo_E_128281354_307000179998386": "HUSUSİ",
+    "sompo_E_128286944_307000181168144": "HUSUSİ",
+    "sompo_E_128287366_307000181237205": "HUSUSİ",
+    "sompo_E_128293572_307000181291702": "HUSUSİ",
+    "sompo_E_128294096_307000181257964": "JEEP",
+    "sompo_E_128299480_307000181274633": "HUSUSİ",
+    "sompo_E_128304499_307000181292824": "HUSUSİ",
+    "sompo_E_128310212_307000180966564": "HUSUSİ"
+  },
+  "Arac_Marka_Kodu": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "Arac_Engelli_Mi": {
+    "sompo_E_128280704_307000181214769": null,
+    "sompo_E_128281354_307000179998386": null,
+    "sompo_E_128286944_307000181168144": null,
+    "sompo_E_128287366_307000181237205": null,
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": null,
+    "sompo_E_128299480_307000181274633": null,
+    "sompo_E_128304499_307000181292824": null,
+    "sompo_E_128310212_307000180966564": null
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "sompo_E_128280704_307000181214769": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128281354_307000179998386": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128286944_307000181168144": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "sompo_E_128287366_307000181237205": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128293572_307000181291702": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128294096_307000181257964": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128299480_307000181274633": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128304499_307000181292824": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "sompo_E_128310212_307000180966564": "Orijinal Cam Var & Hasar Muafiyetsiz"
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "sompo_E_128280704_307000181214769": 10000000,
+    "sompo_E_128281354_307000179998386": 2000000,
+    "sompo_E_128286944_307000181168144": 1000000,
+    "sompo_E_128287366_307000181237205": 2000000,
+    "sompo_E_128293572_307000181291702": 10000000,
+    "sompo_E_128294096_307000181257964": 5000000,
+    "sompo_E_128299480_307000181274633": 2000000,
+    "sompo_E_128304499_307000181292824": 5000000,
+    "sompo_E_128310212_307000180966564": 5000000
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "sompo_E_128280704_307000181214769": 3000000,
+    "sompo_E_128281354_307000179998386": 0,
+    "sompo_E_128286944_307000181168144": 0,
+    "sompo_E_128287366_307000181237205": 0,
+    "sompo_E_128293572_307000181291702": 3000000,
+    "sompo_E_128294096_307000181257964": 2500000,
+    "sompo_E_128299480_307000181274633": 0,
+    "sompo_E_128304499_307000181292824": 0,
+    "sompo_E_128310212_307000180966564": 2500000
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "sompo_E_128280704_307000181214769": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128281354_307000179998386": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128286944_307000181168144": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nMüşteri Yaş İndirimi: Sigortalının yaşı ile risk değerlendirmesi yapılmış ve indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128287366_307000181237205": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nMüşteri Yaş İndirimi: Sigortalının yaşı ile risk değerlendirmesi yapılmış ve indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128293572_307000181291702": "Müşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.",
+    "sompo_E_128294096_307000181257964": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128299480_307000181274633": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nMüşteri Yaş İndirimi: Sigortalının yaşı ile risk değerlendirmesi yapılmış ve indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128304499_307000181292824": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
+    "sompo_E_128310212_307000180966564": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU"
+  },
+  "Teminat_Ikame_Arac": {
+    "sompo_E_128280704_307000181214769": "15",
+    "sompo_E_128281354_307000179998386": "7",
+    "sompo_E_128286944_307000181168144": "0",
+    "sompo_E_128287366_307000181237205": "0",
+    "sompo_E_128293572_307000181291702": "15",
+    "sompo_E_128294096_307000181257964": "15",
+    "sompo_E_128299480_307000181274633": "7",
+    "sompo_E_128304499_307000181292824": "7",
+    "sompo_E_128310212_307000180966564": "15"
+  },
+  "Teminat_Yedek_Parca": {
+    "sompo_E_128280704_307000181214769": "Var",
+    "sompo_E_128281354_307000179998386": "Var",
+    "sompo_E_128286944_307000181168144": "Var",
+    "sompo_E_128287366_307000181237205": "Var",
+    "sompo_E_128293572_307000181291702": "Var",
+    "sompo_E_128294096_307000181257964": "Var",
+    "sompo_E_128299480_307000181274633": "Var",
+    "sompo_E_128304499_307000181292824": "Var",
+    "sompo_E_128310212_307000180966564": "Var"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "sompo_E_128280704_307000181214769": "1. KADEME",
+    "sompo_E_128281354_307000179998386": "Süper %60",
+    "sompo_E_128286944_307000181168144": "4. KADEME",
+    "sompo_E_128287366_307000181237205": "4. KADEME",
+    "sompo_E_128293572_307000181291702": null,
+    "sompo_E_128294096_307000181257964": "Süper %60",
+    "sompo_E_128299480_307000181274633": "Süper %60",
+    "sompo_E_128304499_307000181292824": "Süper %60",
+    "sompo_E_128310212_307000180966564": "2. KADEME"
+  },
+  "_mapping_metadata": {
+    "company": "sompo_E",
+    "config_version": "2.0",
+    "processing_stats": {
+      "total_fields": 30,
+      "mapped_fields": 30,
+      "errors": []
+    },
+    "timestamp": "2025-09-03T11:14:46.917806"
+  }
+}

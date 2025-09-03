@@ -1,0 +1,117 @@
+{
+  "Police_No": { "pattern": "POLİÇE NO.*?\\n.*?\\n(K-[0-9-]+)", "group": 1 },
+  "Police_Onceki_No": {
+    "pattern": "Eski Poliçe/AS400 No\\s*:\\s*([0-9]+)",
+    "group": 1,
+    "description": "Previous policy number from header section"
+  },
+  "Police_Baslangic_Tarihi": {
+    "pattern": "\\n1251\\n(K-[0-9-]+)\\n(K11)\\n(\\d{2}/\\d{2}/\\d{4})",
+    "group": 3
+  },
+  "Police_Bitis_Tarihi": {
+    "pattern": "\\n1251\\n(K-[0-9-]+)\\n(K11)\\n(\\d{2}/\\d{2}/\\d{4})\\n(\\d{2}/\\d{2}/\\d{4})",
+    "group": 4
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "pattern": "TC Kimlik No\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adi": {
+    "pattern": "Sigortalı Adı / Ünvanı\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adresi": {
+    "pattern": "Müşteri No\\s*\\n:\\s*[^\\n]+\\s*\\nAdresi\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Meslegi": {},
+  "Sigortali_Musteri_No": {
+    "pattern": "Müşteri No\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Vergi_No": {
+    "pattern": "Vergi No\\s*\\n?:\\s*([0-9\\*]+|0)",
+    "group": 1,
+    "description": "Tax office number - can be masked with asterisks, numeric sequence, or zero"
+  },
+  "SBM_Tramer_No": {
+    "pattern": "SBM Tramer No\\s*\\n:\\s*([^\\n]*?)(?=\\n[A-Z]|$)",
+    "group": 1
+  },
+  "SBM_Tramer_Belge_No": {
+    "pattern": "Tramer Belge No\\s*\\n:\\s*([^\\n]*?)(?=\\n[A-Z]|$)",
+    "group": 1
+  },
+  "SBM_Bim_Reference_No": {
+    "pattern": "SBM BimRefNo\\s*\\n:\\s*([^\\n]*?)(?=\\n[A-Z]|$)",
+    "group": 1
+  },
+  "Arac_Plaka_No": { "pattern": "Plaka\\s*\\n:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Motor_No": { "pattern": "Motor No\\s*\\n:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Sasi_No": { "pattern": "Şasi No\\s*\\n:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Marka_Tip": {
+    "pattern": "Marka/Tip\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Model": {
+    "pattern": "Model\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Model_Yili": {
+    "pattern": "Model\\s*:\\s*(\\d{4})",
+    "group": 1
+  },
+  "Arac_Kullanim_Sekli": {
+    "pattern": "Kullanım Şekli\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Marka_Kodu": {
+    "pattern": "Marka Kodu\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Engelli_Mi": {},
+  "Teminat_Oto_Cam_Klozu": {
+    "patterns": [
+      "(OTO CAM KLOZU[\\s\\S]*?ödenir\\.)",
+      "(OTO CAM KLOZU[\\s\\S]*?muafiyet uygulanmayacaktır\\.)"
+    ],
+    "mode": "first",
+    "description": "Glass coverage clause with complete text. Pattern 1 captures detailed conditions with percentages and monetary amounts ending with 'ödenir.'. Pattern 2 captures simple 'muafiyet uygulanmayacaktır.' cases. Multi-pattern approach ensures complete sentence extraction including line breaks and detailed terms."
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "pattern": "MADDİ-BEDENİ AYRIMSIZ\\s*\\n([^\\n]+)",
+    "group": 1
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "pattern": "manevi tazminat.*?toplamda ([\\d.,-]+\\s*TL)",
+    "group": 1
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "pattern": "(HASARSIZLIK İNDİRİM KLOZU[\\s\\S]*?)(?=\\n\\d+- [A-Z])",
+    "group": 1
+  },
+  "Teminat_Ikame_Arac": {
+    "patterns": ["(\\d+ defa.*?\\d+ gün.*?ikame araç temin edilir)"],
+    "mode": "all",
+    "description": "Replacement vehicle policy terms showing yearly frequency and daily limits. Discovered most PDFs contain multiple policies (30-day premium + 7-day basic service). Pattern handles multiline text, Turkish character variations (İkame/ikame), and missing sections. Originally failed on ak_E_128284544_408440924 due to single-line formatting vs multiline, solved with flexible semantic matching."
+  },
+  "Teminat_Yedek_Parca": {
+    "pattern": "(orjinal yedek parça|eşdeğer veya muadil parça)",
+    "group": 1
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "pattern": "HASARSIZLIK İNDİRİMİ\\s*\\n(\\d+\\.yıl \\(%\\s*\\d+\\s*\\) hasarsızlık indirimi uygulanmıştır\\.?)",
+    "group": 1,
+    "description": "No-claims discount information - extracts the discount details after HASARSIZLIK İNDİRİMİ header"
+  },
+  "Teminat_Servis_Secimi": {
+    "patterns": [
+      "(Sigortalı; hasarlı aracının onarımını.*?ölçütleri karşılayan servislerde.*?yaptırmakta serbesttir\\.)",
+      "(Aksigorta ile anlaşması olmayan.*?yapılacak onarımlarda.*?%\\s*\\d+\\s*tenzili muafiyet uygulanır.*?muafiyet\\s*uygulanmayacaktır\\.)"
+    ],
+    "mode": "all",
+    "description": "Service selection terms. Pattern 1 captures general service selection freedom with Treasury standards. Pattern 2 captures non-contracted service penalty terms with flexible percentage handling. Both patterns handle multiline text and variable numbers. Mode 'all' ensures both terms are extracted as they provide complementary service policy information."
+  },
+  "Teminat_Hasarsizlik_Koruma": {}
+}

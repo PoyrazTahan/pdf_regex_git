@@ -1,0 +1,103 @@
+{
+  "company": "doga_E",
+  "version": "2.0",
+  "field_mappings": {
+    "ksk_hik_data_value_ext": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Var",
+          "output": "Var"
+        },
+        {
+          "input_pattern": "Yok",
+          "output": "Yok"
+        }
+      ]
+    },
+    "Teminat_Hasarsizlik_Koruma": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Var"
+        }
+      ]
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "C Segment 7 gün olmak üzere yılda 2 kez",
+          "output": "7"
+        },
+        {
+          "input_pattern": "C Segment 15 gün olmak üzere yılda 2 kez",
+          "output": "15"
+        },
+        {
+          "input_pattern": null,
+          "output": "7"
+        },
+        {
+          "input_pattern": "C Segment 10 gün olmak üzere yılda 2 kez",
+          "output": "10"
+        },
+        {
+          "input_pattern": "C Segment 30 gün olmak üzere yılda 2 kez",
+          "output": "30"
+        }
+      ]
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "numeric_conversion",
+      "output_type": "integer",
+      "turkish_format": true
+    },
+    "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+      "type": "numeric_conversion",
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "25",
+          "output": 12500
+        }
+      ]
+    },
+    "Teminat_Oto_Cam_Klozu": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        },
+        {
+          "input_pattern": "Cam hasarlarında herhangi bir muafiyet uygulamayacaktır",
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        }
+      ]
+    },
+    "Teminat_Servis_Secimi": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+        }
+      ]
+    },
+    "Teminat_Yedek_Parca": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Var"
+        },
+        {
+          "input_pattern": "ORİJİNAL PARÇA kullanılarak giderilmesi",
+          "output": "Var"
+        }
+      ]
+    }
+  }
+}

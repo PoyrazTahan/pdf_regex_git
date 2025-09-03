@@ -1,0 +1,320 @@
+{
+  "Police_No": {
+    "ankara_E_128284993_172225481": "069003970",
+    "ankara_E_128285445_172224254": "172224254",
+    "ankara_E_128293167_172248646": "172248646",
+    "ankara_E_128298059_172300130": "172300130",
+    "ankara_E_128300319_172326667": "172326667",
+    "ankara_E_128301089_172316188": "172316188",
+    "ankara_E_128303719_172184055": "172184055",
+    "ankara_E_128308648_172363229": "172363229",
+    "ankara_E_128310123_171728983": "171728983"
+  },
+  "Police_Onceki_No": {
+    "ankara_E_128284993_172225481": "1021060289735",
+    "ankara_E_128285445_172224254": "572835758",
+    "ankara_E_128293167_172248646": "1021060128006",
+    "ankara_E_128298059_172300130": "0",
+    "ankara_E_128300319_172326667": "1203400598",
+    "ankara_E_128301089_172316188": "28610755",
+    "ankara_E_128303719_172184055": "572234749",
+    "ankara_E_128308648_172363229": "28632149",
+    "ankara_E_128310123_171728983": "163394239"
+  },
+  "Police_Baslangic_Tarihi": {
+    "ankara_E_128284993_172225481": "02/08/2025",
+    "ankara_E_128285445_172224254": "23/07/2025",
+    "ankara_E_128293167_172248646": "27/07/2025",
+    "ankara_E_128298059_172300130": "22/07/2025",
+    "ankara_E_128300319_172326667": "29/07/2025",
+    "ankara_E_128301089_172316188": "23/07/2025",
+    "ankara_E_128303719_172184055": "25/07/2025",
+    "ankara_E_128308648_172363229": "03/08/2025",
+    "ankara_E_128310123_171728983": "25/07/2025"
+  },
+  "Police_Bitis_Tarihi": {
+    "ankara_E_128284993_172225481": "02/08/2026",
+    "ankara_E_128285445_172224254": "23/07/2026",
+    "ankara_E_128293167_172248646": "27/07/2026",
+    "ankara_E_128298059_172300130": "22/07/2026",
+    "ankara_E_128300319_172326667": "29/07/2026",
+    "ankara_E_128301089_172316188": "23/07/2026",
+    "ankara_E_128303719_172184055": "25/07/2026",
+    "ankara_E_128308648_172363229": "03/08/2026",
+    "ankara_E_128310123_171728983": "25/07/2026"
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "ankara_E_128284993_172225481": "37*******86",
+    "ankara_E_128285445_172224254": "12*******30",
+    "ankara_E_128293167_172248646": "74*******06",
+    "ankara_E_128298059_172300130": "34*******22",
+    "ankara_E_128300319_172326667": "59*******00",
+    "ankara_E_128301089_172316188": "67*******30",
+    "ankara_E_128303719_172184055": "25*******92",
+    "ankara_E_128308648_172363229": "36*******54",
+    "ankara_E_128310123_171728983": "41*******06"
+  },
+  "Sigortali_Adi": {
+    "ankara_E_128284993_172225481": "KEMAL  MUSTAN",
+    "ankara_E_128285445_172224254": "AYŞE DERYA  AKIN",
+    "ankara_E_128293167_172248646": "GÖKHAN  KILIÇ",
+    "ankara_E_128298059_172300130": "MEVLÜT CAN  SARISOY",
+    "ankara_E_128300319_172326667": "İSMET  IŞIK",
+    "ankara_E_128301089_172316188": "YILMAZ  TAŞÇI",
+    "ankara_E_128303719_172184055": "YELİZ  DAĞLI",
+    "ankara_E_128308648_172363229": "ALTAN  AYDOĞAN",
+    "ankara_E_128310123_171728983": "ŞAHİN  BARAN"
+  },
+  "Sigortali_Adresi": {
+    "ankara_E_128284993_172225481": "ATATÜRK MAH. 186. SK. NO: 15  İÇ KAPI NO: 2 AKHİSAR / MANİSA",
+    "ankara_E_128285445_172224254": "ÖMERCİKLER MAH. 8117 SK. MODERN KENT SITESI E BLOK NO: 18/5A",
+    "ankara_E_128293167_172248646": "MİMAR SİNAN MAH. CENGAVER SK. SABER DORUK LIFE SİTESİ NO: 59",
+    "ankara_E_128298059_172300130": "YEŞİLBAHÇE MAH. 1446 SK. EMİRÇAM APT. NO: 5  İÇ KAPI NO: 1",
+    "ankara_E_128300319_172326667": "SAKARYA MAH. 1860. SK. BAŞKENT SİTESİ BAŞKENT SITESI E BLOK NO:",
+    "ankara_E_128301089_172316188": "MAVİGÖL MAH. HAYRAT SK. NO: 15  İÇ KAPI NO: 8 ARNAVUTKÖY /",
+    "ankara_E_128303719_172184055": "LİMONLUK MAH. 24124 SK. LİMON PARK A BLOK NO: 1A  İÇ KAPI NO: 2",
+    "ankara_E_128308648_172363229": "19 MAYIS MAH. KAPTAN ARİF SK. NO: 56  İÇ KAPI NO: 18 KADIKÖY /",
+    "ankara_E_128310123_171728983": "BAĞCILAR MAH. 1131/1. SK. KARDELEN 2 SİTESİ KARDELEN-2 SİTESİ F-"
+  },
+  "Sigortali_GSM": {
+    "ankara_E_128284993_172225481": "532 4096436",
+    "ankara_E_128285445_172224254": "533 6227818",
+    "ankara_E_128293167_172248646": "507 2431142",
+    "ankara_E_128298059_172300130": "505 7829983",
+    "ankara_E_128300319_172326667": "555 5517524",
+    "ankara_E_128301089_172316188": "537 2119053",
+    "ankara_E_128303719_172184055": "505 9301227",
+    "ankara_E_128308648_172363229": "505 5410053",
+    "ankara_E_128310123_171728983": "535 7462260"
+  },
+  "Sigortali_Meslegi": {
+    "ankara_E_128284993_172225481": null,
+    "ankara_E_128285445_172224254": null,
+    "ankara_E_128293167_172248646": null,
+    "ankara_E_128298059_172300130": null,
+    "ankara_E_128300319_172326667": null,
+    "ankara_E_128301089_172316188": null,
+    "ankara_E_128303719_172184055": null,
+    "ankara_E_128308648_172363229": null,
+    "ankara_E_128310123_171728983": null
+  },
+  "Sigortali_Musteri_No": {
+    "ankara_E_128284993_172225481": null,
+    "ankara_E_128285445_172224254": "175037637",
+    "ankara_E_128293167_172248646": "173637360",
+    "ankara_E_128298059_172300130": "175412827",
+    "ankara_E_128300319_172326667": "175030622",
+    "ankara_E_128301089_172316188": "174514345",
+    "ankara_E_128303719_172184055": "174538621",
+    "ankara_E_128308648_172363229": "175386806",
+    "ankara_E_128310123_171728983": "174600361"
+  },
+  "Sigortali_Vergi_No": {
+    "ankara_E_128284993_172225481": "******",
+    "ankara_E_128285445_172224254": "******",
+    "ankara_E_128293167_172248646": "******",
+    "ankara_E_128298059_172300130": "******",
+    "ankara_E_128300319_172326667": "******",
+    "ankara_E_128301089_172316188": "******",
+    "ankara_E_128303719_172184055": "******",
+    "ankara_E_128308648_172363229": "******",
+    "ankara_E_128310123_171728983": "******"
+  },
+  "SBM_Bim_Reference_No": {
+    "ankara_E_128284993_172225481": null,
+    "ankara_E_128285445_172224254": "KdYFMrVPoEiNLjMmg0qlmmkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128293167_172248646": "KdYFMrVPoEgjk5RsB9nNAWkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128298059_172300130": "KdYFMrVPoEh4Xmhf1ogZ2mkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128300319_172326667": "RoP3OoIbuQffEIelKgvFGGkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128301089_172316188": "RoP3OoIbuQfsp1ByCrViomkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128303719_172184055": "RoP3OoIbuQcNjV6tUbK+xWkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128308648_172363229": "RoP3OoIbuQevEXEYzLEEEmkexPWkXGC38ko9W+QjiHw=",
+    "ankara_E_128310123_171728983": "RoP3OoIbuQcX137gXJjk7WkexPWkXGC38ko9W+QjiHw="
+  },
+  "Arac_Plaka_No": {
+    "ankara_E_128284993_172225481": "35 N3225",
+    "ankara_E_128285445_172224254": "54 AHH196",
+    "ankara_E_128293167_172248646": "06 CMY775",
+    "ankara_E_128298059_172300130": "07 YK",
+    "ankara_E_128300319_172326667": "31 AHE645",
+    "ankara_E_128301089_172316188": "34 EAP628",
+    "ankara_E_128303719_172184055": "33 ALB512",
+    "ankara_E_128308648_172363229": "34 FFM013",
+    "ankara_E_128310123_171728983": "21 ADA155"
+  },
+  "Arac_Motor_No": {
+    "ankara_E_128284993_172225481": "VF1KR2T0H43676094",
+    "ankara_E_128285445_172224254": "L15ZD1708769",
+    "ankara_E_128293167_172248646": "H4DE470U149938",
+    "ankara_E_128298059_172300130": "G4FUSZ251867",
+    "ankara_E_128300319_172326667": "B16XER20UE0349",
+    "ankara_E_128301089_172316188": "843A10002838489",
+    "ankara_E_128303719_172184055": "G4LCNS016292",
+    "ankara_E_128308648_172363229": "CXX835016",
+    "ankara_E_128310123_171728983": "843A10002941829"
+  },
+  "Arac_Sasi_No": {
+    "ankara_E_128284993_172225481": "VF1KR2T0H43676094",
+    "ankara_E_128285445_172224254": "MAKGN2690N4401133",
+    "ankara_E_128293167_172248646": "UU1DJF00067646803",
+    "ankara_E_128298059_172300130": "U5YPV81BGSL429032",
+    "ankara_E_128300319_172326667": "W0LPD5ED9HG012998",
+    "ankara_E_128301089_172316188": "ZFA35600006U54619",
+    "ankara_E_128303719_172184055": "KNADA814BN6702697",
+    "ankara_E_128308648_172363229": "TMBAG6NEXH0075887",
+    "ankara_E_128310123_171728983": "NM435600006X43031"
+  },
+  "Arac_Marka_Tip": {
+    "ankara_E_128284993_172225481": "MARKASI\n:\nPLAKA",
+    "ankara_E_128285445_172224254": "MARKASI\n: HONDA",
+    "ankara_E_128293167_172248646": "MARKASI\n: DACIA",
+    "ankara_E_128298059_172300130": "MARKASI\n: KIA",
+    "ankara_E_128300319_172326667": "MARKASI\n: OPEL",
+    "ankara_E_128301089_172316188": "MARKASI\n: TOFAS-FIAT",
+    "ankara_E_128303719_172184055": "MARKASI\n: KIA",
+    "ankara_E_128308648_172363229": "MARKASI\n: SKODA",
+    "ankara_E_128310123_171728983": "MARKASI\n: TOFAS-FIAT"
+  },
+  "Arac_Model": {
+    "ankara_E_128284993_172225481": "CLIO GRAND TOUR AUTHENTQUE 1.5 DCI (65)",
+    "ankara_E_128285445_172224254": "CITY 4D 1.5 EXECUTIVE AT",
+    "ankara_E_128293167_172248646": "SANDERO STEPWAY PRESTIGE 1.0",
+    "ankara_E_128298059_172300130": "SPORTAGE 1.6 160 MHEV DCT COOL",
+    "ankara_E_128300319_172326667": "ASTRA SEDAN 1.6 115 EDITION",
+    "ankara_E_128301089_172316188": "EGEA CROSS LOUNGE 1.4 FIRE 95 E6D",
+    "ankara_E_128303719_172184055": "STONIC COOL 1.4 100 CV",
+    "ankara_E_128308648_172363229": "OCTAVIA 1.6 TDI CR 110 GREEN TEC",
+    "ankara_E_128310123_171728983": "EGEA SEDAN EASY 1.4 FIRE 95 E6D"
+  },
+  "Arac_Model_Yili": {
+    "ankara_E_128284993_172225481": "2011",
+    "ankara_E_128285445_172224254": "2022",
+    "ankara_E_128293167_172248646": "2021",
+    "ankara_E_128298059_172300130": "2025",
+    "ankara_E_128300319_172326667": "2016",
+    "ankara_E_128301089_172316188": "2021",
+    "ankara_E_128303719_172184055": "2022",
+    "ankara_E_128308648_172363229": "2016",
+    "ankara_E_128310123_171728983": "2022"
+  },
+  "Arac_Kullanim_Sekli": {
+    "ankara_E_128284993_172225481": "HUSUSİ",
+    "ankara_E_128285445_172224254": "HUSUSİ",
+    "ankara_E_128293167_172248646": "HUSUSİ",
+    "ankara_E_128298059_172300130": "HUSUSİ",
+    "ankara_E_128300319_172326667": "HUSUSİ",
+    "ankara_E_128301089_172316188": "HUSUSİ",
+    "ankara_E_128303719_172184055": "HUSUSİ",
+    "ankara_E_128308648_172363229": "HUSUSİ",
+    "ankara_E_128310123_171728983": "HUSUSİ"
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "ankara_E_128284993_172225481": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128285445_172224254": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "ankara_E_128293167_172248646": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "ankara_E_128298059_172300130": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ankara_E_128300319_172326667": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ankara_E_128301089_172316188": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "ankara_E_128303719_172184055": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ankara_E_128308648_172363229": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ankara_E_128310123_171728983": "Orijinal Cam Var & Hasar Muafiyetsiz"
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "ankara_E_128284993_172225481": 500000,
+    "ankara_E_128285445_172224254": 7500000,
+    "ankara_E_128293167_172248646": 7500000,
+    "ankara_E_128298059_172300130": 7500000,
+    "ankara_E_128300319_172326667": 2000000,
+    "ankara_E_128301089_172316188": 7500000,
+    "ankara_E_128303719_172184055": 7500000,
+    "ankara_E_128308648_172363229": 7500000,
+    "ankara_E_128310123_171728983": 7500000
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "ankara_E_128284993_172225481": 50000,
+    "ankara_E_128285445_172224254": 750000,
+    "ankara_E_128293167_172248646": 750000,
+    "ankara_E_128298059_172300130": 750000,
+    "ankara_E_128300319_172326667": 200000,
+    "ankara_E_128301089_172316188": 750000,
+    "ankara_E_128303719_172184055": 750000,
+    "ankara_E_128308648_172363229": 750000,
+    "ankara_E_128310123_171728983": 750000
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "ankara_E_128284993_172225481": null,
+    "ankara_E_128285445_172224254": "DAHİL",
+    "ankara_E_128293167_172248646": "DAHİL",
+    "ankara_E_128298059_172300130": null,
+    "ankara_E_128300319_172326667": "DAHİL",
+    "ankara_E_128301089_172316188": "DAHİL",
+    "ankara_E_128303719_172184055": "DAHİL",
+    "ankara_E_128308648_172363229": "DAHİL",
+    "ankara_E_128310123_171728983": "DAHİL"
+  },
+  "Teminat_Yedek_Parca": {
+    "ankara_E_128284993_172225481": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128285445_172224254": "Var",
+    "ankara_E_128293167_172248646": "Var",
+    "ankara_E_128298059_172300130": "Var",
+    "ankara_E_128300319_172326667": "Var",
+    "ankara_E_128301089_172316188": "Var",
+    "ankara_E_128303719_172184055": "Var",
+    "ankara_E_128308648_172363229": "Var",
+    "ankara_E_128310123_171728983": "Var"
+  },
+  "Teminat_Ikame_Arac": {
+    "ankara_E_128284993_172225481": "14",
+    "ankara_E_128285445_172224254": "0",
+    "ankara_E_128293167_172248646": "0",
+    "ankara_E_128298059_172300130": "0",
+    "ankara_E_128300319_172326667": "0",
+    "ankara_E_128301089_172316188": "0",
+    "ankara_E_128303719_172184055": "7",
+    "ankara_E_128308648_172363229": "7",
+    "ankara_E_128310123_171728983": "7"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "ankara_E_128284993_172225481": "60",
+    "ankara_E_128285445_172224254": "50",
+    "ankara_E_128293167_172248646": "60",
+    "ankara_E_128298059_172300130": null,
+    "ankara_E_128300319_172326667": "30",
+    "ankara_E_128301089_172316188": "30",
+    "ankara_E_128303719_172184055": "50",
+    "ankara_E_128308648_172363229": "60",
+    "ankara_E_128310123_171728983": "50"
+  },
+  "Teminat_Hasarsizlik_Koruma": {
+    "ankara_E_128284993_172225481": "Var",
+    "ankara_E_128285445_172224254": "Yok",
+    "ankara_E_128293167_172248646": "Yok",
+    "ankara_E_128298059_172300130": "Var",
+    "ankara_E_128300319_172326667": "Yok",
+    "ankara_E_128301089_172316188": "Yok",
+    "ankara_E_128303719_172184055": "Yok",
+    "ankara_E_128308648_172363229": "Yok",
+    "ankara_E_128310123_171728983": "Yok"
+  },
+  "Teminat_Servis_Secimi": {
+    "ankara_E_128284993_172225481": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128285445_172224254": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128293167_172248646": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128298059_172300130": "Tüm Yetkili Servisler ve Özel Servisler",
+    "ankara_E_128300319_172326667": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128301089_172316188": "[MAPPED_FROM_REGEX]",
+    "ankara_E_128303719_172184055": "Tüm Yetkili Servisler ve Özel Servisler",
+    "ankara_E_128308648_172363229": "Tüm Yetkili Servisler ve Özel Servisler",
+    "ankara_E_128310123_171728983": "Tüm Yetkili Servisler ve Özel Servisler"
+  },
+  "_mapping_metadata": {
+    "company": "ankara_E",
+    "config_version": "1.0",
+    "processing_stats": {
+      "total_fields": 28,
+      "mapped_fields": 28,
+      "errors": []
+    },
+    "timestamp": "2025-09-03T11:14:41.670857"
+  }
+}

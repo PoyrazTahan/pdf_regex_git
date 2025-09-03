@@ -1,0 +1,570 @@
+{
+  "Police_No": {
+    "ak_E_128027105_407994597": "K-407994597-0-0",
+    "ak_E_128186626_408259657": "K-408259657-0-0",
+    "ak_E_128198607_408262525": "K-408262525-0-0",
+    "ak_E_128223718_408322876": "K-408322876-0-0",
+    "ak_E_128228589_408329776": "K-408329776-0-0",
+    "ak_E_128238900_408352690": "K-408352690-0-0",
+    "ak_E_128262976_408414143": "K-408414143-0-0",
+    "ak_E_128268599_408418329": "K-408418329-0-0",
+    "ak_E_128284021_408438721": "K-408438721-0-0",
+    "ak_E_128284544_408440924": "K-408440924-0-0",
+    "ak_E_128289463_408454844": "K-408454844-0-0",
+    "ak_E_128295780_408469976": "K-408469976-0-0",
+    "ak_E_128526970_408958922": "K-408958922-0-0",
+    "ak_E_128534379_408973219": "K-408973219-0-0"
+  },
+  "Police_Onceki_No": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": "376003411",
+    "ak_E_128223718_408322876": "376680927",
+    "ak_E_128228589_408329776": "376853025",
+    "ak_E_128238900_408352690": "376840370",
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": "376337967",
+    "ak_E_128284544_408440924": "377442349",
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": "377777002",
+    "ak_E_128534379_408973219": null
+  },
+  "Police_Baslangic_Tarihi": {
+    "ak_E_128027105_407994597": "29/07/2025",
+    "ak_E_128186626_408259657": "20/07/2025",
+    "ak_E_128198607_408262525": "20/07/2025",
+    "ak_E_128223718_408322876": "04/08/2025",
+    "ak_E_128228589_408329776": "29/07/2025",
+    "ak_E_128238900_408352690": "22/07/2025",
+    "ak_E_128262976_408414143": "04/08/2025",
+    "ak_E_128268599_408418329": "22/07/2025",
+    "ak_E_128284021_408438721": "06/08/2025",
+    "ak_E_128284544_408440924": "28/07/2025",
+    "ak_E_128289463_408454844": "25/07/2025",
+    "ak_E_128295780_408469976": "11/08/2025",
+    "ak_E_128526970_408958922": "10/08/2025",
+    "ak_E_128534379_408973219": "07/08/2025"
+  },
+  "Police_Bitis_Tarihi": {
+    "ak_E_128027105_407994597": "29/07/2026",
+    "ak_E_128186626_408259657": "20/07/2026",
+    "ak_E_128198607_408262525": "20/07/2026",
+    "ak_E_128223718_408322876": "04/08/2026",
+    "ak_E_128228589_408329776": "29/07/2026",
+    "ak_E_128238900_408352690": "22/07/2026",
+    "ak_E_128262976_408414143": "04/08/2026",
+    "ak_E_128268599_408418329": "22/07/2026",
+    "ak_E_128284021_408438721": "06/08/2026",
+    "ak_E_128284544_408440924": "28/07/2026",
+    "ak_E_128289463_408454844": "25/07/2026",
+    "ak_E_128295780_408469976": "11/08/2026",
+    "ak_E_128526970_408958922": "10/08/2026",
+    "ak_E_128534379_408973219": "07/08/2026"
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "ak_E_128027105_407994597": "***2840",
+    "ak_E_128186626_408259657": "0",
+    "ak_E_128198607_408262525": "***8136",
+    "ak_E_128223718_408322876": "***8822",
+    "ak_E_128228589_408329776": "***9160",
+    "ak_E_128238900_408352690": "***4154",
+    "ak_E_128262976_408414143": "***9656",
+    "ak_E_128268599_408418329": "***2532",
+    "ak_E_128284021_408438721": "***9612",
+    "ak_E_128284544_408440924": "***6728",
+    "ak_E_128289463_408454844": "***2150",
+    "ak_E_128295780_408469976": "***0088",
+    "ak_E_128526970_408958922": "***6618",
+    "ak_E_128534379_408973219": "***5996"
+  },
+  "Sigortali_Adi": {
+    "ak_E_128027105_407994597": "HARUN GÖKÇELİ",
+    "ak_E_128186626_408259657": "YONCA KAUÇUK VE TEKE R SAN.TİC.LTD.ŞTİ.",
+    "ak_E_128198607_408262525": "ALİ KEMAL AKAN",
+    "ak_E_128223718_408322876": "SEZER KAÇAR",
+    "ak_E_128228589_408329776": "ERHAN  BALCI",
+    "ak_E_128238900_408352690": "BURAK YÜCEL",
+    "ak_E_128262976_408414143": "EYLEM AKGÜL SUNGUROĞLU",
+    "ak_E_128268599_408418329": "ALEV HASIRCILAR",
+    "ak_E_128284021_408438721": "AHMET  DİNÇER",
+    "ak_E_128284544_408440924": "MUHAMMET  ÖZTÜRK",
+    "ak_E_128289463_408454844": "MAHMUT KIRSOY",
+    "ak_E_128295780_408469976": "EMRE  BAYDOĞAN",
+    "ak_E_128526970_408958922": "FERİT  YALÇINTUNA",
+    "ak_E_128534379_408973219": "AFŞİN ERKAL"
+  },
+  "Sigortali_Adresi": {
+    "ak_E_128027105_407994597": "ZAFER MH.      YENİBOSNA  BAHÇELIEVLER İSTANBUL",
+    "ak_E_128186626_408259657": "MERKEZ MAH.  AKALAR SK.   35/A    GAZIOSMANPASA İSTANBUL",
+    "ak_E_128198607_408262525": "ATATÜRK . . . 1  .  MEZITLI MERSİN",
+    "ak_E_128223718_408322876": "DENİZBANK KARAKÖY TİC MERKEZİ       EMINÖNÜ İSTANBUL",
+    "ak_E_128228589_408329776": "ATATÜRK MAH. AKBANK.T.A.Ş. İSTANBUL CAD. YENİ SOK. AKBANK AK-",
+    "ak_E_128238900_408352690": "k        LÜLEBURGAZ KIRKLARELİ",
+    "ak_E_128262976_408414143": ",        ÇANKAYA ANKARA",
+    "ak_E_128268599_408418329": "aa11 aa31  K:2 103 D:3 aa21 35000 BUCA İZMİR",
+    "ak_E_128284021_408438721": "ESATPAŞA MAH. SEDİR SK.   33 2 yok  ATAŞEHİR İSTANBUL",
+    "ak_E_128284544_408440924": "YUKARI MAH. ÖZTÜRK GIDA HARMANLIK SOK.  9 D:1  34860 KARTAL",
+    "ak_E_128289463_408454844": "AHMET BOZDAĞ MAH. AHMET AKSU CAD.   12    PAZARCIK",
+    "ak_E_128295780_408469976": "ESENKENT MAH.   ZEHRA YILDIZ SOK. TEM SİTESİ AKASYA EVLERİ APT.",
+    "ak_E_128526970_408958922": "İNÖNÜ MAH.  ULUSU CAD. KURTOĞLU BEY SOK.  ULU APT. K:2 14 D:9",
+    "ak_E_128534379_408973219": "ELMALIKENT MAH. MANDIRA CAD.  RUYA EVLERI SITESI 33 B 20   UM-"
+  },
+  "Sigortali_Meslegi": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": null,
+    "ak_E_128223718_408322876": null,
+    "ak_E_128228589_408329776": null,
+    "ak_E_128238900_408352690": null,
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": null,
+    "ak_E_128284544_408440924": null,
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": null,
+    "ak_E_128534379_408973219": null
+  },
+  "Sigortali_Musteri_No": {
+    "ak_E_128027105_407994597": "7713212",
+    "ak_E_128186626_408259657": "3460358",
+    "ak_E_128198607_408262525": "K193818",
+    "ak_E_128223718_408322876": "7133164",
+    "ak_E_128228589_408329776": "5154949",
+    "ak_E_128238900_408352690": "K394491",
+    "ak_E_128262976_408414143": "8823490",
+    "ak_E_128268599_408418329": "8817952",
+    "ak_E_128284021_408438721": "7155010",
+    "ak_E_128284544_408440924": "8632598",
+    "ak_E_128289463_408454844": "G345332",
+    "ak_E_128295780_408469976": "7493421",
+    "ak_E_128526970_408958922": "1924184",
+    "ak_E_128534379_408973219": "3166530"
+  },
+  "Sigortali_Vergi_No": {
+    "ak_E_128027105_407994597": "0",
+    "ak_E_128186626_408259657": "9820097195",
+    "ak_E_128198607_408262525": "0",
+    "ak_E_128223718_408322876": "0",
+    "ak_E_128228589_408329776": "0",
+    "ak_E_128238900_408352690": "0",
+    "ak_E_128262976_408414143": "0",
+    "ak_E_128268599_408418329": "0",
+    "ak_E_128284021_408438721": "0",
+    "ak_E_128284544_408440924": "0",
+    "ak_E_128289463_408454844": "0",
+    "ak_E_128295780_408469976": "0",
+    "ak_E_128526970_408958922": "0",
+    "ak_E_128534379_408973219": "0"
+  },
+  "SBM_Tramer_No": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": null,
+    "ak_E_128223718_408322876": null,
+    "ak_E_128228589_408329776": null,
+    "ak_E_128238900_408352690": null,
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": null,
+    "ak_E_128284544_408440924": null,
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": null,
+    "ak_E_128534379_408973219": null
+  },
+  "SBM_Tramer_Belge_No": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": "11732846",
+    "ak_E_128198607_408262525": null,
+    "ak_E_128223718_408322876": null,
+    "ak_E_128228589_408329776": null,
+    "ak_E_128238900_408352690": null,
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": null,
+    "ak_E_128284544_408440924": null,
+    "ak_E_128289463_408454844": "21/13215615",
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": "50361346",
+    "ak_E_128534379_408973219": null
+  },
+  "SBM_Bim_Reference_No": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": null,
+    "ak_E_128223718_408322876": null,
+    "ak_E_128228589_408329776": null,
+    "ak_E_128238900_408352690": null,
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": null,
+    "ak_E_128284544_408440924": null,
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": null,
+    "ak_E_128534379_408973219": null
+  },
+  "Arac_Plaka_No": {
+    "ak_E_128027105_407994597": "06DM6335",
+    "ak_E_128186626_408259657": "34ZB9921",
+    "ak_E_128198607_408262525": "34BEV181",
+    "ak_E_128223718_408322876": "34ZM1208",
+    "ak_E_128228589_408329776": "22ET340",
+    "ak_E_128238900_408352690": "39LG280",
+    "ak_E_128262976_408414143": "06FY3510",
+    "ak_E_128268599_408418329": "35AIN204",
+    "ak_E_128284021_408438721": "34ATD89",
+    "ak_E_128284544_408440924": "34VA5658",
+    "ak_E_128289463_408454844": "60HS021",
+    "ak_E_128295780_408469976": "34EB887",
+    "ak_E_128526970_408958922": "34ZR8080",
+    "ak_E_128534379_408973219": "34GYP571"
+  },
+  "Arac_Motor_No": {
+    "ak_E_128027105_407994597": "K9KN8D034217",
+    "ak_E_128186626_408259657": "D4EA9745971",
+    "ak_E_128198607_408262525": "10JBHE3021550",
+    "ak_E_128223718_408322876": "AEE0741716",
+    "ak_E_128228589_408329776": "3ZZU496591",
+    "ak_E_128238900_408352690": "G4FDEZ896844",
+    "ak_E_128262976_408414143": "5E64881",
+    "ak_E_128268599_408418329": "Z12XE19CV7557",
+    "ak_E_128284021_408438721": "444152",
+    "ak_E_128284544_408440924": "4AU365701",
+    "ak_E_128289463_408454844": "1ZRU233166",
+    "ak_E_128295780_408469976": "GFB231720012TTGFB23164001HAA",
+    "ak_E_128526970_408958922": "4G92MB5796",
+    "ak_E_128534379_408973219": "GFB231580011C3GFB231350009A9"
+  },
+  "Arac_Sasi_No": {
+    "ak_E_128027105_407994597": "VF1KZ090E45594226",
+    "ak_E_128186626_408259657": "KMHEU41VP9A704090",
+    "ak_E_128198607_408262525": "VF3CUBHYMHY179607",
+    "ak_E_128223718_408322876": "WVWZZZ6NZYY020150",
+    "ak_E_128228589_408329776": "SB1BZ56L50E014870",
+    "ak_E_128238900_408352690": "U5YPC814AEL548806",
+    "ak_E_128262976_408414143": "WF0HXXWPJH5E64881",
+    "ak_E_128268599_408418329": "WOLOXCF6844265701",
+    "ak_E_128284021_408438721": "JDAA101S000695674",
+    "ak_E_128284544_408440924": "NMT53AEA10R055297",
+    "ak_E_128289463_408454844": "NMTKV56E70R055079",
+    "ak_E_128295780_408469976": "XP7YGCEK5PB162632",
+    "ak_E_128526970_408958922": "XMCSNDA1A1F008634",
+    "ak_E_128534379_408973219": "XP7YGCEKXPB160522"
+  },
+  "Arac_Marka_Tip": {
+    "ak_E_128027105_407994597": "RENAULT MEGANE SPORT TOURER PRIVILEGE",
+    "ak_E_128186626_408259657": "HYUNDAI SONATA 2.0 CRDi SELECT",
+    "ak_E_128198607_408262525": "PEUGEOT 2008 ACTIVE 1.6 BLUEHDI 100 ETG6 S&S",
+    "ak_E_128223718_408322876": "VOLKSWAGEN POLO 1.6 4 KAPI",
+    "ak_E_128228589_408329776": "TOYOTA AVENSIS 1.6 COMFORT",
+    "ak_E_128238900_408352690": "KIA SPORTAGE 1.6 GDI 135 CONCEPT PLUS",
+    "ak_E_128262976_408414143": "FORD/OTOSAN FIESTA 1.4 TDCi COMFORT",
+    "ak_E_128268599_408418329": "OPEL CORSA 1.2i 16V 5 KAPI NJOY EASYTRONIC",
+    "ak_E_128284021_408438721": "DAIHATSU APPLAUSE 1.6 X",
+    "ak_E_128284544_408440924": "TOYOTA COROLLA 1.6 XEi (Y)",
+    "ak_E_128289463_408454844": "TOYOTA AURIS 1.6 COMFORT EXTRA",
+    "ak_E_128295780_408469976": "TESLA MODEL Y LONG RANGE",
+    "ak_E_128526970_408958922": "MITSUBISHI CARISMA 1.6 COMFORT SEDAN",
+    "ak_E_128534379_408973219": "TESLA MODEL Y LONG RANGE"
+  },
+  "Arac_Model": {
+    "ak_E_128027105_407994597": "2012",
+    "ak_E_128186626_408259657": "2009",
+    "ak_E_128198607_408262525": "2017",
+    "ak_E_128223718_408322876": "2000",
+    "ak_E_128228589_408329776": "2004",
+    "ak_E_128238900_408352690": "2014",
+    "ak_E_128262976_408414143": "2006",
+    "ak_E_128268599_408418329": "2004",
+    "ak_E_128284021_408438721": "1994",
+    "ak_E_128284544_408440924": "1998",
+    "ak_E_128289463_408454844": "2010",
+    "ak_E_128295780_408469976": "2023",
+    "ak_E_128526970_408958922": "2001",
+    "ak_E_128534379_408973219": "2023"
+  },
+  "Arac_Model_Yili": {
+    "ak_E_128027105_407994597": "2012",
+    "ak_E_128186626_408259657": "2009",
+    "ak_E_128198607_408262525": "2017",
+    "ak_E_128223718_408322876": "2000",
+    "ak_E_128228589_408329776": "2004",
+    "ak_E_128238900_408352690": "2014",
+    "ak_E_128262976_408414143": "2006",
+    "ak_E_128268599_408418329": "2004",
+    "ak_E_128284021_408438721": "1994",
+    "ak_E_128284544_408440924": "1998",
+    "ak_E_128289463_408454844": "2010",
+    "ak_E_128295780_408469976": "2023",
+    "ak_E_128526970_408958922": "2001",
+    "ak_E_128534379_408973219": "2023"
+  },
+  "Arac_Kullanim_Sekli": {
+    "ak_E_128027105_407994597": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128186626_408259657": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128198607_408262525": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128223718_408322876": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128228589_408329776": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128238900_408352690": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128262976_408414143": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128268599_408418329": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128284021_408438721": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128284544_408440924": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128289463_408454844": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128295780_408469976": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128526970_408958922": "ÖZEL OTOMOBİL - ÖZEL OTO",
+    "ak_E_128534379_408973219": "ÖZEL OTOMOBİL - ÖZEL OTO"
+  },
+  "Arac_Marka_Kodu": {
+    "ak_E_128027105_407994597": "123695",
+    "ak_E_128186626_408259657": "177255",
+    "ak_E_128198607_408262525": "1142056",
+    "ak_E_128223718_408322876": "153228",
+    "ak_E_128228589_408329776": "144604",
+    "ak_E_128238900_408352690": "8001043",
+    "ak_E_128262976_408414143": "053337",
+    "ak_E_128268599_408418329": "111443",
+    "ak_E_128284021_408438721": "043036",
+    "ak_E_128284544_408440924": "144503",
+    "ak_E_128289463_408454844": "144724",
+    "ak_E_128295780_408469976": "4541020",
+    "ak_E_128526970_408958922": "094313",
+    "ak_E_128534379_408973219": "4541020"
+  },
+  "Arac_Engelli_Mi": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": null,
+    "ak_E_128223718_408322876": null,
+    "ak_E_128228589_408329776": null,
+    "ak_E_128238900_408352690": null,
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": null,
+    "ak_E_128284544_408440924": null,
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": null,
+    "ak_E_128534379_408973219": null
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "ak_E_128027105_407994597": "OTO CAM KLOZU\nMaruz kalınacak oto cam hasarlarında, sigortalımızın anlaşmalı cam\nservislerimizden başka yerlerde cam değiştirmesi ya da tamir ettirmesi durumunda\nher bir hasarda, hasarın % 20 si (1.500 -TL den az olmamak kaydıyla) sigortalı\ntarafından ödenir.",
+    "ak_E_128186626_408259657": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128198607_408262525": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128223718_408322876": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128228589_408329776": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128238900_408352690": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128262976_408414143": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128268599_408418329": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128284021_408438721": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128284544_408440924": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128289463_408454844": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128295780_408469976": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
+    "ak_E_128526970_408958922": "OTO CAM KLOZU\nMaruz kalınacak oto cam hasarlarında, sigortalımızın anlaşmalı cam\nservislerimizden başka yerlerde cam değiştirmesi ya da tamir ettirmesi durumunda\nher bir hasarda, hasarın % 20 si (1.500 -TL den az olmamak kaydıyla) sigortalı\ntarafından ödenir.",
+    "ak_E_128534379_408973219": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır."
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "ak_E_128027105_407994597": "2.500.000,00",
+    "ak_E_128186626_408259657": "1.000.000,00",
+    "ak_E_128198607_408262525": "SINIRSIZ İMM",
+    "ak_E_128223718_408322876": "SINIRSIZ İMM",
+    "ak_E_128228589_408329776": "2.500.000,00",
+    "ak_E_128238900_408352690": "5.000.000,00",
+    "ak_E_128262976_408414143": "2.500.000,00",
+    "ak_E_128268599_408418329": "2.500.000,00",
+    "ak_E_128284021_408438721": "10.000.000,00",
+    "ak_E_128284544_408440924": "2.500.000,00",
+    "ak_E_128289463_408454844": "5.000.000,00",
+    "ak_E_128295780_408469976": "10.000.000,00",
+    "ak_E_128526970_408958922": "1.000.000,00",
+    "ak_E_128534379_408973219": "10.000.000,00"
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "ak_E_128027105_407994597": "1.000.-TL",
+    "ak_E_128186626_408259657": "1.000.-TL",
+    "ak_E_128198607_408262525": "1.000.-TL",
+    "ak_E_128223718_408322876": "1.000.-TL",
+    "ak_E_128228589_408329776": "1.000.-TL",
+    "ak_E_128238900_408352690": "1.000.-TL",
+    "ak_E_128262976_408414143": "1.000.-TL",
+    "ak_E_128268599_408418329": "1.000.-TL",
+    "ak_E_128284021_408438721": "1.000.-TL",
+    "ak_E_128284544_408440924": "1.000.-TL",
+    "ak_E_128289463_408454844": "1.000.-TL",
+    "ak_E_128295780_408469976": "1.000.-TL",
+    "ak_E_128526970_408958922": "1.000.-TL",
+    "ak_E_128534379_408973219": "1.000.-TL"
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "ak_E_128027105_407994597": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128186626_408259657": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128198607_408262525": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128223718_408322876": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128228589_408329776": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128238900_408352690": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128262976_408414143": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128268599_408418329": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128284021_408438721": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128284544_408440924": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128289463_408454844": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128295780_408469976": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128526970_408958922": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nİşbu poliçe İSTANBUL ilinde düzenlenmiştir.\nTanzim Tarihi\n:  10/08/2025\nBasım Tarihi\n:  26/07/2025  10:40:01\nEski Poliçe/AS400 No\n:  377777002 /\nAcente Adresi\n:  SARAY MAH.  SİTE YOLU SOK. ANEL İŞ MERKEZİ NO:5 KAT:2    UM-\nRANIYE İSTANBUL\nAKSİGORTA ANONİM ŞİRKETİ\nAcente Telefonu\n: 2164442400\nSayfa No : 7 / 11\nAsıl\nMersis No:\n 0035-0003-0220-0016\nAKKASKO-GENİŞLETİLMİŞ KASKO SİGORTA POLİÇESİ\nACENTE NO POLİÇE NO\nÜRÜN KODU\nBAŞLANGIÇ TARİHİ\nBİTİŞ TARİHİ\nSÜRE(Gün)\n1251\nK-408958922-0-0\nK11\n10/08/2025\n10/08/2026\n365\nAksigorta Anonim Şirketi                 Kurucusu: Akbank Kayıtlı Sermayesi: 500 Milyon TL. Çıkarılmış Sermaye: 306 Milyon TL.         bilgi@aksigorta.com.tr\nPoligon Cad. Buyaka 2 Sitesi, No:8 Kule:1, Kat:0-6 Ümraniye 34771 İstanbul     Telefon: (0216) 280 88 88\nFaks: (0216) 280 88 00       www.aksigorta.com.tr\nBüyük Mükellefler V.D. 0350003022\nMersis No: 0035-0003-0220-0016\nLevha No: B14/1014\nTicaret Sicil No: 80731       Hizmet Merkezi 444 27 27\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir.",
+    "ak_E_128534379_408973219": "HASARSIZLIK İNDİRİM KLOZU\nİşbu poliçenin vadesi içerisinde yalnızca bir hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller,\nbir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere) hasar sebebine bakılmaksızın hasarsızlık indirim hakkı kaybolmayıp bir kademe aşağıya indirilecektir.\nvadesi içerisinde iki hasar gerçekleşirse (sigorta şirketine % 100 rücu hakkı doğuran haller ve bir defaya mahsus\nbelirlenen anlaşmalı servislerde yaptırılan diğer tamir işlemleri hariç olmak üzere ) hasar sebebine bakılmaksızın\nhasarsızlık indirim hakkı 2 kademe aşağıya indirilecektir. Poliçede 1.yıl hasarsızlık indirimi bulunması halinde (%\n30), bu indirim tamamen kaldırılmayıp % 15 olarak uygulanacaktır. Sigorta şirketine % 100 rücu hakkı doğuran haller\n, bir defaya mahsus cam hasarları ve bir defaya mahsus Akçözüm servislerinde yaptırılan diğer tamir işlemleri hariç\nolmak üzere , poliçe vadesi içerisinde ikiden fazla hasar gerçekleşir ise hasarsızlık indirim hakkı tamamen\nkaybolacaktır .\nAkçözüm servislerinde yaptırılan tamir işlemleri yetkili serbest acentelerden üretilen Aksigorta yenilemeleri için\ngeçerli olup , özel oto , açık kasa kamyonet, kapalı kasa kamyonet ve panelvan kullanım tarzlarını kapsamaktadır.\nPoliçe yenileme işleminin gerçekleşmesinden sonra, yenilenen poliçe üzerinde, yeni poliçedeki hasarsızlık indirimini\netkileyecek bir tazminat ödemesinin gerçekleşmesi durumunda, yeni poliçeye Basamak Düzeltme Zeyilnamesi\ndüzenlenerek hasarsızlık indirimi olması gereken kademe ye göre değiştirilecek ve ek prim tahsil edilecektir."
+  },
+  "Teminat_Ikame_Arac": {
+    "ak_E_128027105_407994597": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128186626_408259657": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128198607_408262525": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir",
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128223718_408322876": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128228589_408329776": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir",
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128238900_408352690": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir",
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128262976_408414143": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir",
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128268599_408418329": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir",
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128284021_408438721": [
+      "2 defa ve olay\nbaşına en fazla 30 gün süreyle ikame araç temin edilir",
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128284544_408440924": [
+      "2 defa ve olay başına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": [
+      "2 defa ve olay\nbaşına en fazla 7 gün süreyle ikame araç temin edilir"
+    ],
+    "ak_E_128526970_408958922": null,
+    "ak_E_128534379_408973219": [
+      "2 defa ve olay\nbaşına en fazla 7 gün süreyle ikame araç temin edilir"
+    ]
+  },
+  "Teminat_Yedek_Parca": {
+    "ak_E_128027105_407994597": "eşdeğer veya muadil parça",
+    "ak_E_128186626_408259657": "eşdeğer veya muadil parça",
+    "ak_E_128198607_408262525": "eşdeğer veya muadil parça",
+    "ak_E_128223718_408322876": "eşdeğer veya muadil parça",
+    "ak_E_128228589_408329776": "eşdeğer veya muadil parça",
+    "ak_E_128238900_408352690": "eşdeğer veya muadil parça",
+    "ak_E_128262976_408414143": "eşdeğer veya muadil parça",
+    "ak_E_128268599_408418329": "eşdeğer veya muadil parça",
+    "ak_E_128284021_408438721": "eşdeğer veya muadil parça",
+    "ak_E_128284544_408440924": "eşdeğer veya muadil parça",
+    "ak_E_128289463_408454844": "eşdeğer veya muadil parça",
+    "ak_E_128295780_408469976": "eşdeğer veya muadil parça",
+    "ak_E_128526970_408958922": "eşdeğer veya muadil parça",
+    "ak_E_128534379_408973219": "eşdeğer veya muadil parça"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "ak_E_128027105_407994597": "1.yıl (% 30) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": "3.yıl (% 50) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128223718_408322876": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128228589_408329776": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128238900_408352690": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128262976_408414143": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128268599_408418329": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128284021_408438721": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128284544_408440924": "5.yıl (% 65) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": "2.yıl (% 40) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128526970_408958922": "4.yıl (% 60) hasarsızlık indirimi uygulanmıştır.",
+    "ak_E_128534379_408973219": "2.yıl (% 40) hasarsızlık indirimi uygulanmıştır."
+  },
+  "Teminat_Servis_Secimi": {
+    "ak_E_128027105_407994597": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128186626_408259657": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128198607_408262525": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128223718_408322876": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128228589_408329776": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128238900_408352690": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128262976_408414143": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128268599_408418329": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128284021_408438721": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128284544_408440924": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128289463_408454844": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128295780_408469976": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128526970_408958922": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ],
+    "ak_E_128534379_408973219": [
+      "Sigortalı; hasarlı aracının onarımını Hazine Müsteşarlığı tarafından belirlenen ölçütleri karşılayan servislerde\nyaptırmakta serbesttir.",
+      "Aksigorta ile anlaşması olmayan Marka\nYetkili servislerinde yapılacak onarımlarda, hasar bedeli üzerinden % 20 tenzili muafiyet uygulanır. Hasar olan il\nveya yakın çevre illerde Aksigorta Anlaşmalı Marka Yetkili Servisi bulunmaması durumunda muafiyet\nuygulanmayacaktır."
+    ]
+  },
+  "Teminat_Hasarsizlik_Koruma": {
+    "ak_E_128027105_407994597": null,
+    "ak_E_128186626_408259657": null,
+    "ak_E_128198607_408262525": null,
+    "ak_E_128223718_408322876": null,
+    "ak_E_128228589_408329776": null,
+    "ak_E_128238900_408352690": null,
+    "ak_E_128262976_408414143": null,
+    "ak_E_128268599_408418329": null,
+    "ak_E_128284021_408438721": null,
+    "ak_E_128284544_408440924": null,
+    "ak_E_128289463_408454844": null,
+    "ak_E_128295780_408469976": null,
+    "ak_E_128526970_408958922": null,
+    "ak_E_128534379_408973219": null
+  }
+}

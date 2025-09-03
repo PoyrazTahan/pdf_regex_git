@@ -1,0 +1,93 @@
+{
+  "Police_No": { "pattern": "\n(\\d{9}/\\d+)\n", "group": 1 },
+  "Police_Onceki_No": {},
+  "Police_Baslangic_Tarihi": {},
+  "Police_Bitis_Tarihi": {},
+  "Sigortali_TC_Kimlik_No": {
+    "pattern": "T.C. Kimlik No / Vergi No\n[^\n]+\n([^\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adi": {
+    "pattern": "Sigortalı Ad Soyad / Unvan\n[^\n]+\n[^\n]+\n[^\n]+\n[^\n]+\n([^\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adresi": { "pattern": "Adres\n[^\n]+\n([^\n]+)", "group": 1 },
+  "Sigortali_Eposta": {},
+  "Sigortali_GSM": {},
+  "Sigortali_Meslegi": {
+    "pattern": "Mesleği\\s*\\n([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Musteri_No": {
+    "pattern": "Müşteri No\n[\\s\\S]*?\n(20\\d+)",
+    "group": 1
+  },
+  "Sigortali_Vergi_No": {},
+  "SBM_Tramer_Belge_No": {},
+  "SBM_Bim_Reference_No": {},
+  "Arac_Plaka_No": { "pattern": "Plaka\n(\\d+\\s+[A-Z]+\\d+)", "group": 1 },
+  "Arac_Motor_No": {
+    "pattern": "Motor Numarası\n([A-Z0-9]+)",
+    "group": 1
+  },
+  "Arac_Sasi_No": { "pattern": "Sasi numarasi\n([A-Z0-9]+)", "group": 1 },
+  "Arac_Marka_Tip": {
+    "pattern": "Araç Tipi\\s*\\n([^\\n]+(?:\\n[A-Z0-9][^\\n]*(?=\\nEngelli))?)",
+    "group": 1,
+    "description": "Vehicle type/model - captures main line plus continuation until 'Engelli' field"
+  },
+  "Arac_Model": {},
+  "Arac_Model_Yili": {
+    "pattern": "Araç Modeli\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle model year from 'Araç Modeli' field"
+  },
+  "Arac_Kullanim_Sekli": {
+    "pattern": "Kullanım Amacı\\s*\\n([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Marka_Kodu": {
+    "pattern": "Araç Markası\\s*\\n([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Engelli_Mi": {
+    "pattern": "Engelli Aracı Mı \\?\\s*\\n([^\\n]+)",
+    "group": 1
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "pattern": "(Cam Hasarlarına ilişkin özel bir muafiyet uygulaması bulunmamaktadır)",
+    "group": 1,
+    "description": "Glass damage coverage - no special deductible applied to glass damages"
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "pattern": "İMM Bedeni ve Maddi Ayrımı\\nYapılmaksızın\\n([0-9.,]+)",
+    "group": 1
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "pattern": "İMM Manevi Tazminat Talepleri\\s*\\n([0-9.,]+)",
+    "group": 1
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "pattern": "İNDİRİM/ ARTTIRIM BİLGİLERİ\\s*\\n(.*?)(?=\\nKIYMET KAZANMA TENZİLİ KLOZU)",
+    "group": 1
+  },
+  "Teminat_Ikame_Arac": {
+    "pattern": "Kiralık Araç Süresi\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Replacement vehicle duration (e.g., 2X14 GÜN PERT DAHİL or HAYIR)"
+  },
+  "Teminat_Yedek_Parca": {
+    "pattern": "ARAÇ ONARIM SERVİSİ VE TEDARİK PARÇA TÜRÜ:\\s*\\nSigortalı Belirler / (Orijinal)",
+    "group": 1,
+    "description": "Spare parts type - customer chooses original parts"
+  },
+  "Teminat_Servis_Secimi": {
+    "pattern": "ARAÇ ONARIM SERVİS KLOZU\\s*\\n(Araç onarım servisinin sigortalı tarafından[\\s\\S]*?Aksi durumlarda sigortalıya ödenir\\.)",
+    "group": 1,
+    "description": "Vehicle repair service clause - captures complete paragraph about service selection, parts type requirements, and payment terms for contracted/non-contracted services"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "pattern": "İNDİRİM/ ARTTIRIM BİLGİLERİ\\s*\\n(?:(\\d+)\\. kademe |())Hasarsızlık İndirimi",
+    "group": 1
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "company": "mg_E",
+  "version": "2.0",
+  "field_mappings": {
+    "Teminat_Hasarsizlik_Koruma": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Var"
+        }
+      ]
+    },
+    "ksk_hik_data_value_ext": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Var",
+          "output": "Var"
+        }
+      ]
+    },
+    "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": true,
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "10",
+          "output": 50000
+        },
+        {
+          "input_pattern": "20",
+          "output": 50000
+        }
+      ]
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": false,
+      "output_type": "integer"
+    },
+    "Teminat_Servis_Secimi": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+        }
+      ]
+    },
+    "Teminat_Yedek_Parca": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "hasarın tazmininde orijinal parça kullanılacaktır",
+          "output": "Var"
+        }
+      ]
+    },
+    "Teminat_Oto_Cam_Klozu": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "CAM HASARLARI KLOZUSigortalı aracın cam onarımı/değişimi Magdeburger Sigorta`nın web sitesinde (www.magdeburger.com.tr <http://www.magdeburger.com.tr/>) yayınlanan anlaşmalı cam servisleri ve sigortalının tercih edeceği diğerservislerde yapılabilir.",
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
+        },
+        {
+          "input_pattern": "CAM HASARLARI KLOZUSigortalı araca ait münferit cam hasarları ile ses, müzik, görüntü, iletişim cihazları vekişisel eşya hırsızlığı sırasında oluşan cam hasarlarında öncelikle camın onarımıesastır.Binek araçlarda kırılan camın yerine logosuz yerli cam takılması durumunda,değiştirilen yerli cam poliçe vadesi sonuna kadar 2 defa \"sadece cam kırılmasıhasarlarına\" karşı garanti altında olacaktır.Şirketimizin anlaşmalı cam servislerinde gerçekleştirilecek logosuz yerli cam dışındakitüm cam değişimlerinde, 200 TL`den az olmamak kaydıyla cam hasar tutarının %25`ioranında tenzili muafiyet uygulanır. Sıfır km. araçlarda (aracın ilk tescil tarihindenitibaren 12 ay süresince) bu muafiyet uygulanmaz.",
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        },
+        {
+          "input_pattern": "CAM HASARLARI KLOZUSigortalı araca ait münferit cam hasarları ile ses, müzik, görüntü, iletişim cihazları ve kişisel eşya hırsızlığı sırasında oluşan camhasarlarında öncelikle camın onarımı esastır.İş bu poliçeye konu olan araç için kırılan camın yerine logosuz yerli cam takılması durumunda, değiştirilen yerli cam poliçe vadesisonuna kadar \"sadece cam kırılması hasarlarına\" karşı garanti altında olacaktır. Şirketimizin anlaşmalı cam servislerindegerçekleştirilecek logosuz yerli cam dışındaki tüm cam değişimlerinde, cam hasar tutarının %35`i oranında tenzili muafiyet uygulanır.Sıfır km araçlarda (aracın ilk tescil tarihinden itibaren 12 ay süresince) bu muafiyet uygulanmaz.",
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        },
+        {
+          "input_pattern": "CAM HASARLARI KLOZUSigortalı araca ait münferit cam hasarları ile ses, müzik, görüntü, iletişim cihazları ve kişisel eşya hırsızlığı sırasında oluşan camhasarlarında öncelikle camın onarımı esastır.İş bu poliçeye konu olan araç için kırılan camın yerine logosuz yerli cam takılması durumunda, değiştirilen yerli cam poliçe vadesisonuna kadar \"sadece cam kırılması hasarlarına\" karşı garanti altında olacaktır. Şirketimizin anlaşmalı cam servislerindegerçekleştirilecek logosuz yerli cam dışındaki tüm cam değişimlerinde, cam hasar tutarının %35`i oranında tenzili muafiyet uygulanır.Sıfır km araçlarda (aracın ilk tescil tarihinden itibaren 12 ay süresince) bu muafiyet uygulanmaz.CAM HASARLARI KLOZUSigortalı araca ait münferit cam hasarları ile ses, müzik, görüntü, iletişim cihazları vekişisel eşya hırsızlığı sırasında oluşan cam hasarlarında öncelikle camın onarımıesastır.İş bu poliçeye konu olan araç için camın yerine logosuz yerli cam takılması durumunda,değiştirilen yerli cam poliçe vadesi sonuna kadar \"sadece cam kırılması hasarlarına\"karşı garanti altında olacaktır. Şirketimizin anlaşmalı cam servislerindegerçekleştirilecek logosuz yerli cam dışındaki tüm cam değişimlerinde, cam hasartutarının %50`si oranında tenzili muafiyet uygulanır. Sıfır km araçlarda (aracın ilk tesciltarihinden itibaren 12 ay süresince) bu muafiyet uygulanmaz.",
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        }
+      ]
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "YOK",
+          "output": "0"
+        },
+        {
+          "input_pattern": "STANDART SEGMENT 2X14 GÜN",
+          "output": "14"
+        },
+        {
+          "input_pattern": null,
+          "output": "7"
+        },
+        {
+          "input_pattern": "STANDART SEGMENT 2X7 GÜN",
+          "output": "7"
+        }
+      ]
+    }
+  }
+}

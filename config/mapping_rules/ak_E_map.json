@@ -1,0 +1,83 @@
+{
+  "company": "ak_E",
+  "description": "AK Sigorta field mapping configuration for normalizing extracted policy data",
+  "version": "1.0",
+  "field_mappings": {
+    "Teminat_Hasarsizlik_Koruma": {
+      "type": "fixed_value",
+      "output": "Var",
+      "description": "All AK policies have no-claims protection, defaulting to 'Var' since field is empty but coverage exists based on business rules"
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "numeric_conversion",
+      "output_type": "integer",
+      "turkish_format": true,
+      "mappings": [
+        {
+          "input_pattern": "SINIRSIZ İMM",
+          "output": 9999999999
+        }
+      ]
+    },
+    "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+      "type": "numeric_conversion",
+      "output_type": "integer",
+      "turkish_format": true
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "extract_normalize",
+      "array_handling": "extract_from_all",
+      "extract_patterns": [
+        {
+          "pattern": "(\\d+) gün süreyle",
+          "group": 1
+        }
+      ],
+      "mappings": [
+        { "input": "30", "output": "30" },
+        { "input": "7", "output": "7" }
+      ],
+      "default": "-",
+      "description": "Extract maximum duration from replacement vehicle text, prioritize longest duration if multiple values"
+    },
+    "Teminat_Yedek_Parca": {
+      "type": "fixed_value",
+      "output": "Var",
+      "description": "All AK policies include spare parts coverage"
+    },
+    "Teminat_Servis_Secimi": {
+      "type": "fixed_value",
+      "output": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+      "description": "Standard service selection for AK policies based on extracted service terms"
+    },
+    "Teminat_Oto_Cam_Klozu": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "pattern": "muafiyet uygulanmayacaktır",
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
+        },
+        {
+          "pattern": "hasarın % \\d+ si.*sigortalı.*ödenir",
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        },
+        {
+          "pattern": "1\\.500 -TL den az olmamak kaydıyla.*sigortalı.*ödenir",
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        }
+      ],
+      "default": "Orijinal Cam Var & Hasar Muafiyetsiz",
+      "description": "Map glass coverage clauses to standardized coverage types"
+    }
+  },
+  "transformations": {
+    "format_turkish_amount": {
+      "description": "Convert Turkish number format (1.000.000,00) to normalized format ( 1,000,000 )",
+      "steps": [
+        "remove_trailing_decimals",
+        "replace_dots_with_commas",
+        "add_surrounding_spaces"
+      ]
+    }
+  }
+}

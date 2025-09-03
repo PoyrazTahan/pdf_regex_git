@@ -1,0 +1,124 @@
+{
+  "Police_No": {
+    "pattern": "POLİÇE NO\\s*\\n([0-9]+)",
+    "group": 1,
+    "description": "Policy number from main policy section"
+  },
+  "Police_Onceki_No": {
+    "pattern": "ÖNCEKİ POLİÇE NO\\s*\\n:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "Previous policy number"
+  },
+  "Police_Baslangic_Tarihi": {
+    "pattern": "SİGORTA BAŞLANGIÇ TARİHİ\\s*\\n:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "Policy start date from header section"
+  },
+  "Police_Bitis_Tarihi": {
+    "pattern": "SİGORTA BİTİM TARİHİ\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Policy end date from header section"
+  },
+  "Sigortali_TC_Kimlik_No": {},
+  "Sigortali_Adi": {
+    "pattern": "SİGORTALI / SİGORTA ETTİREN[\\s\\S]*?ADI/ÜNVANI\\s*\\n:([^\\n]+)",
+    "group": 1,
+    "description": "Customer name from customer section"
+  },
+  "Sigortali_Adresi": {
+    "pattern": "SİGORTALI / SİGORTA ETTİREN[\\s\\S]*?ADRESİ\\s*\\n:([^\\n]+)",
+    "group": 1,
+    "description": "Customer address from customer section"
+  },
+  "Sigortali_Eposta": {},
+  "Sigortali_GSM": {},
+  "Sigortali_Meslegi": {},
+  "Sigortali_Musteri_No": {
+    "pattern": "MÜŞTERİ NO\\s*\\n:\\s*([0-9]+)",
+    "group": 1,
+    "description": "Customer number"
+  },
+  "Sigortali_Vergi_No": {},
+  "SBM_Tramer_Belge_No": {
+    "pattern": "SBM TRAMER NO\\s*\\n:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "SBM Tramer reference number"
+  },
+  "SBM_Bim_Reference_No": {},
+  "Arac_Plaka_No": {
+    "pattern": "PLAKA NO\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle license plate number"
+  },
+  "Arac_Motor_No": {
+    "pattern": "MOTOR NO\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle engine number"
+  },
+  "Arac_Sasi_No": {
+    "pattern": "ŞASİ NO\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle chassis/VIN number"
+  },
+  "Arac_Marka_Tip": {
+    "pattern": "MARKA\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle brand"
+  },
+  "Arac_Model": {
+    "pattern": "TİP\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Detailed vehicle type/model specification"
+  },
+  "Arac_Model_Yili": {
+    "pattern": "MODEL\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle model year (duplicate)"
+  },
+  "Arac_Kullanim_Sekli": {
+    "pattern": "ALT KULLANIM ŞEKLİ\\s*:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle usage type"
+  },
+  "Arac_Marka_Kodu": {
+    "pattern": "MARKA KODU\\s*\\n:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "Vehicle brand code"
+  },
+  "Arac_Engelli_Mi": {},
+  "Teminat_Oto_Cam_Klozu": {
+    "pattern": "(CAM HASARLARI KLOZU[\\s\\S]*?)(?=4\\.3 PRİM BİLGİLERİ)",
+    "group": 1,
+    "description": "Glass coverage clause - bounded to CAM HASARLARI KLOZU section only, stops at PRİM BİLGİLERİ"
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "pattern": "İHTİYARİ MALİ SORUMLULUK[\\s\\S]*?-MADDİ BEDENİ AYRIMSIZ\\s*\\n([^\\n]+)",
+    "group": 1,
+    "description": "IMM combined coverage amount"
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "pattern": "manevi tazminat taleplerinde, poliçede belirtilen teminat limitinin azami %(\\d+)",
+    "group": 1,
+    "description": "Moral damages percentage of IMM limit (from legal clauses)"
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "pattern": "hasarsızlık indirimi bozulmaz",
+    "group": 0,
+    "description": "No-claims protection coverage (from legal clauses)"
+  },
+  "Teminat_Ikame_Arac": {
+    "pattern": "İKAME ARAÇ\\s*:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "Replacement vehicle coverage"
+  },
+  "Teminat_Yedek_Parca": {
+    "pattern": "hasarın tazmininde orijinal parça kullanılacaktır",
+    "group": 0,
+    "description": "Original parts coverage (from legal clauses)"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "pattern": "HASARSIZLIK İNDİRİMİ\\s*\\n:\\s*([^\\n]+)",
+    "group": 1,
+    "description": "No-claims discount level"
+  }
+}

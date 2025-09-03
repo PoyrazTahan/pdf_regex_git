@@ -1,0 +1,93 @@
+{
+  "Police_No": {
+    "pattern": "MÜŞTERİ NO\nACENTE NO\nPOLİÇE NO\nEK NO\nYENİLEME NO\nBAŞLANGIÇ TARİHİ\nBİTİŞ TARİHİ\nSÜRE\n\\d+\n\\d+\n(\\d+)",
+    "group": 1
+  },
+  "Police_Onceki_No": {},
+  "Police_Baslangic_Tarihi": {
+    "pattern": "MÜŞTERİ NO\nACENTE NO\nPOLİÇE NO\nEK NO\nYENİLEME NO\nBAŞLANGIÇ TARİHİ\nBİTİŞ TARİHİ\nSÜRE\n\\d+\n\\d+\n\\d+\n\\d+\n\\d+\n([^\\n]+)",
+    "group": 1
+  },
+  "Police_Bitis_Tarihi": {
+    "pattern": "MÜŞTERİ NO\nACENTE NO\nPOLİÇE NO\nEK NO\nYENİLEME NO\nBAŞLANGIÇ TARİHİ\nBİTİŞ TARİHİ\nSÜRE\n\\d+\n\\d+\n\\d+\n\\d+\n\\d+\n[^\\n]+\n([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "pattern": "TC Kimlik Numarası\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adi": {
+    "pattern": "Sigortalı Adı Soyadı / Ünvanı\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adresi": {
+    "pattern": "Sigortalı Adresi\\s*:\\s*(.*?)(?=\\n:\\n|\\nTC Kimlik|$)",
+    "group": 1
+  },
+  "Sigortali_Eposta": {},
+  "Sigortali_GSM": {},
+  "Sigortali_Meslegi": {
+    "pattern": "Aktif Meslek\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Musteri_No": {
+    "pattern": "MÜŞTERİ NO\nACENTE NO\nPOLİÇE NO\nEK NO\nYENİLEME NO\nBAŞLANGIÇ TARİHİ\nBİTİŞ TARİHİ\nSÜRE\n(\\d+)",
+    "group": 1
+  },
+  "Sigortali_Vergi_No": {},
+  "SBM_Tramer_Belge_No": {},
+  "SBM_Bim_Reference_No": {
+    "pattern": "BIM_REF_NO:\\s*\\n([^\\n]+)\\n",
+    "group": 1
+  },
+  "Arac_Plaka_No": { "pattern": "Plaka No\\s*:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Motor_No": { "pattern": "Motor No\\s*:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Sasi_No": { "pattern": "Şasi No\\s*:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Marka_Tip": {
+    "pattern": "Tip\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Model": {
+    "pattern": "Marka\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Model_Yili": {
+    "pattern": "Model\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Kullanim_Sekli": {
+    "pattern": "Kullanım Türü\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Marka_Kodu": {},
+  "Arac_Engelli_Mi": {},
+  "Teminat_Oto_Cam_Klozu": {
+    "pattern": "(cam hasarı ödemelerinizde herhangi bir muafiyet uygulanmayacaktır)",
+    "group": 1
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "pattern": "İ\\.M\\.M\\. KOMBİNE\\s*\\n([^\\n]+)",
+    "group": 1
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "pattern": "manevi tazminat\\s*\\ntalepleri (\\d+) TL",
+    "group": 1,
+    "description": "Manevi tazminat coverage limit from IMM clause"
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "pattern": "İndirimler\\s*\\n((?:(?:Hasarsızlık İndirimi|Müşteri Özel İndirimi|Müşteri Yaş İndirimi|Aktif Meslek İndirimi)[^\\n]*\\n?)+)",
+    "group": 1
+  },
+  "Teminat_Ikame_Arac": {
+    "pattern": "İkame Araç Gün Sayısı\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Teminat_Yedek_Parca": {
+    "pattern": "(orijinal yedek parça)",
+    "group": 1
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "pattern": "Hasarsızlık\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "company": "mapfre_E",
+  "version": "2.0",
+  "field_mappings": {
+    "ksk_hik_data_value_ext": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Var",
+          "output": "Var"
+        },
+        {
+          "input_pattern": "Yok",
+          "output": "Yok"
+        }
+      ]
+    },
+    "Teminat_Hasarsizlik_Koruma": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Var"
+        }
+      ]
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Sigortalılarımıza MAPFRE SIGORTA'nın Anlaşmalı onarım merkezlerinde ikame araç teminat koşullarını sağlayan kazalar için azami 7 (yedi) gün,anlaşmasız servislerde en fazla 5(beş) gün ile sınırlı olmak üzere ikame araç hizmeti verilecektir. Bu hizmet bir yıllık poliçe süresince en fazla 2 (iki) defasağlanabilecektir.",
+          "output": "7"
+        },
+        {
+          "input_pattern": "İşbu poliçede ikame teminatı verilmemiştir",
+          "output": "0"
+        },
+        {
+          "input_pattern": "Sigortalılarımıza MAPFRE SIGORTA'nın Anlaşmalı onarım merkezlerinde ikame araç teminat koşullarını sağlayan kazalar için azami 14 (on dört) gün,anlaşmasız servislerde en fazla 7(yedi) gün ile sınırlı olmak üzere ikame araç hizmeti verilecektir. Bu hizmet bir yıllık poliçe süresince en fazla 2 (iki) defasağlanabilecektir.",
+          "output": "14"
+        }
+      ]
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": true,
+      "output_type": "integer"
+    },
+    "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": true,
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "25",
+          "output": 100000
+        }
+      ]
+    },
+    "Teminat_Oto_Cam_Klozu": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "Cam hasarlarında herhangi bir muafiyetuygulanmayacaktır",
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
+        },
+        {
+          "input_pattern": null,
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        }
+      ]
+    },
+    "Teminat_Servis_Secimi": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": null,
+          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+        }
+      ]
+    },
+    "Teminat_Yedek_Parca": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "eşdeğer parça",
+          "output": "Var"
+        }
+      ]
+    }
+  }
+}

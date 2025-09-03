@@ -1,0 +1,353 @@
+{
+  "Police_No": {
+    "turkiye_E_128279161_859716465": "859716465/0",
+    "turkiye_E_128290486_859812795": "859812795/0",
+    "turkiye_E_128292718_859241084": "859241084/0",
+    "turkiye_E_128293842_746254371": "746254371/1",
+    "turkiye_E_128297016_859875694": "859875694/0",
+    "turkiye_E_128299231_745913041": "745913041/1",
+    "turkiye_E_128301649_859903669": "859903669/0",
+    "turkiye_E_128306330_859927648": "859927648/0",
+    "turkiye_E_128309494_859932755": "859932755/0"
+  },
+  "Police_Onceki_No": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Police_Baslangic_Tarihi": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Police_Bitis_Tarihi": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "turkiye_E_128279161_859716465": "4***4***1**",
+    "turkiye_E_128290486_859812795": "1***9***5**",
+    "turkiye_E_128292718_859241084": "3***7***6**",
+    "turkiye_E_128293842_746254371": "5***0***1**",
+    "turkiye_E_128297016_859875694": "4***7***7**",
+    "turkiye_E_128299231_745913041": "4***2***4**",
+    "turkiye_E_128301649_859903669": "2***4***0**",
+    "turkiye_E_128306330_859927648": "2***3***0**",
+    "turkiye_E_128309494_859932755": "4***9***2**"
+  },
+  "Sigortali_Adi": {
+    "turkiye_E_128279161_859716465": "ABDULVAHAP YILAN",
+    "turkiye_E_128290486_859812795": "YILDIRAY ÇANA",
+    "turkiye_E_128292718_859241084": "GALİP ALGAÇ",
+    "turkiye_E_128293842_746254371": "ERKAN ÇAM",
+    "turkiye_E_128297016_859875694": "ERCAN DOĞRU",
+    "turkiye_E_128299231_745913041": "Yapı Koop. Sit. Sitesi B Blok No:35 /135 /1/14 Oltanbey Mah.",
+    "turkiye_E_128301649_859903669": "DUHA ARSLAN",
+    "turkiye_E_128306330_859927648": "MUSTAFA MORSÜMBÜL",
+    "turkiye_E_128309494_859932755": "Girişi69/01 Pk:0 Seyhan Adana TÜRKİYE"
+  },
+  "Sigortali_Adresi": {
+    "turkiye_E_128279161_859716465": "Pk:00000 Maltepe İstanbul TÜRKİYE",
+    "turkiye_E_128290486_859812795": "Balatçık Mah. Mah. 8905 Sok. 22/1 Çiğli İzmir TÜRKİYE",
+    "turkiye_E_128292718_859241084": "Turgut Reis Mah. 425. Sok. 53/5 Pk:0 Esenler İstanbul TÜRKİYE",
+    "turkiye_E_128293842_746254371": "Alavardı Mah. Ulubat Cad. 22 B/23 Pk:42090 Meram Konya TÜRKİYE",
+    "turkiye_E_128297016_859875694": "Işıklar Mah. Eraydın Sok. Özmartı Sitesi4/11 Selçuklu Konya TÜRKİYE",
+    "turkiye_E_128299231_745913041": "Oltanbey Mah. Mah. Bayrak Cad. Cad. Bayrak Cad. Sok. Aydınlık Site",
+    "turkiye_E_128301649_859903669": "Yayla Mah. Mah. İhsan Ekmekçi Sok. 49/21 Tuzla İstanbul TÜRKİYE",
+    "turkiye_E_128306330_859927648": "Gökmeydan Mah. Orkide Sok. 42/1 Pk:0 Odunpazarı Eskişehir TÜRKİYE",
+    "turkiye_E_128309494_859932755": "Sümer Mah. Şehit Yüzbaşı Bülent Angın Bul. Cad. Divan Apartmanı A"
+  },
+  "Sigortali_Eposta": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Sigortali_GSM": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Sigortali_Meslegi": {
+    "turkiye_E_128279161_859716465": "DİĞER",
+    "turkiye_E_128290486_859812795": "DİĞER",
+    "turkiye_E_128292718_859241084": "DİĞER",
+    "turkiye_E_128293842_746254371": "DİĞER",
+    "turkiye_E_128297016_859875694": "DİĞER",
+    "turkiye_E_128299231_745913041": "DİĞER",
+    "turkiye_E_128301649_859903669": "DİĞER",
+    "turkiye_E_128306330_859927648": "DİĞER",
+    "turkiye_E_128309494_859932755": "DİĞER"
+  },
+  "Sigortali_Musteri_No": {
+    "turkiye_E_128279161_859716465": "20070829037",
+    "turkiye_E_128290486_859812795": "20012060570",
+    "turkiye_E_128292718_859241084": "20020793220",
+    "turkiye_E_128293842_746254371": "20018381872",
+    "turkiye_E_128297016_859875694": "20009568425",
+    "turkiye_E_128299231_745913041": "20021325675",
+    "turkiye_E_128301649_859903669": "20069995511",
+    "turkiye_E_128306330_859927648": "20024746388",
+    "turkiye_E_128309494_859932755": "20005300663"
+  },
+  "Sigortali_Vergi_No": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "SBM_Tramer_Belge_No": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "SBM_Bim_Reference_No": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Arac_Plaka_No": {
+    "turkiye_E_128279161_859716465": "34 DMS344",
+    "turkiye_E_128290486_859812795": "35 BJR836",
+    "turkiye_E_128292718_859241084": "34 EIS825",
+    "turkiye_E_128293842_746254371": "42 CBV55",
+    "turkiye_E_128297016_859875694": "42 ATV310",
+    "turkiye_E_128299231_745913041": "61 KV916",
+    "turkiye_E_128301649_859903669": "34 NMC610",
+    "turkiye_E_128306330_859927648": "26 AJE692",
+    "turkiye_E_128309494_859932755": "06 ABA252"
+  },
+  "Arac_Motor_No": {
+    "turkiye_E_128279161_859716465": "B4DG490R042032",
+    "turkiye_E_128290486_859812795": "BJ40128",
+    "turkiye_E_128292718_859241084": "G4LCMS786367",
+    "turkiye_E_128293842_746254371": "K9KA636D177528",
+    "turkiye_E_128297016_859875694": "H5HE490D553287",
+    "turkiye_E_128299231_745913041": "B14XER19HG5099",
+    "turkiye_E_128301649_859903669": "G4FVPZ756497",
+    "turkiye_E_128306330_859927648": "CZC035985",
+    "turkiye_E_128309494_859932755": "A2160725GU7X0018LVL"
+  },
+  "Arac_Sasi_No": {
+    "turkiye_E_128279161_859716465": "UU1B5220466596866",
+    "turkiye_E_128290486_859812795": "WF0JXXWPJJBJ40128",
+    "turkiye_E_128292718_859241084": "KNADC514BN6580457",
+    "turkiye_E_128293842_746254371": "SJNFCAF15U6407742",
+    "turkiye_E_128297016_859875694": "VF1RFB00371865890",
+    "turkiye_E_128299231_745913041": "W0L0XEP68F4195842",
+    "turkiye_E_128301649_859903669": "NLHBU51FAPZ015751",
+    "turkiye_E_128306330_859927648": "WVWZZZ3CZFE479778",
+    "turkiye_E_128309494_859932755": "W0LGT5G39G1088178"
+  },
+  "Arac_Marka_Tip": {
+    "turkiye_E_128279161_859716465": "SANDERO AMBIANCE 1.0\nSCE 75",
+    "turkiye_E_128290486_859812795": "FIESTA MY FIESTA 5K 1.4\nTDCi",
+    "turkiye_E_128292718_859241084": "RIO COOL 1.4 100 6AT",
+    "turkiye_E_128293842_746254371": "JUKE 1.5 DCI SPORT PACK\n5DR",
+    "turkiye_E_128297016_859875694": "MEGANE SEDAN TOUCH\n1.3 TCE EDC 140 FAZ2",
+    "turkiye_E_128299231_745913041": "CORSA 5 KAPI ESSENTIA\n1.4 90 OV",
+    "turkiye_E_128301649_859903669": "i20 N 1.6 T-GDI (204)",
+    "turkiye_E_128306330_859927648": "PASSAT 1.4 TSI BMT 125\nCOMFORTLINE",
+    "turkiye_E_128309494_859932755": "INSIGNIA NB 1.6 DIZEL 136\nAT6 ELITE"
+  },
+  "Arac_Model": {
+    "turkiye_E_128279161_859716465": null,
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": null,
+    "turkiye_E_128293842_746254371": null,
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": null,
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": null,
+    "turkiye_E_128309494_859932755": null
+  },
+  "Arac_Model_Yili": {
+    "turkiye_E_128279161_859716465": "2020",
+    "turkiye_E_128290486_859812795": "2012",
+    "turkiye_E_128292718_859241084": "2021",
+    "turkiye_E_128293842_746254371": "2013",
+    "turkiye_E_128297016_859875694": "2023",
+    "turkiye_E_128299231_745913041": "2015",
+    "turkiye_E_128301649_859903669": "2023",
+    "turkiye_E_128306330_859927648": "2015",
+    "turkiye_E_128309494_859932755": "2016"
+  },
+  "Arac_Kullanim_Sekli": {
+    "turkiye_E_128279161_859716465": "Hususi Kullanım",
+    "turkiye_E_128290486_859812795": "Hususi Kullanım",
+    "turkiye_E_128292718_859241084": "Hususi Kullanım",
+    "turkiye_E_128293842_746254371": "Hususi Kullanım",
+    "turkiye_E_128297016_859875694": "Hususi Kullanım",
+    "turkiye_E_128299231_745913041": "Hususi Kullanım",
+    "turkiye_E_128301649_859903669": "Hususi Kullanım",
+    "turkiye_E_128306330_859927648": "Hususi Kullanım",
+    "turkiye_E_128309494_859932755": "Hususi Kullanım"
+  },
+  "Arac_Marka_Kodu": {
+    "turkiye_E_128279161_859716465": "DACIA",
+    "turkiye_E_128290486_859812795": "FORD/OTOSAN",
+    "turkiye_E_128292718_859241084": "KIA",
+    "turkiye_E_128293842_746254371": "NISSAN",
+    "turkiye_E_128297016_859875694": "RENAULT (OYAK)",
+    "turkiye_E_128299231_745913041": "OPEL",
+    "turkiye_E_128301649_859903669": "HYUNDAI",
+    "turkiye_E_128306330_859927648": "VOLKSWAGEN",
+    "turkiye_E_128309494_859932755": "OPEL"
+  },
+  "Arac_Engelli_Mi": {
+    "turkiye_E_128279161_859716465": "HAYIR",
+    "turkiye_E_128290486_859812795": "HAYIR",
+    "turkiye_E_128292718_859241084": "HAYIR",
+    "turkiye_E_128293842_746254371": "HAYIR",
+    "turkiye_E_128297016_859875694": "HAYIR",
+    "turkiye_E_128299231_745913041": "HAYIR",
+    "turkiye_E_128301649_859903669": "HAYIR",
+    "turkiye_E_128306330_859927648": "HAYIR",
+    "turkiye_E_128309494_859932755": "HAYIR"
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "turkiye_E_128279161_859716465": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128290486_859812795": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128292718_859241084": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128293842_746254371": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "turkiye_E_128297016_859875694": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128299231_745913041": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128301649_859903669": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128306330_859927648": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "turkiye_E_128309494_859932755": "Orijinal Cam Var & Hasar Muafiyetsiz"
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "turkiye_E_128279161_859716465": 25000000,
+    "turkiye_E_128290486_859812795": 5000000,
+    "turkiye_E_128292718_859241084": 3000000,
+    "turkiye_E_128293842_746254371": 5000000,
+    "turkiye_E_128297016_859875694": 5000000,
+    "turkiye_E_128299231_745913041": 500000,
+    "turkiye_E_128301649_859903669": 500000,
+    "turkiye_E_128306330_859927648": 10000000,
+    "turkiye_E_128309494_859932755": 5000000
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "turkiye_E_128279161_859716465": 2000000,
+    "turkiye_E_128290486_859812795": 1000000,
+    "turkiye_E_128292718_859241084": 500000,
+    "turkiye_E_128293842_746254371": 1000000,
+    "turkiye_E_128297016_859875694": 1000000,
+    "turkiye_E_128299231_745913041": 125000,
+    "turkiye_E_128301649_859903669": 125000,
+    "turkiye_E_128306330_859927648": 1000000,
+    "turkiye_E_128309494_859932755": 1000000
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "turkiye_E_128279161_859716465": "2. kademe Hasarsızlık İndirimi uygulanmıştır.",
+    "turkiye_E_128290486_859812795": "Hasarsızlık İndirimi uygulanmamıştır.",
+    "turkiye_E_128292718_859241084": "4. kademe Hasarsızlık İndirimi uygulanmıştır.",
+    "turkiye_E_128293842_746254371": "4. kademe Hasarsızlık İndirimi uygulanmıştır.",
+    "turkiye_E_128297016_859875694": "Hasarsızlık İndirimi uygulanmamıştır.",
+    "turkiye_E_128299231_745913041": "4. kademe Hasarsızlık İndirimi uygulanmıştır.",
+    "turkiye_E_128301649_859903669": "Hasarsızlık İndirimi uygulanmamıştır.",
+    "turkiye_E_128306330_859927648": "4. kademe Hasarsızlık İndirimi uygulanmıştır.",
+    "turkiye_E_128309494_859932755": "Hasarsızlık İndirimi uygulanmamıştır."
+  },
+  "Teminat_Ikame_Arac": {
+    "turkiye_E_128279161_859716465": "14",
+    "turkiye_E_128290486_859812795": "14",
+    "turkiye_E_128292718_859241084": "0",
+    "turkiye_E_128293842_746254371": "7",
+    "turkiye_E_128297016_859875694": "0",
+    "turkiye_E_128299231_745913041": "0",
+    "turkiye_E_128301649_859903669": "0",
+    "turkiye_E_128306330_859927648": "7",
+    "turkiye_E_128309494_859932755": "7"
+  },
+  "Teminat_Yedek_Parca": {
+    "turkiye_E_128279161_859716465": "Var",
+    "turkiye_E_128290486_859812795": "Var",
+    "turkiye_E_128292718_859241084": "Var",
+    "turkiye_E_128293842_746254371": "Var",
+    "turkiye_E_128297016_859875694": "Var",
+    "turkiye_E_128299231_745913041": "Var",
+    "turkiye_E_128301649_859903669": "Var",
+    "turkiye_E_128306330_859927648": "Var",
+    "turkiye_E_128309494_859932755": "Var"
+  },
+  "Teminat_Servis_Secimi": {
+    "turkiye_E_128279161_859716465": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128290486_859812795": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128292718_859241084": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128293842_746254371": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128297016_859875694": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128299231_745913041": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128301649_859903669": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128306330_859927648": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir.",
+    "turkiye_E_128309494_859932755": "Araç onarım servisinin sigortalı tarafından anlaşmalı olmayan yetkili veya özel servis olduğu ve parça türünün\neş değer parça olarak istenmesi durumlarında; sigortacı parça temini ve/veya küçük hasarlarda hizmet\nbedelini tedarikçi firmaya öder. Aksi durumlarda sigortalıya ödenir."
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "turkiye_E_128279161_859716465": "2",
+    "turkiye_E_128290486_859812795": null,
+    "turkiye_E_128292718_859241084": "4",
+    "turkiye_E_128293842_746254371": "4",
+    "turkiye_E_128297016_859875694": null,
+    "turkiye_E_128299231_745913041": "4",
+    "turkiye_E_128301649_859903669": null,
+    "turkiye_E_128306330_859927648": "4",
+    "turkiye_E_128309494_859932755": null
+  },
+  "_mapping_metadata": {
+    "company": "turkiye_E",
+    "config_version": "2.0",
+    "processing_stats": {
+      "total_fields": 31,
+      "mapped_fields": 31,
+      "errors": []
+    },
+    "timestamp": "2025-09-03T11:14:47.261784"
+  }
+}

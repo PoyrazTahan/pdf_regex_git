@@ -1,0 +1,121 @@
+{
+  "Police_No": {
+    "pattern": "POLİÇE NO\\s*\\n\\s*([^\\n:]+)\\s*:",
+    "group": 1
+  },
+  "Police_Onceki_No": {
+    "pattern": "ÖNCEKİ POLİÇE NO\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Police_Baslangic_Tarihi": {
+    "pattern": "POLİÇE BAŞLANGIÇ TARİHİ[\\s\\S]*?(\\d{2}/\\d{2}/\\d{4})",
+    "group": 1
+  },
+  "Police_Bitis_Tarihi": {
+    "pattern": "POLİÇE BİTİŞ TARİHİ[\\s\\S]*?(\\d{2}/\\d{2}/\\d{4})",
+    "group": 1
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "pattern": "SİGORTALI[\\s\\S]*?T\\.C\\.KİMLİK NO\\s*:\\s*([^\\n]*)",
+    "group": 1
+  },
+  "Sigortali_Adi": {
+    "pattern": "ADI/ÜNVANI\\s*:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Sigortali_Adresi": {
+    "pattern": "SİGORTALI\\s*\\n[\\s\\S]*?ADRESİ\\s*\\n\\s*:([\\s\\S]*?)(?=\\nTELEFON NO\\s*\\n|$)",
+    "group": 1,
+    "default": ""
+  },
+  "Sigortali_Eposta": {
+    "pattern": "SİGORTALI[\\s\\S]*?E-POSTA ADRESİ\\s*:\\s*([^\\n]*)",
+    "group": 1
+  },
+  "Sigortali_GSM": {
+    "pattern": "SİGORTALI[\\s\\S]*?GSM\\s*:\\s*([^\\n]*)",
+    "group": 1
+  },
+  "Sigortali_Meslegi": {
+    "pattern": "MÜŞTERİ NO[^:]*:\\s*[^\\n]*\\n:\\s*([^\\n]+)\\s*\\nMESLEK",
+    "group": 1
+  },
+  "Sigortali_Musteri_No": {
+    "pattern": "SİGORTALI[\\s\\S]*?MÜŞTERİ NO\\s*:\\s*([^\\n]*)",
+    "group": 1
+  },
+  "Sigortali_Vergi_No": {
+    "pattern": "(?:VERGİ NO\\s*\\n\\s*:\\s*(?=\\n))",
+    "group": 0,
+    "default": ""
+  },
+  "SBM_Tramer_Belge_No": {},
+  "SBM_Bim_Reference_No": { "pattern": "BIM REF NO:\\s*([^\\n]+)", "group": 1 },
+  "Arac_Plaka_No": {
+    "pattern": "PLAKA NO\\s*\\n\\s*([^\\n:]+)\\s*:",
+    "group": 1
+  },
+  "Arac_Motor_No": {
+    "pattern": "MOTOR NO\\s*\\n\\s*([^\\n:]+)\\s*:",
+    "group": 1
+  },
+  "Arac_Sasi_No": {
+    "pattern": "ŞASİ NO\\s*\\n\\s*([^\\n:]+)\\s*:",
+    "group": 1
+  },
+  "Arac_Marka_Tip": {
+    "pattern": "MARKA\\s*\\n([A-Z]+)\\s*\\n:",
+    "group": 1
+  },
+  "Arac_Model": {
+    "pattern": "MODEL\\s*\\n(\\d{4})\\s*\\n:",
+    "group": 1
+  },
+  "Arac_Model_Yili": {
+    "pattern": "MODEL\\s*\\n(\\d{4})\\s*\\n:",
+    "group": 1
+  },
+  "Arac_Kullanim_Sekli": {
+    "pattern": "KULLANIM TARZI\\s*\\n[^\\n]*\\n([A-Z]+)\\s*\\n",
+    "group": 1
+  },
+  "Arac_Marka_Kodu": {
+    "pattern": "MARKA KODU\\s*\\n:\\s*([^\\n]+)",
+    "group": 1
+  },
+  "Arac_Engelli_Mi": {},
+  "Teminat_Oto_Cam_Klozu": {
+    "pattern": "cam\\(Ön,arka, kapı ve tavan camları\\) hasarlarında muafiyet\\s*(uygulanmayacaktır|uygulanacaktır)",
+    "group": 1
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "pattern": "IMM KOMBINE\\s*(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?)",
+    "group": 1
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "pattern": "MANEVİ TAZMİNAT TEMİNATI\\s*(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?)",
+    "group": 1
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "pattern": "HASARSIZLIK İNDİRİMİ KORUMA\\s*(DAHİL|YOK)",
+    "group": 1
+  },
+  "Teminat_Ikame_Arac": {
+    "patterns": [
+      "(Sigortalı seçimi ile iş bu poliçede belirlenen 2X7.*?C SEGMENT ikame araç temin edilecektir\\.)",
+      "(Sınırsız ikame Araç Hizmeti EQO Kasko ürününde geçerli değildir\\.)",
+      "(\\([İi][Kk][Aa][Mm][Ee][Ss][İi][Zz]\\))",
+      "azami ikame araç\\s*\\nkullanım süresi (\\d+) gündür"
+    ],
+    "mode": "first",
+    "description": "Replacement vehicle service terms. Quick provides detailed service descriptions (2X7 C SEGMENT), EQO exclusion statements, policy type exclusions (İKAMESİZ), or basic duration fallback (45 days). Multi-pattern approach captures comprehensive business terms, all exclusion types, and fallback codes."
+  },
+  "Teminat_Yedek_Parca": {
+    "pattern": "logolu veya logosuz orijinal parça (kullanılacaktır)",
+    "group": 1
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "pattern": "HASARSIZLIK İNDİRİM ORANI\\s*:\\s*([^\\n]+)",
+    "group": 1
+  }
+}

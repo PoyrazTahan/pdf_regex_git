@@ -1,0 +1,147 @@
+{
+  "Police_No": {
+    "pattern": "(?:POLİÇE NO.*?:\\s*(\\d{9})|POLİÇE NO\\s+(\\d{9}))",
+    "group": 1,
+    "description": "Policy number extraction - handles both key-value format (POLİÇE NO : 172224254) and table format"
+  },
+  "Police_Onceki_No": {
+    "pattern": "ÖNCEKİ POL\\.NO\\s*:\\s*([0-9]+)",
+    "group": 1,
+    "description": "Previous policy number"
+  },
+  "Police_Baslangic_Tarihi": {
+    "pattern": "(?:SİGORTA BAŞLANGIÇ TARİHİ\\s*:\\s*|SİGORTA BAŞLANGICI-SONU[\\s\\S]*?)([0-9]{2}/[0-9]{2}/[0-9]{4})",
+    "group": 1,
+    "description": "Policy start date - handles both key-value format and table format"
+  },
+  "Police_Bitis_Tarihi": {
+    "pattern": "(?:SİGORTA BİTİM TARİHİ\\s*:\\s*|[0-9]{2}/[0-9]{2}/[0-9]{4}\\s*-\\s*)([0-9]{2}/[0-9]{2}/[0-9]{4})",
+    "group": 1,
+    "description": "Policy end date - handles both key-value format (SİGORTA BİTİM TARİHİ : 23/07/2026) and table format"
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "pattern": "T\\.C\\. KİMLİK NO\\s*:\\s*([0-9\\*]+)",
+    "group": 1,
+    "description": "Customer TC identity number (masked)"
+  },
+  "Sigortali_Adi": {
+    "pattern": "ADI SOYADI / ÜNVANI\\s*:\\s*([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜa-z\\s]+?)(?=\\n)",
+    "group": 1,
+    "description": "Customer full name"
+  },
+  "Sigortali_Adresi": {
+    "pattern": "ADI SOYADI.*?\\n.*?ADRESİ\\s*:\\s*([A-ZÇĞİÖŞÜa-z0-9\\s\\.:/-]+?)(?=\\n)",
+    "group": 1,
+    "description": "Customer address"
+  },
+  "Sigortali_GSM": {
+    "pattern": "GSM\\s*:\\s*([0-9\\s]+?)(?=\\n)",
+    "group": 1,
+    "description": "Customer mobile phone"
+  },
+  "Sigortali_Meslegi": {},
+  "Sigortali_Musteri_No": {
+    "pattern": "MÜŞTERİ NO\\s*:\\s*(\\d+)",
+    "group": 1,
+    "description": "Customer number from key-value format"
+  },
+  "Sigortali_Vergi_No": {
+    "pattern": "VERGİ DAİRESİ / NO\\s*:\\s*([\\*0-9]+)",
+    "group": 1,
+    "description": "Customer tax office number (may be masked with asterisks)"
+  },
+  "SBM_Bim_Reference_No": {
+    "pattern": "BİM REF NO\\s*:\\s*([A-Za-z0-9+/=]+)",
+    "group": 1,
+    "description": "BIM reference number from key-value format"
+  },
+  "Arac_Plaka_No": {
+    "pattern": "PLAKA\\s*:\\s*([0-9]{2,3}\\s*[A-Z]{1,3}(?:\\s*[0-9]{2,4})?)",
+    "group": 1,
+    "description": "Vehicle license plate - handles both complete plates (34 ABC123) and incomplete plates (07 YK)"
+  },
+  "Arac_Motor_No": {
+    "pattern": "(?:MOTOR NOŞASİ NO\\s*::\\s*|MOTOR NO\\s*::\\s*|MOTOR NO\\s*\\n.*?:\\s*\\n)([A-Z0-9]+)",
+    "group": 1,
+    "description": "Vehicle motor/engine number - handles horizontal format (MOTOR NO :: value), combined format, and vertical format"
+  },
+  "Arac_Sasi_No": {
+    "pattern": "(?:ŞASİ NO\\s*\\n.*?\\n.*?|MOTOR NOŞASİ NO\\s*::\\s*[A-Z0-9]+|ŞASİ NO\\s*\\n.*?:\\s*\\n[A-Z0-9]+\\n)([A-Z0-9]{17})",
+    "group": 1,
+    "description": "Vehicle chassis number - handles separate format, combined format, and vertical format"
+  },
+  "Arac_Marka_Tip": {
+    "pattern": "(?:MARKASI\\s*:\\s*([A-Z][A-Z\\s\\(\\)-]+?)(?=\\s*\\n)|MARKASI\\s*\\n\\s*:\\s*([A-Z][A-Z\\s\\(\\)-]+?)(?=\\s*\\n)|PLAKA\\s*\\n:[^\\n]+\\n([A-Z][A-Z\\s\\(\\)]+?)(?=\\s*\\nMODEL))",
+    "group": 0,
+    "description": "Vehicle brand name - handles horizontal format, vertical format, and after-plate format with specific patterns"
+  },
+  "Arac_Model": {
+    "pattern": "TİPİ\\s*:\\s*([A-Z0-9][A-Z0-9\\s\\.\\(\\)]+?)(?=\\n)",
+    "group": 1,
+    "description": "Vehicle model type"
+  },
+  "Arac_Model_Yili": {
+    "pattern": "MODEL\\s*:\\s*(\\d{4})",
+    "group": 1,
+    "description": "Vehicle model year"
+  },
+  "Arac_Kullanim_Sekli": {
+    "pattern": "KULLANIM AMACI\\s*:\\s*([A-ZÇĞİÖŞÜ]+)",
+    "group": 1,
+    "description": "Vehicle usage type"
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "patterns": [
+      "CAM SERVİSİ MUAFİYET KLOZU\\s*\\n(Cam Hasarlarına ilişkin özel bir muafiyet uygulaması bulunmamaktadır\\.[^\\n]*)",
+      "CAM SERVİSİ MUAFİYET KLOZU\\s*\\n((?:İşbu poliçe ile |)sigortalının anlaşmalı cam servislerimiz dışında cam değiştirmesi durumunda[\\s\\S]*?karşılanacaktır\\.)"
+    ],
+    "mode": "first",
+    "description": "Glass coverage clause - captures either no deduction clause or deduction clause with variable percentages and amounts"
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "pattern": "MADDİ BEDENİ AYRIMI YAPILMAKSIZIN\\s*([0-9,\\.]+)",
+    "group": 1,
+    "description": "IMM coverage amount"
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "pattern": "MANEVİ TAZMİNAT\\s*([0-9,\\.]+)",
+    "group": 1,
+    "description": "Manevi tazminat coverage amount"
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "pattern": "HASARSIZLIK İNDİR\\. KORUMA\\s*(DAHİL)",
+    "group": 1,
+    "description": "No-claims protection coverage"
+  },
+  "Teminat_Yedek_Parca": {
+    "patterns": [
+      "PARÇA TÜRÜ\\s*\\n(Araçta Hasar Gören Parçanın orijinal olması durumunda[\\s\\S]*?muadil parça kullanılacaktır\\.)",
+      "PARÇA TÜRÜ\\s*\\n(Sigortalı aracın\\s*\\npoliçe vadesi içerisinde meydana gelebilecek[\\s\\S]*?kabul edilmiştir\\.)"
+    ],
+    "mode": "first",
+    "description": "Spare parts policy clause - captures either format: standard original/equivalent parts clause or detailed clause about part types and pricing agreements"
+  },
+  "Teminat_Ikame_Arac": {
+    "pattern": "B/C SEGMENT\\s*(\\d+X\\d+)\\s*GÜN",
+    "group": 1,
+    "description": "Replacement vehicle coverage (e.g., 2X14, 2X7)"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "pattern": "HASARSIZLIK İNDİRİMİ\\s*:\\s*%\\s*(\\d+)",
+    "group": 1,
+    "description": "No-claims discount percentage"
+  },
+  "Teminat_Hasarsizlik_Koruma": {
+    "pattern": "HASARSIZLIK İNDİR\\.\\s*KORUMA\\s*\\n(DAHİL|DAHIL|Dahil)",
+    "group": 1,
+    "description": "No-claims discount protection status - captures DAHİL when coverage exists, null when not available"
+  },
+  "Teminat_Servis_Secimi": {
+    "patterns": [
+      "SERVİS KLOZU\\s*\\n(İşbu poliçe ile Sigortalının[\\s\\S]*?uygulanmayacaktır\\.)",
+      "ÖZEL SERVİS KLOZU\\s*\\n(Bu poliçe hasar halinde[\\s\\S]*?muafiyet uygulanır\\.)"
+    ],
+    "mode": "first",
+    "description": "Service selection clause - captures either flexible service choice with no deduction or restricted to special services with penalty for authorized services"
+  }
+}

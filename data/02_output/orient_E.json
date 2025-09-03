@@ -1,0 +1,359 @@
+{
+  "Police_No": {
+    "Orient_E_128207849_64263026": "64263026",
+    "Orient_E_128217760_64094897": "64094897",
+    "Orient_E_128231888_64248757": "64248757",
+    "Orient_E_128244257_63946580": "63946580",
+    "Orient_E_128273809_64033662": "64033662",
+    "Orient_E_128278806_64142375": "64142375",
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": "64324525",
+    "Orient_E_128308729_64315161": "64315161"
+  },
+  "Police_Onceki_No": {
+    "Orient_E_128207849_64263026": "160605137",
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": "256091028818",
+    "Orient_E_128244257_63946580": "151161040",
+    "Orient_E_128273809_64033662": "742431993",
+    "Orient_E_128278806_64142375": "307000120110906",
+    "Orient_E_128299643_64247572": "60673139",
+    "Orient_E_128302216_64324525": "17352901",
+    "Orient_E_128308729_64315161": "18527159"
+  },
+  "Police_Baslangic_Tarihi": {
+    "Orient_E_128207849_64263026": "21/07/2025",
+    "Orient_E_128217760_64094897": "21/07/2025",
+    "Orient_E_128231888_64248757": "21/07/2025",
+    "Orient_E_128244257_63946580": "21/07/2025",
+    "Orient_E_128273809_64033662": "21/07/2025",
+    "Orient_E_128278806_64142375": "22/07/2025",
+    "Orient_E_128299643_64247572": "02/08/2025",
+    "Orient_E_128302216_64324525": "29/07/2025",
+    "Orient_E_128308729_64315161": "05/08/2025"
+  },
+  "Police_Bitis_Tarihi": {
+    "Orient_E_128207849_64263026": "21/07/2025",
+    "Orient_E_128217760_64094897": "21/07/2025",
+    "Orient_E_128231888_64248757": "21/07/2025",
+    "Orient_E_128244257_63946580": "21/07/2025",
+    "Orient_E_128273809_64033662": "21/07/2025",
+    "Orient_E_128278806_64142375": "22/07/2025",
+    "Orient_E_128299643_64247572": "02/08/2025",
+    "Orient_E_128302216_64324525": "29/07/2025",
+    "Orient_E_128308729_64315161": "05/08/2025"
+  },
+  "Sigortali_TC_Kimlik_No": {
+    "Orient_E_128207849_64263026": "19*******68",
+    "Orient_E_128217760_64094897": "40*******30",
+    "Orient_E_128231888_64248757": "26*******28",
+    "Orient_E_128244257_63946580": "33*******60",
+    "Orient_E_128273809_64033662": "45*******44",
+    "Orient_E_128278806_64142375": "48*******52",
+    "Orient_E_128299643_64247572": "18*******70",
+    "Orient_E_128302216_64324525": "59*******04",
+    "Orient_E_128308729_64315161": "31*******58"
+  },
+  "Sigortali_Adi": {
+    "Orient_E_128207849_64263026": "GÜLSÜM ÖZÇINAR",
+    "Orient_E_128217760_64094897": "MUSA ESMER",
+    "Orient_E_128231888_64248757": "ABDULLAH TUTGUN",
+    "Orient_E_128244257_63946580": "DOĞUKAN KORKMAZ",
+    "Orient_E_128273809_64033662": "EVRİM AĞU",
+    "Orient_E_128278806_64142375": "REYHAN AKAR",
+    "Orient_E_128299643_64247572": "GÜRAY GÜNYAR",
+    "Orient_E_128302216_64324525": "AYSUN ŞEKER",
+    "Orient_E_128308729_64315161": "VEYSEL KARSLI"
+  },
+  "Sigortali_Adresi": {
+    "Orient_E_128207849_64263026": "YENİŞEHİR MAH. - DOĞAN SK. - 4  8  POSTA KODU : 0 \nAKÇAKALE  AKÇAKALE / ŞANLIURFA",
+    "Orient_E_128217760_64094897": "BEYOĞLU / İSTANBUL",
+    "Orient_E_128231888_64248757": "SANCAKTEPE / İSTANBUL",
+    "Orient_E_128244257_63946580": "ALTINDAĞ / ANKARA",
+    "Orient_E_128273809_64033662": "ŞAHİNBEY / GAZİANTEP",
+    "Orient_E_128278806_64142375": "BAYRAKLI / İZMİR",
+    "Orient_E_128299643_64247572": "BALÇOVA / İZMİR",
+    "Orient_E_128302216_64324525": "ETİMESGUT / ANKARA",
+    "Orient_E_128308729_64315161": "SANCAKTEPE / İSTANBUL"
+  },
+  "Sigortali_Eposta": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Sigortali_GSM": {
+    "Orient_E_128207849_64263026": "5555306830",
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": "5536735548",
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Sigortali_Meslegi": {
+    "Orient_E_128207849_64263026": "OGRETMEN",
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": "OGRETMEN",
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Sigortali_Musteri_No": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Sigortali_Vergi_No": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "SBM_Tramer_Belge_No": {
+    "Orient_E_128207849_64263026": "761969090",
+    "Orient_E_128217760_64094897": "761910024",
+    "Orient_E_128231888_64248757": "761975797",
+    "Orient_E_128244257_63946580": "762040467",
+    "Orient_E_128273809_64033662": "762175609",
+    "Orient_E_128278806_64142375": "762183148",
+    "Orient_E_128299643_64247572": "762298191",
+    "Orient_E_128302216_64324525": "762306298",
+    "Orient_E_128308729_64315161": "762349183"
+  },
+  "SBM_Bim_Reference_No": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Arac_Plaka_No": {
+    "Orient_E_128207849_64263026": "34BDH061",
+    "Orient_E_128217760_64094897": "34EIE460",
+    "Orient_E_128231888_64248757": "49AAL028",
+    "Orient_E_128244257_63946580": "34ZF3472",
+    "Orient_E_128273809_64033662": "06DAJ196",
+    "Orient_E_128278806_64142375": "35DRZ08",
+    "Orient_E_128299643_64247572": "35JJ589",
+    "Orient_E_128302216_64324525": "42AJK290",
+    "Orient_E_128308729_64315161": "34KM4469"
+  },
+  "Arac_Motor_No": {
+    "Orient_E_128207849_64263026": "DDY657414",
+    "Orient_E_128217760_64094897": "DLA718649",
+    "Orient_E_128231888_64248757": "552603847556841",
+    "Orient_E_128244257_63946580": "K9KN837D212307",
+    "Orient_E_128273809_64033662": "L15BG2778125",
+    "Orient_E_128278806_64142375": "DPCH94609",
+    "Orient_E_128299643_64247572": "DDY272101",
+    "Orient_E_128302216_64324525": "DLA903210",
+    "Orient_E_128308729_64315161": "10JBFM0264480"
+  },
+  "Arac_Sasi_No": {
+    "Orient_E_128207849_64263026": "TMBAG6NE6J0275042",
+    "Orient_E_128217760_64094897": "TMBER6NW5M3154137",
+    "Orient_E_128231888_64248757": "NM435600006C02713",
+    "Orient_E_128244257_63946580": "VF1LZLF0E54108217",
+    "Orient_E_128273809_64033662": "MRHFE1640NP072296",
+    "Orient_E_128278806_64142375": "WVGZZZA1ZNV137538",
+    "Orient_E_128299643_64247572": "WAUZZZ8V2H1072256",
+    "Orient_E_128302216_64324525": "VSSZZZKJZNR005484",
+    "Orient_E_128308729_64315161": "VF3DD9HP0GJ792409"
+  },
+  "Arac_Marka_Tip": {
+    "Orient_E_128207849_64263026": "SKODA",
+    "Orient_E_128217760_64094897": "SKODA",
+    "Orient_E_128231888_64248757": "TOFAS",
+    "Orient_E_128244257_63946580": "RENAULT",
+    "Orient_E_128273809_64033662": "HONDA",
+    "Orient_E_128278806_64142375": "VOLKSWAGEN",
+    "Orient_E_128299643_64247572": "AUDI",
+    "Orient_E_128302216_64324525": "SEAT",
+    "Orient_E_128308729_64315161": "PEUGEOT"
+  },
+  "Arac_Model": {
+    "Orient_E_128207849_64263026": "OCTAVIA 1.6 TDI CR 115 \nDSG OPTIMAL",
+    "Orient_E_128217760_64094897": "SCALA 1.0 TSI 110 DSG \nPREMIUM",
+    "Orient_E_128231888_64248757": "EGEA URBAN 1.6 M.JET \n120",
+    "Orient_E_128244257_63946580": "FLUENCE TOUCH 1.5 DCI \n110 EDC",
+    "Orient_E_128273809_64033662": "CIVIC SEDAN 1.5 129 \nECO AT ELEGANCE",
+    "Orient_E_128278806_64142375": "T-ROC 1.5 TSI 150 DSG \nR-LINE",
+    "Orient_E_128299643_64247572": "A3 SEDAN 1.6 TDI 116 \nDYNAMIC S TRONIC",
+    "Orient_E_128302216_64324525": "IBIZA 1.0 ECOTSI 110 \nDSG STYLE",
+    "Orient_E_128308729_64315161": "301 ALLURE 1.6 HDI 92"
+  },
+  "Arac_Model_Yili": {
+    "Orient_E_128207849_64263026": "2018",
+    "Orient_E_128217760_64094897": "2021",
+    "Orient_E_128231888_64248757": "2016",
+    "Orient_E_128244257_63946580": "2015",
+    "Orient_E_128273809_64033662": "2022",
+    "Orient_E_128278806_64142375": "2022",
+    "Orient_E_128299643_64247572": "2017",
+    "Orient_E_128302216_64324525": "2021",
+    "Orient_E_128308729_64315161": "2016"
+  },
+  "Arac_Kullanim_Sekli": {
+    "Orient_E_128207849_64263026": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128217760_64094897": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128231888_64248757": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128244257_63946580": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128273809_64033662": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128278806_64142375": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128299643_64247572": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128302216_64324525": "Kiralık,Hatlı,Sür.Kursu Değil",
+    "Orient_E_128308729_64315161": "Kiralık,Hatlı,Sür.Kursu Değil"
+  },
+  "Arac_Marka_Kodu": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Arac_Engelli_Mi": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": null,
+    "Orient_E_128278806_64142375": null,
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": null,
+    "Orient_E_128308729_64315161": null
+  },
+  "Teminat_Oto_Cam_Klozu": {
+    "Orient_E_128207849_64263026": null,
+    "Orient_E_128217760_64094897": "CAM HASARLARI KLOZU\nİşbu poliçe ile sigortalanmış bulunan aracın oto cam hasarlarında herhangi bir muafiyet uygulanmayacaktır",
+    "Orient_E_128231888_64248757": null,
+    "Orient_E_128244257_63946580": null,
+    "Orient_E_128273809_64033662": "CAM HASARLARI KLOZU\nİşbu poliçe ile sigortalanmış bulunan aracın oto cam hasarlarında herhangi bir muafiyet uygulanmayacaktır",
+    "Orient_E_128278806_64142375": "CAM HASARLARI KLOZU\nİşbu poliçe ile sigortalanmış bulunan aracın oto cam hasarlarında herhangi bir muafiyet uygulanmayacaktır",
+    "Orient_E_128299643_64247572": null,
+    "Orient_E_128302216_64324525": "CAM HASARLARI KLOZU\nİşbu poliçe ile sigortalanmış bulunan aracın oto cam hasarlarında herhangi bir muafiyet uygulanmayacaktır",
+    "Orient_E_128308729_64315161": null
+  },
+  "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "Orient_E_128207849_64263026": "5.000.000",
+    "Orient_E_128217760_64094897": "1.000.000",
+    "Orient_E_128231888_64248757": "500.000",
+    "Orient_E_128244257_63946580": "3.000.000",
+    "Orient_E_128273809_64033662": "2.500.000",
+    "Orient_E_128278806_64142375": "5.000.000",
+    "Orient_E_128299643_64247572": "1.500.000",
+    "Orient_E_128302216_64324525": "5.000.000",
+    "Orient_E_128308729_64315161": "1.000.000"
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "Orient_E_128207849_64263026": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128217760_64094897": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128231888_64248757": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128244257_63946580": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128273809_64033662": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128278806_64142375": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128299643_64247572": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128302216_64324525": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ],
+    "Orient_E_128308729_64315161": [
+      "Manevi tazminat talepleri iş bu poliçe",
+      "teminatları kapsamına dahil değildir"
+    ]
+  },
+  "Teminat_Indirim_Arttırim_Bilgileri": {
+    "Orient_E_128207849_64263026": "PEŞİN İNDİRİMİ :\n%7\nHASARSIZLIK \nİNDİRİMİ :\n2.KADEME",
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": "MESLEK INDIRIMI :\n%10\nÖZEL MÜŞTERİ İND \n:\n%20\nHASARSIZLIK \nİNDİRİMİ :\n1.KADEME",
+    "Orient_E_128244257_63946580": "HASARSIZLIK \nİNDİRİMİ :\n2.KADEME",
+    "Orient_E_128273809_64033662": "HASARSIZLIK \nİNDİRİMİ :\n5.KADEME",
+    "Orient_E_128278806_64142375": "HASARSIZLIK \nİNDİRİMİ :\n3.KADEME",
+    "Orient_E_128299643_64247572": "HASARSIZLIK \nİNDİRİMİ :\n5.KADEME",
+    "Orient_E_128302216_64324525": "HASARSIZLIK \nİNDİRİMİ :\n5.KADEME",
+    "Orient_E_128308729_64315161": "MESLEK INDIRIMI :\n%5\nÖZEL MÜŞTERİ İND \n:\n%20\nHASARSIZLIK \nİNDİRİMİ :\n1.KADEME"
+  },
+  "Teminat_Ikame_Arac": {
+    "Orient_E_128207849_64263026": "14",
+    "Orient_E_128217760_64094897": "14",
+    "Orient_E_128231888_64248757": "14",
+    "Orient_E_128244257_63946580": "14",
+    "Orient_E_128273809_64033662": "14",
+    "Orient_E_128278806_64142375": "14",
+    "Orient_E_128299643_64247572": "14",
+    "Orient_E_128302216_64324525": "14",
+    "Orient_E_128308729_64315161": "14"
+  },
+  "Teminat_Yedek_Parca": {
+    "Orient_E_128207849_64263026": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128217760_64094897": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128231888_64248757": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128244257_63946580": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128273809_64033662": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128278806_64142375": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128299643_64247572": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128302216_64324525": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir",
+    "Orient_E_128308729_64315161": "TEDARİK PARÇA TÜRÜ\nOrjinal parça; araç markası tarafından üretilen ya da uygunluğu onaylanan araç parçalarıdır. Onarımı mümkün olmayan ve değişimine karar verilen hasarlı parçalar için \nsigortacı tarafından orijinal parça tedarik edilir"
+  },
+  "Teminat_Hasar_Kademesi_Bilgisi": {
+    "Orient_E_128207849_64263026": "2",
+    "Orient_E_128217760_64094897": null,
+    "Orient_E_128231888_64248757": "1",
+    "Orient_E_128244257_63946580": "2",
+    "Orient_E_128273809_64033662": "5",
+    "Orient_E_128278806_64142375": "3",
+    "Orient_E_128299643_64247572": "5",
+    "Orient_E_128302216_64324525": "5",
+    "Orient_E_128308729_64315161": "1"
+  }
+}
