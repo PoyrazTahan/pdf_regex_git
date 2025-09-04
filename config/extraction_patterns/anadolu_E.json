@@ -138,5 +138,9 @@
     "mode": "first",
     "description": "Service selection clauses - Pattern 1: Complete coverage (authorized + special services with penalties for non-contracted authorized), Pattern 2: Special service only coverage, Pattern 3: Authorized service only coverage (fallback if exists)"
   },
-  "Teminat_Hasarsizlik_Koruma": {}
+  "Teminat_Hasarsizlik_Koruma": {},
+  "Police_Gross_Price": {
+    "pattern": "ÖDENECEK TUTAR\\s*\\s*([0-9,\\.]+)",
+    "group": 1
+  }
 }

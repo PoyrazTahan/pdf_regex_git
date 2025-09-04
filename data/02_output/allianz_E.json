@@ -463,5 +463,20 @@
     "allianz_E_128304939_1021062390329": null,
     "allianz_E_128308487_1021062391145": null,
     "allianz_E_128310991_1021062391238": "Poliçe süresi içinde 1 adet cam kırılması hasarı, %100 rüculu. hasarlar ve diğer bir hasar meydana gelmesi\nhalinde, poliçe yenilenirken hasarsızlık indirimi korunarak mevcut poliçedeki hasarsızlık kademesi üzerinden\ndevam edilecektir."
+  },
+  "Police_Gross_Price": {
+    "allianz_E_00000000_1021061680951": "7,954.41",
+    "allianz_E_119837036_1021061671414": "13,770.19",
+    "allianz_E_119842266_1021061673999": "5,705.89",
+    "allianz_E_119863652_1021061673041": "13,168.21",
+    "allianz_E_128277942_1021062387608": "24,734.35",
+    "allianz_E_128294536_1021062389312": "25,011.52",
+    "allianz_E_128298391_1021062389684": "11,474.35",
+    "allianz_E_128298447_1021062389553": "50,180.98",
+    "allianz_E_128300958_1021062389882": "13,243.07",
+    "allianz_E_128302952_1021062391423": "23,873.10",
+    "allianz_E_128304939_1021062390329": "19,474.90",
+    "allianz_E_128308487_1021062391145": "12,598.29",
+    "allianz_E_128310991_1021062391238": "13,336.39"
   }
 }

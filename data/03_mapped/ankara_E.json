@@ -307,14 +307,25 @@
     "ankara_E_128308648_172363229": "Tüm Yetkili Servisler ve Özel Servisler",
     "ankara_E_128310123_171728983": "Tüm Yetkili Servisler ve Özel Servisler"
   },
+  "Police_Gross_Price": {
+    "ankara_E_128284993_172225481": 3917.47,
+    "ankara_E_128285445_172224254": 10281.22,
+    "ankara_E_128293167_172248646": 6691.44,
+    "ankara_E_128298059_172300130": 14974.35,
+    "ankara_E_128300319_172326667": 7795.04,
+    "ankara_E_128301089_172316188": 7760.4,
+    "ankara_E_128303719_172184055": 8654.28,
+    "ankara_E_128308648_172363229": 9126.6,
+    "ankara_E_128310123_171728983": 10951.63
+  },
   "_mapping_metadata": {
     "company": "ankara_E",
     "config_version": "1.0",
     "processing_stats": {
-      "total_fields": 28,
-      "mapped_fields": 28,
+      "total_fields": 29,
+      "mapped_fields": 29,
       "errors": []
     },
-    "timestamp": "2025-09-03T11:14:41.670857"
+    "timestamp": "2025-09-04T11:12:45.435623"
   }
 }

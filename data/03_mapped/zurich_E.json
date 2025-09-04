@@ -351,14 +351,25 @@
     "zurich_E_128303456_30673918": "Var",
     "zurich_E_128306014_30674041": "Var"
   },
+  "Police_Gross_Price": {
+    "zurich_E_128284821_30672016": 10808.32,
+    "zurich_E_128285573_30672131": 6300.02,
+    "zurich_E_128288411_30673347": 11009.93,
+    "zurich_E_128291452_30672939": 9379.16,
+    "zurich_E_128292537_30672997": 8766.74,
+    "zurich_E_128296932_30673517": 13338.16,
+    "zurich_E_128299033_30673611": 16815.99,
+    "zurich_E_128303456_30673918": 17782.62,
+    "zurich_E_128306014_30674041": 9035.88
+  },
   "_mapping_metadata": {
     "company": "zurich_E",
     "config_version": "2.0",
     "processing_stats": {
-      "total_fields": 32,
-      "mapped_fields": 32,
+      "total_fields": 33,
+      "mapped_fields": 33,
       "errors": []
     },
-    "timestamp": "2025-09-03T11:14:49.134841"
+    "timestamp": "2025-09-04T15:15:08.235375"
   }
 }

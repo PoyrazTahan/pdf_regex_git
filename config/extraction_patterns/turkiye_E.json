@@ -89,5 +89,9 @@
   "Teminat_Hasar_Kademesi_Bilgisi": {
     "pattern": "İNDİRİM/ ARTTIRIM BİLGİLERİ\\s*\\n(?:(\\d+)\\. kademe |())Hasarsızlık İndirimi",
     "group": 1
+  },
+  "Police_Gross_Price": {
+    "pattern": "TOPLAM BRÜT PRİM\\s*\\s*([0-9,\\.]+)",
+    "group": 1
   }
 }

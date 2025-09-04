@@ -115,5 +115,9 @@
     "group": 1,
     "description": "Service selection and deduction terms - captures complete clause describing AXA service network (ASU, AGS, ATU) and deduction policies for non-contracted services"
   },
-  "Teminat_Hasarsizlik_Koruma": {}
+  "Teminat_Hasarsizlik_Koruma": {},
+  "Police_Gross_Price": {
+    "pattern": "ÖDENECEK PRİM\\s*\\s*([0-9,\\.]+)",
+    "group": 1
+  }
 }

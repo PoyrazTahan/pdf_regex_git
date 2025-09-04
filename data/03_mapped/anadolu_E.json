@@ -383,14 +383,26 @@
     "anadolu_E_128299624_1341722625": "Yok",
     "anadolu_E_128301654_1341722525": "Yok"
   },
+  "Police_Gross_Price": {
+    "anadolu_E_128235850_1338875325": 25340.0,
+    "anadolu_E_128237662_1338875725": 15350.0,
+    "anadolu_E_128243446_1338876225": 14140.0,
+    "anadolu_E_128254487_1338815725": 13650.0,
+    "anadolu_E_128281144_1338879725": 23320.0,
+    "anadolu_E_128288432_1338839425": 16970.0,
+    "anadolu_E_128288531_1338749425": 61960.0,
+    "anadolu_E_128294361_1338738725": 11540.0,
+    "anadolu_E_128299624_1341722625": 25980.0,
+    "anadolu_E_128301654_1341722525": 28330.0
+  },
   "_mapping_metadata": {
     "company": "anadolu_E",
     "config_version": "1.0",
     "processing_stats": {
-      "total_fields": 32,
-      "mapped_fields": 32,
+      "total_fields": 33,
+      "mapped_fields": 33,
       "errors": []
     },
-    "timestamp": "2025-09-03T11:14:41.070312"
+    "timestamp": "2025-09-04T11:10:35.108407"
   }
 }

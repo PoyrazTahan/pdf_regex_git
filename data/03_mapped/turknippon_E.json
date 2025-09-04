@@ -359,14 +359,26 @@
     "turknippon_E_127129055_178551004": null,
     "turknippon_E_127130522_178552738": null
   },
+  "Police_Gross_Price": {
+    "turknippon_E_127085895_178480190": 6050.75,
+    "turknippon_E_127096390_178496894": 11444.3,
+    "turknippon_E_127102313_178506139": 18743.83,
+    "turknippon_E_127112233_178521999": 8238.08,
+    "turknippon_E_127118509_178534255": 13065.57,
+    "turknippon_E_127121357_178538573": 5413.14,
+    "turknippon_E_127125708_178543708": 12539.28,
+    "turknippon_E_127128547_178550351": 6721.4,
+    "turknippon_E_127129055_178551004": 8387.95,
+    "turknippon_E_127130522_178552738": 6048.36
+  },
   "_mapping_metadata": {
     "company": "turknippon_E",
     "config_version": "2.0",
     "processing_stats": {
-      "total_fields": 30,
-      "mapped_fields": 30,
+      "total_fields": 31,
+      "mapped_fields": 31,
       "errors": []
     },
-    "timestamp": "2025-09-03T11:14:48.225613"
+    "timestamp": "2025-09-04T15:10:44.780465"
   }
 }

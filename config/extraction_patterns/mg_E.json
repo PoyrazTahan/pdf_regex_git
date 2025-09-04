@@ -120,5 +120,9 @@
     "pattern": "HASARSIZLIK İNDİRİMİ\\s*\\n:\\s*([^\\n]+)",
     "group": 1,
     "description": "No-claims discount level"
+  },
+  "Police_Gross_Price": {
+    "pattern": "ÖDENECEK TOPLAM PRİM\\s*:\\s*([0-9,\\.]+)",
+    "group": 1
   }
 }

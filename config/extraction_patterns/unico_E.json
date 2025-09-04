@@ -119,5 +119,9 @@
     "pattern": "HASARSIZLIK İND\\s*\\n:\\s*(\\d+\\.BASAMAK)",
     "group": 1,
     "description": "No-claims discount level/step"
+  },
+  "Police_Gross_Price": {
+    "pattern": "BRÜT PRİM\\s*\\s*([0-9,\\.]+)",
+    "group": 1
   }
 }

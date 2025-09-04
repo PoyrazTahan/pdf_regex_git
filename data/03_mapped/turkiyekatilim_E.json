@@ -359,14 +359,26 @@
     "turkiyekatilim_E_128304463_8147639": "%65",
     "turkiyekatilim_E_128306761_8149287": "%40"
   },
+  "Police_Gross_Price": {
+    "turkiyekatilim_E_128192488_8084173": 9975.0,
+    "turkiyekatilim_E_128282456_8049825": 13337.75,
+    "turkiyekatilim_E_128287637_8137006": 15865.13,
+    "turkiyekatilim_E_128294888_8142267": 11688.06,
+    "turkiyekatilim_E_128295228_8140269": 11786.83,
+    "turkiyekatilim_E_128296437_8141825": 15772.55,
+    "turkiyekatilim_E_128299965_8134180": 11970.0,
+    "turkiyekatilim_E_128302428_8146222": 15223.28,
+    "turkiyekatilim_E_128304463_8147639": 10972.5,
+    "turkiyekatilim_E_128306761_8149287": 24746.28
+  },
   "_mapping_metadata": {
     "company": "turkiyekatilim_E",
     "config_version": "2.0",
     "processing_stats": {
-      "total_fields": 30,
-      "mapped_fields": 30,
+      "total_fields": 31,
+      "mapped_fields": 31,
       "errors": []
     },
-    "timestamp": "2025-09-03T11:14:47.809860"
+    "timestamp": "2025-09-04T15:09:20.616488"
   }
 }

@@ -143,5 +143,9 @@
     ],
     "mode": "first",
     "description": "Service selection clause - captures either flexible service choice with no deduction or restricted to special services with penalty for authorized services"
+  },
+  "Police_Gross_Price": {
+    "pattern": "ÖDENECEK\\s*:\\s*([0-9,\\.]+)",
+    "group": 1
   }
 }

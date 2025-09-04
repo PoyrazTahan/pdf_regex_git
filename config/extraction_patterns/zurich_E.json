@@ -110,5 +110,9 @@
   "Teminat_Hasarsizlik_Koruma": {
     "pattern": "HASARSIZLIK KORUMA KLOZU:",
     "group": 0
+  },
+  "Police_Gross_Price": {
+    "pattern": "BRÜT PRİM\\(TL\\)\\s*([0-9,\\.]+)\\s*:",
+    "group": 1
   }
 }

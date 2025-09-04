@@ -85,6 +85,11 @@
           "output": "7"
         }
       ]
+    },
+    "Police_Gross_Price": {
+      "type": "numeric_conversion",
+      "output_type": "float",
+      "turkish_format": false
     }
   }
 }

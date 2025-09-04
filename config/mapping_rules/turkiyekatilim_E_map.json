@@ -155,6 +155,11 @@
           "output": "Orijinal Cam Yok & Hasar Muafiyetli"
         }
       ]
+    },
+    "Police_Gross_Price": {
+      "type": "numeric_conversion",
+      "output_type": "float",
+      "turkish_format": false
     }
   }
 }

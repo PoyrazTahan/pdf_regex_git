@@ -94,5 +94,9 @@
   "Teminat_Hasar_Kademesi_Bilgisi": {
     "pattern": "HASARSIZLIK İNDİRİMİ\\s*([0-9]+)",
     "group": 1
+  },
+  "Police_Gross_Price": {
+    "pattern": "TOPLAM NET PRİM\\s*\\s*([0-9,\\.]+)",
+    "group": 1
   }
 }
