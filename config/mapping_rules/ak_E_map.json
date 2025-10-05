@@ -14,7 +14,7 @@
       "turkish_format": true,
       "mappings": [
         {
-          "input_pattern": "SINIRSIZ İMM",
+          "input_pattern": "SINIRSIZ",
           "output": 9999999999
         }
       ]
@@ -30,20 +30,11 @@
       "turkish_format": true
     },
     "Teminat_Ikame_Arac": {
-      "type": "extract_normalize",
-      "array_handling": "extract_from_all",
-      "extract_patterns": [
-        {
-          "pattern": "(\\d+) gün süreyle",
-          "group": 1
-        }
-      ],
+      "type": "pattern_to_value",
       "mappings": [
-        { "input": "30", "output": "30" },
-        { "input": "7", "output": "7" }
+        { "input_pattern": null, "output": "0" }
       ],
-      "default": "-",
-      "description": "Extract maximum duration from replacement vehicle text, prioritize longest duration if multiple values"
+      "description": "Extraction sayı dönerse aynen korunur; null ise 0’a çevrilir."
     },
     "Teminat_Yedek_Parca": {
       "type": "fixed_value",
@@ -58,22 +49,12 @@
     "Teminat_Oto_Cam_Klozu": {
       "type": "pattern_to_value",
       "mappings": [
-        {
-          "pattern": "muafiyet uygulanmayacaktır",
-          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
-        },
-        {
-          "pattern": "hasarın % \\d+ si.*sigortalı.*ödenir",
-          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
-        },
-        {
-          "pattern": "1\\.500 -TL den az olmamak kaydıyla.*sigortalı.*ödenir",
-          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
-        }
+        { "input_pattern": "muafiyet uygulanmayacaktır", "output": "Orijinal Cam Var & Hasar Muafiyetsiz" },
+        { "input_pattern": "Maruz kalınacak oto cam hasarlarında, sigortalımızın anlaşmalı cam\nservislerimizden başka yerlerde cam değiştirmesi ya da tamir ettirmesi durumunda\nher bir hasarda, hasarın % 20 si (1.500 -TL den az olmamak kaydıyla) sigortalı\ntarafından ödenir.",                    "output": "Orijinal Cam Yok & Hasar Muafiyetli" }
       ],
-      "default": "Orijinal Cam Var & Hasar Muafiyetsiz",
-      "description": "Map glass coverage clauses to standardized coverage types"
+      "description": "Cümlede ‘muafiyet uygulanmayacaktır’ varsa muafiyetsiz; ‘…ödenir.’ varsa muafiyetli olarak normalize eder."
     }
+
   },
   "transformations": {
     "format_turkish_amount": {

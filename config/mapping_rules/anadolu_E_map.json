@@ -15,27 +15,12 @@
       "description": "Field mapping for anadolu_E"
     },
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
-      "type": "numeric_conversion",
-      "output_type": "integer",
-      "turkish_format": true
-    },
-    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "1.000.000,00",
           "output": "1000000",
           "description": "Maps extracted text to business value: 1000000"
-        },
-        {
-          "input_pattern": "15.000.000,00",
-          "output": "15000000",
-          "description": "Maps extracted text to business value: 15000000"
-        },
-        {
-          "input_pattern": "20.000.000,00",
-          "output": "20000000",
-          "description": "Maps extracted text to business value: 20000000"
         },
         {
           "input_pattern": "5.000.000,00",
@@ -46,14 +31,29 @@
           "input_pattern": "2.500.000,00",
           "output": "2500000",
           "description": "Maps extracted text to business value: 2500000"
-        },
-        {
-          "input_pattern": "10.000.000,00",
-          "output": "10000000",
-          "description": "Maps extracted text to business value: 10000000"
         }
       ],
       "description": "Field mapping for anadolu_E"
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "pattern_to_value",
+      "mappings": [
+        { "input_pattern": "Sınırsız",  "output": "9999999999" },
+        { "input_pattern": "SINIRSIZ",  "output": "9999999999" },
+        { "input_pattern": "sınırsız",  "output": "9999999999" },
+
+        { "input_pattern": "20.000.000", "output": "20000000" },
+        { "input_pattern": "15.000.000", "output": "15000000" },
+        { "input_pattern": "10.000.000", "output": "10000000" },
+        { "input_pattern": "5.000.000",  "output": "5000000"  },
+        { "input_pattern": "2.500.000",  "output": "2500000"  },
+        { "input_pattern": "1.000.000",  "output": "1000000"  },
+        { "input_pattern": "500.000",    "output": "500000"   },
+        { "input_pattern": "250.000",    "output": "250000"   },
+
+        { "input_pattern": null,          "output": "0" }
+      ],
+      "description": "IMM tutarı: noktalı yazımları noktasız tam sayıya çevirir; Sınırsız → 9999999999; null → 0."
     },
     "Teminat_Servis_Secimi": {
       "type": "pattern_to_value",
@@ -97,22 +97,15 @@
       ],
       "description": "Field mapping for anadolu_E"
     },
-    "Teminat_Oto_Cam_Klozu": {
-      "type": "pattern_to_value",
-      "mappings": [
-        {
-          "input_pattern": null,
-          "output": "Orijinal Cam Yok & Hasar Muafiyetli",
-          "description": "Maps null values to business value: Orijinal Cam Yok & Hasar Muafiyetli"
-        },
-        {
-          "input_pattern": null,
-          "output": "Orijinal Cam Var & Hasar Muafiyetsiz",
-          "description": "Maps null values to business value: Orijinal Cam Var & Hasar Muafiyetsiz"
-        }
-      ],
-      "description": "Field mapping for anadolu_E"
-    },
+  "Teminat_Oto_Cam_Klozu": {
+    "type": "pattern_to_value",
+    "mappings": [
+      { "input_pattern": "Cam Hasar Koruma Klozu", "output": "Orijinal Cam Var & Hasar Muafiyetsiz" },
+      { "input_pattern": "CAM HASAR KORUMA KLOZU", "output": "Orijinal Cam Var & Hasar Muafiyetsiz" },
+      { "input_pattern": null,                      "output": "Orijinal Cam Yok & Hasar Muafiyetli" }
+    ],
+    "description": "Başlık bulundu → muafiyetsiz, bulunamadı (null) → muafiyetli."
+  },
     "Teminat_Ikame_Arac": {
       "type": "pattern_to_value",
       "mappings": [
@@ -133,8 +126,23 @@
         },
         {
           "input_pattern": "2 kez ve azami 15 günolmak üzere Anadolu Grup 2 sınıfı ikame araç temin edilecektir",
-          "output": "[MAPPED_FROM_REGEX]",
-          "description": "Maps extracted text to business value: "
+          "output": "15",
+          "description": "Maps extracted text to business value: 15"
+        },
+        {
+          "input_pattern": "İKAMESİZ", "output": "0"
+        },
+        {
+          "input_pattern": "İkamesiz", "output": "0"
+        },
+        {
+          "input_pattern": "IKAMESIZ", "output": "0"
+        },
+        {
+          "input_pattern": "Ikamesiz", "output": "0"
+        },
+        {
+          "input_pattern": null, "output": "0"
         }
       ],
       "description": "Field mapping for anadolu_E"

@@ -8,44 +8,134 @@
       "mappings": [
         {
           "input_pattern": "DAHİL",
-          "output": "Yok"
+          "output": "Var",
+          "description": "Maps extracted text to business value: Yok"
         },
         {
           "input_pattern": null,
-          "output": "Var"
+          "output": "Yok",
+          "description": "Maps null values to business value: Var"
         }
-      ]
+      ],
+      "description": "Field mapping for ankara_E"
     },
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
-      "type": "numeric_conversion",
-      "output_type": "integer",
-      "turkish_format": false
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "250,000.00",
+          "output": "12500",
+          "description": "Maps extracted text to business value: 12500"
+        },
+        {
+          "input_pattern": "750,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        },
+        {
+          "input_pattern": "500,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        },
+        {
+          "input_pattern": "400,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        },
+        {
+          "input_pattern": "200,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        },
+        {
+          "input_pattern": "300,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        },
+        {
+          "input_pattern": "100,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        },
+        {
+          "input_pattern": "50,000.00",
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
+        }
+      ],
+      "description": "Field mapping for ankara_E"
     },
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-      "type": "numeric_conversion",
-      "output_type": "integer",
-      "turkish_format": false
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "2,500,000.00",
+          "output": "2500000",
+          "description": "Maps extracted text to business value: 2500000"
+        },
+        {
+          "input_pattern": "7,500,000.00",
+          "output": "7500000",
+          "description": "Maps extracted text to business value: 7500000"
+        },
+        {
+          "input_pattern": "5,000,000.00",
+          "output": "5000000",
+          "description": "Maps extracted text to business value: 5000000"
+        },
+        {
+          "input_pattern": "4,000,000.00",
+          "output": "4000000",
+          "description": "Maps extracted text to business value: 4000000"
+        },
+        {
+          "input_pattern": "2,000,000.00",
+          "output": "2000000",
+          "description": "Maps extracted text to business value: 2000000"
+        },
+        {
+          "input_pattern": "3,000,000.00",
+          "output": "3000000",
+          "description": "Maps extracted text to business value: 3000000"
+        },
+        {
+          "input_pattern": "1,000,000.00",
+          "output": "1000000",
+          "description": "Maps extracted text to business value: 1000000"
+        },
+        {
+          "input_pattern": "500,000.00",
+          "output": "500000",
+          "description": "Maps extracted text to business value: 500000"
+        }
+      ],
+      "description": "Field mapping for ankara_E"
     },
     "Teminat_Servis_Secimi": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": null,
-          "output": "Yalnızca Anlaşmalı Özel Servisler"
+          "output": "Yalnızca Anlaşmalı Özel Servisler",
+          "description": "Maps null values to business value: Yalnızca Anlaşmalı Özel Servisler"
         },
         {
           "input_pattern": "İşbu poliçe ile Sigortalının Anlaşmalı Özel servisler, Anlaşmalı yetkili servisler ve seçeceği herhangibir serviste onarım yaptırabilir. Servis seçiminden dolayı muafiyet uygulanmayacaktır.",
-          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+          "output": "Tüm Yetkili Servisler ve Özel Servisler",
+          "description": "Maps extracted text to business value: Tüm Yetkili Servisler ve Özel Servisler"
         },
         {
           "input_pattern": "Bu poliçe hasar halinde bütün ÖZEL servislerde geçerli olup, tüm YETKİLİ servislerde geçersizdir.Aksi durumda toplam hasar tutarı üzerinden %50 tenzili muafiyet uygulanır.",
-          "output": "[MAPPED_FROM_REGEX]"
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
         },
         {
           "input_pattern": "Bu poliçe hasar halinde bütün ÖZEL servislerde geçerli olup, tüm YETKİLİ servislerde geçersizdir. Aksidurumda toplam hasar tutarı üzerinden %50 tenzili muafiyet uygulanır.",
-          "output": "[MAPPED_FROM_REGEX]"
+          "output": "[MAPPED_FROM_REGEX]",
+          "description": "Maps extracted text to business value: "
         }
-      ]
+      ],
+      "description": "Field mapping for ankara_E"
     },
     "Teminat_Yedek_Parca": {
       "type": "pattern_to_value",
@@ -60,7 +150,8 @@
           "output": "[MAPPED_FROM_REGEX]",
           "description": "Maps extracted text to business value: "
         }
-      ]
+      ],
+      "description": "Field mapping for ankara_E"
     },
     "Teminat_Oto_Cam_Klozu": {
       "type": "pattern_to_value",
@@ -80,32 +171,23 @@
           "output": "[MAPPED_FROM_REGEX]",
           "description": "Maps extracted text to business value: "
         }
-      ]
+      ],
+      "description": "Field mapping for ankara_E"
     },
     "Teminat_Ikame_Arac": {
       "type": "pattern_to_value",
       "mappings": [
-        {
-          "input_pattern": "2X14",
-          "output": "7",
-          "description": "Maps extracted text to business value: 7"
-        },
-        {
-          "input_pattern": "2X7",
-          "output": "0",
-          "description": "Maps extracted text to business value: 0"
-        },
-        {
-          "input_pattern": null,
-          "output": "14",
-          "description": "Maps null values to business value: 14"
-        },
-        {
-          "input_pattern": null,
-          "output": "30",
-          "description": "Maps null values to business value: 30"
-        }
-      ]
+        { "input_pattern": "2X7",   "output": "7"  },
+        { "input_pattern": "2*7",   "output": "7"  },
+        { "input_pattern": "2X14",  "output": "14" },
+        { "input_pattern": "2*14",  "output": "14" },
+        { "input_pattern": "2X15",  "output": "15" },
+        { "input_pattern": "2*15",  "output": "15" },
+        { "input_pattern": "2X30",  "output": "30" },
+        { "input_pattern": "2*30",  "output": "30" },
+        { "input_pattern": null,    "output": "0"  }
+      ],
+      "description": "Token 2X*/2** biçimleri gün sayısına çevrilir; hiçbir eşleşme yoksa (null) 0 döner."
     },
     "Police_Gross_Price": {
       "type": "numeric_conversion",

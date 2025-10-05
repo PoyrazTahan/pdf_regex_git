@@ -27,22 +27,46 @@
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": true,
-      "output_type": "integer"
-    },
-    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-      "type": "numeric_conversion",
-      "turkish_format": true,
-      "output_type": "integer"
-    },
-    "Teminat_Servis_Secimi": {
-      "type": "pattern_to_value",
+      "output_type": "integer",
       "mappings": [
         {
-          "input_pattern": null,
-          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+          "input_pattern": "1.000.000,00",
+          "output": 1000000
+        },
+        {
+          "input_pattern": "12.500,00",
+          "output": 12500
+        },
+        {
+          "input_pattern": "125.000,00",
+          "output": 125000
+        },
+        {
+          "input_pattern": "2.000.000,00",
+          "output": 2000000
+        },
+        {
+          "input_pattern": "250.000,00",
+          "output": 250000
+        },
+        {
+          "input_pattern": "50.000,00",
+          "output": 50000
+        },
+        {
+          "input_pattern": "500.000,00",
+          "output": 500000
         }
       ]
     },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+    "type": "numeric_conversion",
+    "turkish_format": true,
+    "output_type": "integer",
+    "mappings": [
+      { "input_pattern": "SINIRSIZ", "output": 9999999999 }
+    ]
+  },
     "Teminat_Yedek_Parca": {
       "type": "pattern_to_value",
       "mappings": [

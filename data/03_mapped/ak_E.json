@@ -352,20 +352,20 @@
     "ak_E_128534379_408973219": null
   },
   "Teminat_Oto_Cam_Klozu": {
-    "ak_E_128027105_407994597": "OTO CAM KLOZU\nMaruz kalınacak oto cam hasarlarında, sigortalımızın anlaşmalı cam\nservislerimizden başka yerlerde cam değiştirmesi ya da tamir ettirmesi durumunda\nher bir hasarda, hasarın % 20 si (1.500 -TL den az olmamak kaydıyla) sigortalı\ntarafından ödenir.",
-    "ak_E_128186626_408259657": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128198607_408262525": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128223718_408322876": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128228589_408329776": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128238900_408352690": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128262976_408414143": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128268599_408418329": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128284021_408438721": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128284544_408440924": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128289463_408454844": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128295780_408469976": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır.",
-    "ak_E_128526970_408958922": "OTO CAM KLOZU\nMaruz kalınacak oto cam hasarlarında, sigortalımızın anlaşmalı cam\nservislerimizden başka yerlerde cam değiştirmesi ya da tamir ettirmesi durumunda\nher bir hasarda, hasarın % 20 si (1.500 -TL den az olmamak kaydıyla) sigortalı\ntarafından ödenir.",
-    "ak_E_128534379_408973219": "OTO CAM KLOZU\nMaruz kalınacak cam hasarlarında muafiyet uygulanmayacaktır."
+    "ak_E_128027105_407994597": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "ak_E_128186626_408259657": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128198607_408262525": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128223718_408322876": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128228589_408329776": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128238900_408352690": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128262976_408414143": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128268599_408418329": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128284021_408438721": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128284544_408440924": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128289463_408454844": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128295780_408469976": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "ak_E_128526970_408958922": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "ak_E_128534379_408973219": "Orijinal Cam Var & Hasar Muafiyetsiz"
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
     "ak_E_128027105_407994597": 2500000,
@@ -426,9 +426,9 @@
     "ak_E_128268599_408418329": "30",
     "ak_E_128284021_408438721": "30",
     "ak_E_128284544_408440924": "7",
-    "ak_E_128289463_408454844": "-",
+    "ak_E_128289463_408454844": "0",
     "ak_E_128295780_408469976": "7",
-    "ak_E_128526970_408958922": "-",
+    "ak_E_128526970_408958922": "0",
     "ak_E_128534379_408973219": "7"
   },
   "Teminat_Yedek_Parca": {
@@ -516,11 +516,9 @@
     "config_version": "1.0",
     "processing_stats": {
       "total_fields": 32,
-      "mapped_fields": 31,
-      "errors": [
-        "Error mapping field 'Teminat_Oto_Cam_Klozu': 'input_pattern'"
-      ]
+      "mapped_fields": 32,
+      "errors": []
     },
-    "timestamp": "2025-09-04T11:03:21.161340"
+    "timestamp": "2025-10-05T15:22:06.385430"
   }
 }

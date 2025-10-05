@@ -353,26 +353,26 @@
     "allianz_E_128294536_1021062389312": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "allianz_E_128298391_1021062389684": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "allianz_E_128298447_1021062389553": "Orijinal Cam Var & Hasar Muafiyetsiz",
-    "allianz_E_128300958_1021062389882": "[MAPPED_FROM_REGEX]",
+    "allianz_E_128300958_1021062389882": "Orijinal Cam Yok & Hasar Muafiyetli",
     "allianz_E_128302952_1021062391423": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "allianz_E_128304939_1021062390329": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "allianz_E_128308487_1021062391145": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "allianz_E_128310991_1021062391238": "Orijinal Cam Var & Hasar Muafiyetsiz"
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-    "allianz_E_00000000_1021061680951": null,
-    "allianz_E_119837036_1021061671414": null,
-    "allianz_E_119842266_1021061673999": null,
-    "allianz_E_119863652_1021061673041": null,
-    "allianz_E_128277942_1021062387608": null,
-    "allianz_E_128294536_1021062389312": null,
-    "allianz_E_128298391_1021062389684": 500,
-    "allianz_E_128298447_1021062389553": null,
-    "allianz_E_128300958_1021062389882": null,
-    "allianz_E_128302952_1021062391423": null,
-    "allianz_E_128304939_1021062390329": null,
-    "allianz_E_128308487_1021062391145": 500,
-    "allianz_E_128310991_1021062391238": null
+    "allianz_E_00000000_1021061680951": "15000000",
+    "allianz_E_119837036_1021061671414": "2500000",
+    "allianz_E_119842266_1021061673999": "10000000",
+    "allianz_E_119863652_1021061673041": "2500000",
+    "allianz_E_128277942_1021062387608": "10000000",
+    "allianz_E_128294536_1021062389312": "5000000",
+    "allianz_E_128298391_1021062389684": "500000",
+    "allianz_E_128298447_1021062389553": "15000000",
+    "allianz_E_128300958_1021062389882": "2500000",
+    "allianz_E_128302952_1021062391423": "25000000",
+    "allianz_E_128304939_1021062390329": "10000000",
+    "allianz_E_128308487_1021062391145": "500000",
+    "allianz_E_128310991_1021062391238": "5000000"
   },
   "Teminat_Indirim_Arttırim_Bilgileri": {
     "allianz_E_00000000_1021061680951": "- Sigorta poliçesinin kasko primi belirlenirken, sigortacı tarafından, sigorta konusu araç ve sigortalı bilgilerine\ngöre belirlenen kasko tarifesinin üzerine aşağıdaki nedenlerle indirimler/ sürprimler uygulanır..\nDEPREM ARTIRIMI :\n%3\nHASARSIZLIK İNDİRİMİ :\n%65\nPEŞIN İNDIRIMI :\n%11,15\nMüşteri Skoru : Müşterinin tüm portföyü değerlendirilerek belirlenmiştir.",
@@ -435,19 +435,19 @@
     "allianz_E_128310991_1021062391238": "%40"
   },
   "Teminat_Servis_Secimi": {
-    "allianz_E_00000000_1021061680951": "[MAPPED_FROM_REGEX]",
-    "allianz_E_119837036_1021061671414": "[MAPPED_FROM_REGEX]",
+    "allianz_E_00000000_1021061680951": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+    "allianz_E_119837036_1021061671414": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
     "allianz_E_119842266_1021061673999": "Yalnızca Anlaşmalı Özel Servisler",
-    "allianz_E_119863652_1021061673041": "[MAPPED_FROM_REGEX]",
-    "allianz_E_128277942_1021062387608": "[MAPPED_FROM_REGEX]",
-    "allianz_E_128294536_1021062389312": "[MAPPED_FROM_REGEX]",
-    "allianz_E_128298391_1021062389684": "[MAPPED_FROM_REGEX]",
-    "allianz_E_128298447_1021062389553": "[MAPPED_FROM_REGEX]",
+    "allianz_E_119863652_1021061673041": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+    "allianz_E_128277942_1021062387608": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+    "allianz_E_128294536_1021062389312": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+    "allianz_E_128298391_1021062389684": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+    "allianz_E_128298447_1021062389553": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
     "allianz_E_128300958_1021062389882": "Yalnızca Anlaşmalı Özel Servisler",
-    "allianz_E_128302952_1021062391423": "[MAPPED_FROM_REGEX]",
+    "allianz_E_128302952_1021062391423": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
     "allianz_E_128304939_1021062390329": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
-    "allianz_E_128308487_1021062391145": "[MAPPED_FROM_REGEX]",
-    "allianz_E_128310991_1021062391238": "[MAPPED_FROM_REGEX]"
+    "allianz_E_128308487_1021062391145": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+    "allianz_E_128310991_1021062391238": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)"
   },
   "Teminat_Hasarsizlik_Koruma": {
     "allianz_E_00000000_1021061680951": "Var",
@@ -479,14 +479,29 @@
     "allianz_E_128308487_1021062391145": 12598.29,
     "allianz_E_128310991_1021062391238": 13336.39
   },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "allianz_E_00000000_1021061680951": "0",
+    "allianz_E_119837036_1021061671414": "0",
+    "allianz_E_119842266_1021061673999": "0",
+    "allianz_E_119863652_1021061673041": "0",
+    "allianz_E_128277942_1021062387608": "0",
+    "allianz_E_128294536_1021062389312": "0",
+    "allianz_E_128298391_1021062389684": "0",
+    "allianz_E_128298447_1021062389553": "0",
+    "allianz_E_128300958_1021062389882": "0",
+    "allianz_E_128302952_1021062391423": "0",
+    "allianz_E_128304939_1021062390329": "0",
+    "allianz_E_128308487_1021062391145": "0",
+    "allianz_E_128310991_1021062391238": "0"
+  },
   "_mapping_metadata": {
     "company": "allianz_E",
     "config_version": "1.0",
     "processing_stats": {
-      "total_fields": 32,
-      "mapped_fields": 32,
+      "total_fields": 33,
+      "mapped_fields": 33,
       "errors": []
     },
-    "timestamp": "2025-09-04T11:08:34.980074"
+    "timestamp": "2025-10-05T15:22:06.847596"
   }
 }

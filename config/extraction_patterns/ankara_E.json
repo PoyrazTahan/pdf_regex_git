@@ -122,9 +122,13 @@
     "description": "Spare parts policy clause - captures either format: standard original/equivalent parts clause or detailed clause about part types and pricing agreements"
   },
   "Teminat_Ikame_Arac": {
-    "pattern": "B/C SEGMENT\\s*(\\d+X\\d+)\\s*GÜN",
+    "patterns": [
+      "B/C\\s*SEGMENT\\s*(\\d+\\s*[Xx]\\s*\\d+)\\s*[Gg][üu]n",
+      "B/C\\s*SEGMENT\\s*(\\d+\\s*\\*\\s*\\d+)\\s*[Gg][üu]n"
+    ],
     "group": 1,
-    "description": "Replacement vehicle coverage (e.g., 2X14, 2X7)"
+    "mode": "first",
+    "description": "Önce 2X15 (boşluk toleranslı), bulunamazsa 2*15 (boşluk toleranslı). Her ikisinde de sadece '2X15' veya '2*15' benzeri token döner."
   },
   "Teminat_Hasar_Kademesi_Bilgisi": {
     "pattern": "HASARSIZLIK İNDİRİMİ\\s*:\\s*%\\s*(\\d+)",

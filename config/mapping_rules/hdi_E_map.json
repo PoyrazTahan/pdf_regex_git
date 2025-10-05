@@ -19,10 +19,15 @@
       "type": "pattern_to_value",
       "mappings": [
         {
+          "input_pattern": "Dâhil",
+          "output": "Var"
+        },
+        {
           "input_pattern": null,
           "output": "Yok"
         }
-      ]
+      ],
+      "description": "Dâhil → Var; eşleşme (null) → Yok."
     },
     "Teminat_Ikame_Arac": {
       "type": "pattern_to_value",
@@ -44,12 +49,56 @@
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": true,
-      "output_type": "integer"
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "SINIRSIZ",
+          "output": 9999999999 
+        },
+        {
+          "input_pattern": "3.000.000,00 TL",
+          "output": 3000000
+        },
+        {
+          "input_pattern": "5.000.000,00 TL",
+          "output": 5000000
+        },
+        {
+          "input_pattern": "1.000.000,00 TL",
+          "output": 1000000
+        },
+        {
+          "input_pattern": "500.000,00 TL",
+          "output": 500000
+        },
+        {
+          "input_pattern": "10.000.000,00 TL",
+          "output": 10000000
+        }
+      ]
     },
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": true,
-      "output_type": "integer"
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "125.000,00 TL",
+          "output": 125000
+        },
+        {
+          "input_pattern": "500.000,00 TL",
+          "output": 500000
+        },
+        {
+          "input_pattern": "2.500.000,00 TL",
+          "output": 2500000
+        },
+        {
+          "input_pattern": "1.000.000,00 TL",
+          "output": 1000000
+        }
+      ]
     },
     "Teminat_Oto_Cam_Klozu": {
       "type": "pattern_to_value",

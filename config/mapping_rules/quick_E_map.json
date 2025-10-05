@@ -27,12 +27,47 @@
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": false,
-      "output_type": "integer"
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "100,000",
+          "output": 100000
+        },
+        {
+          "input_pattern": "1,000,000",
+          "output": 1000000
+        },
+        {
+          "input_pattern": "200,000",
+          "output": 200000
+        },
+        {
+          "input_pattern": "2,500,000",
+          "output": 2500000
+        },
+        {
+          "input_pattern": "400,000",
+          "output": 400000
+        },
+        {
+          "input_pattern": "600,000",
+          "output": 600000
+        }
+      ]
     },
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": false,
-      "output_type": "integer"
+      "output_type": "integer",
+      "mappings": [
+        { "input_pattern": "SINIRSIZ", "output": 9999999999 },
+
+        { "input_pattern": "1,000,000", "output": 1000000 },
+        { "input_pattern": "2,000,000", "output": 2000000 },
+        { "input_pattern": "3,000,000", "output": 3000000 },
+        { "input_pattern": "500,000",   "output": 500000  },
+        { "input_pattern": "5,000,000", "output": 5000000 }
+      ]
     },
     "Teminat_Servis_Secimi": {
       "type": "pattern_to_value",
@@ -69,26 +104,19 @@
       "type": "pattern_to_value",
       "mappings": [
         {
-          "input_pattern": "(İKAMESİZ)",
+          "input_pattern": "İKAMESİZ",
           "output": "0"
         },
         {
-          "input_pattern": "Sınırsız ikame Araç Hizmeti EQO Kasko ürününde geçerli değildir.",
+          "input_pattern": "EQO",
           "output": "0"
-        },
-        {
-          "input_pattern": "45",
-          "output": "15"
         },
         {
           "input_pattern": null,
-          "output": "30"
-        },
-        {
-          "input_pattern": "Sigortalı seçimi ile iş bu poliçede belirlenen 2X7  C SEGMENT ikame araç temin edilecektir.",
-          "output": "7"
+          "output": "0"
         }
-      ]
+      ],
+      "description": "Token 'İKAMESİZ' veya 'EQO' → 0. Sayı gelirse hiç eşleşmez ve pass-through ile 7/15/30/… olduğu gibi kalır. Extraction null ise 0."
     },
     "Police_Gross_Price": {
       "type": "numeric_conversion",

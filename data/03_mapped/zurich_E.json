@@ -253,15 +253,15 @@
     "zurich_E_128306014_30674041": null
   },
   "Teminat_Oto_Cam_Klozu": {
-    "zurich_E_128284821_30672016": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "zurich_E_128284821_30672016": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "zurich_E_128285573_30672131": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "zurich_E_128288411_30673347": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "zurich_E_128288411_30673347": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "zurich_E_128291452_30672939": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "zurich_E_128292537_30672997": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "zurich_E_128296932_30673517": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "zurich_E_128292537_30672997": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "zurich_E_128296932_30673517": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "zurich_E_128299033_30673611": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "zurich_E_128303456_30673918": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "zurich_E_128306014_30674041": "Orijinal Cam Yok & Hasar Muafiyetli"
+    "zurich_E_128303456_30673918": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "zurich_E_128306014_30674041": "Orijinal Cam Var & Hasar Muafiyetsiz"
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
     "zurich_E_128284821_30672016": 5000000,
@@ -370,6 +370,6 @@
       "mapped_fields": 33,
       "errors": []
     },
-    "timestamp": "2025-09-04T15:15:08.235375"
+    "timestamp": "2025-10-05T15:22:15.430136"
   }
 }

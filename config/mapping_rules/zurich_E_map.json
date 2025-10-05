@@ -42,7 +42,53 @@
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": true,
-      "output_type": "integer"
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "1.000.000,00",
+          "output": 1000000
+        },
+        {
+          "input_pattern": "10.000.000,00",
+          "output": 10000000
+        },
+        {
+          "input_pattern": "1.500.000,00",
+          "output": 1500000
+        },
+        {
+          "input_pattern": "15.000.000,00",
+          "output": 15000000
+        },
+        {
+          "input_pattern": "2.000.000,00",
+          "output": 2000000
+        },
+        {
+          "input_pattern": "20.000.000,00",
+          "output": 20000000
+        },
+        {
+          "input_pattern": "2.500.000,00",
+          "output": 2500000
+        },
+        {
+          "input_pattern": "4.000.000,00",
+          "output": 4000000
+        },
+        {
+          "input_pattern": "500.000,00",
+          "output": 500000
+        },
+        {
+          "input_pattern": "5.000.000,00",
+          "output": 5000000
+        },
+        {
+          "input_pattern": "750.000,00",
+          "output": 750000
+        }
+      ]
     },
     "Teminat_Servis_Secimi": {
       "type": "pattern_to_value",
@@ -66,19 +112,14 @@
         }
       ]
     },
-    "Teminat_Oto_Cam_Klozu": {
-      "type": "pattern_to_value",
-      "mappings": [
-        {
-          "input_pattern": "CAM HASARLARI KLOZU",
-          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
-        },
-        {
-          "input_pattern": null,
-          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
-        }
-      ]
-    },
+  "Teminat_Oto_Cam_Klozu": {
+    "type": "pattern_to_value",
+    "mappings": [
+      { "input_pattern": "MUAFİYET KLOZU", "output": "Orijinal Cam Yok & Hasar Muafiyetli" },
+      { "input_pattern": "MUAFIYET KLOZU", "output": "Orijinal Cam Yok & Hasar Muafiyetli" },
+      { "input_pattern": null,             "output": "Orijinal Cam Var & Hasar Muafiyetsiz" }
+    ]
+  },
     "Teminat_Ikame_Arac": {
       "type": "pattern_to_value",
       "mappings": [

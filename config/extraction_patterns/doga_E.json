@@ -84,9 +84,13 @@
     "description": "Glass coverage - no deductible clause"
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-    "pattern": "Teminat Bilgileri[\\s\\S]*?IMM KOMBİNE\\s*\\n([^\\n]+)",
+    "patterns": [
+      "Teminat Bilgileri[\\s\\S]*?IMM KOMBİNE\\s*\\n\\s*(SINIRSIZ)",
+      "Teminat Bilgileri[\\s\\S]*?IMM KOMBİNE\\s*\\n([^\\n]+)"
+    ],
     "group": 1,
-    "description": "IMM combined coverage amount"
+    "mode": "first",
+    "description": "Önce SINIRSIZ'ı yakalar; değilse IMM KOMBİNE alt satırındaki tutarı alır."
   },
   "Teminat_IMM_Manevi_Tazminat_Bedeli": {
     "pattern": "Manevi Tazminat Talepleri olay başı ve yıllık toplam İhtiyari Mali Mesuliyet şahıs başı ve/veya kombine limit Teminatının %(\\d+)'i ile sınırlıdır",

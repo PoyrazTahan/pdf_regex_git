@@ -77,8 +77,9 @@
   "Arac_Marka_Kodu": {},
   "Arac_Engelli_Mi": {},
   "Teminat_Oto_Cam_Klozu": {
-    "pattern": "(CAM HASARLARI KLOZU|Zurich Anlaşmalı Cam Servis ağında orijinaline eşdeğer yerli üretim cam kullanılır|Sigortalı Zurich Anlaşmalı Cam servislerini kullanması durumunda hizmet için herhangi bir ödeme yapmayacaktır)",
-    "group": 0
+    "pattern": "(?is)\\b(CAM[\\s\\u00A0]+MUAF[İI]YET[\\s\\u00A0]+KLOZU)\\b(?:\\s*[:\\-])?",
+    "group": 1,
+    "description": "‘CAM MUAFİYET KLOZU’ başlığını yakalar; satır sonu/NBSP ve İ/I farklarına toleranslıdır."
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
     "pattern": "İHTİYARİ MALİ SORUMLULUK\\s*\\n([\\d\\.,]+)",
@@ -89,10 +90,18 @@
     "group": 1
   },
   "Teminat_Indirim_Arttırim_Bilgileri": {},
+  
   "Teminat_Ikame_Arac": {
-    "pattern": "Kiralik Araç Hizmeti:.*?maksimum\\s+(\\d+)\\s+\\([^)]+\\)\\s+gün",
-    "group": 1
-  },
+  "patterns": [
+    "(\\d+)\\s*g[üu]ne?\\s+kadar\\s+kiral[ıi]k\\s+ara[cç](?:\\s+hizmet[ıi])?",
+    "[Kk]iral[ıi]k\\s+Ara[cç]\\s+Hizmet[ıi]?:?[^\\r\\n]*?(?:maks(?:imum)?|en\\s+fazla)\\s+(\\d+)\\s*(?:\\([^)]*\\))?\\s*g[üu]n",
+    "Kiralik Araç Hizmeti:.*?maksimum\\s+(\\d+)\\s+\\([^)]+\\)\\s+gün"
+  ],
+  "group": 1,
+  "mode": "first",
+  "description": "Önce '... güne kadar kiralık araç hizmeti' formundan sayıyı yakalar. Bulunamazsa 'Kiralık/Kiralik Araç/Arac Hizmeti ... maksimum/en fazla (\\d+) ... gün' formuna bakar. En sonda, mevcut eski pattern birebir çalışır. Hepsinde yalnızca sayı (7/15/...) döner."
+}
+,
   "Teminat_Yedek_Parca": {
     "pattern": "(Hasarın\\s+tazmini\\s+zımmında,\\s+hasar\\s+gören\\s+parçanın,\\s+onarımı\\s+mümkün\\s+değilse\\s+orijinal\\s+parça\\s+ile\\s+değiştirilir\\.?)",
     "group": 1,

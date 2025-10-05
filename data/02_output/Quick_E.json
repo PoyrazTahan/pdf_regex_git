@@ -297,15 +297,15 @@
     "Quick_E_128310572_100000399912385": "DAHİL"
   },
   "Teminat_Ikame_Arac": {
-    "Quick_E_128283395_100000399561816": "(İKAMESİZ)",
-    "Quick_E_128284554_100000399583748": "Sigortalı seçimi ile iş bu poliçede belirlenen 2X7  C SEGMENT ikame araç temin edilecektir.",
-    "Quick_E_128302253_100000399767866": "Sigortalı seçimi ile iş bu poliçede belirlenen 2X7  C SEGMENT ikame araç temin edilecektir.",
-    "Quick_E_128304233_100000399837884": "Sınırsız ikame Araç Hizmeti EQO Kasko ürününde geçerli değildir.",
-    "Quick_E_128307225_100000399874827": "Sınırsız ikame Araç Hizmeti EQO Kasko ürününde geçerli değildir.",
-    "Quick_E_128307701_100000399873901": "Sigortalı seçimi ile iş bu poliçede belirlenen 2X7  C SEGMENT ikame araç temin edilecektir.",
-    "Quick_E_128308921_100000399888351": "Sigortalı seçimi ile iş bu poliçede belirlenen 2X7  C SEGMENT ikame araç temin edilecektir.",
-    "Quick_E_128308975_100000399124058": "Sigortalı seçimi ile iş bu poliçede belirlenen 2X7  C SEGMENT ikame araç temin edilecektir.",
-    "Quick_E_128310572_100000399912385": "(İKAMESİZ)"
+    "Quick_E_128283395_100000399561816": "İKAMESİZ",
+    "Quick_E_128284554_100000399583748": "7",
+    "Quick_E_128302253_100000399767866": "7",
+    "Quick_E_128304233_100000399837884": "İKAMESİZ",
+    "Quick_E_128307225_100000399874827": "İKAMESİZ",
+    "Quick_E_128307701_100000399873901": "7",
+    "Quick_E_128308921_100000399888351": "7",
+    "Quick_E_128308975_100000399124058": "7",
+    "Quick_E_128310572_100000399912385": "İKAMESİZ"
   },
   "Teminat_Yedek_Parca": {
     "Quick_E_128283395_100000399561816": "kullanılacaktır",

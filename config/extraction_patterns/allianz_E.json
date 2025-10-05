@@ -84,9 +84,13 @@
     "description": "Glass coverage clause - captures complete text starting with CAM KIRILMASI TEMİNATI header and ending at sentence completion. Handles both simple 'no deduction' cases and detailed 'contracted service' clauses. Pattern accommodates page breaks and header/footer insertions between title and content."
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-    "pattern": "İhtiyari Mali\\s*\\n?Mesuliyet\\s*\\n?([0-9,\\.]+\\s*TL)",
+    "patterns": [
+      "İhtiyari\\s+Mali\\s*\\r?\\n?Mesuliyet[^\\d]{0,20}(\\d{1,3}(?:[.,]\\d{3}){1,3})\\s*TL\\b",
+      "İhtiyari\\s+Mali\\s*\\r?\\n?Mesuliyet[^\\d]{0,20}TL[^\\d]{0,5}(\\d{1,3}(?:[.,]\\d{3}){1,3})\\b"
+    ],
     "group": 1,
-    "description": "IMM coverage amount from İhtiyari Mali Mesuliyet field"
+    "mode": "first",
+    "description": "‘İhtiyari Mali Mesuliyet’ etiketinden hemen sonraki tutarı alır; TL önce/sonra olabilir, 5.000.000 / 5,000,000 gibi yazımları destekler."
   },
   "Teminat_Indirim_Arttırim_Bilgileri": {
     "pattern": "İNDİRİMLER VE ARTTIRIMLAR([\\s\\S]*?)(?=KISMİ HASARLARDA|SİGORTA TAHKİM|$)",
@@ -109,9 +113,13 @@
     "description": "Discount percentage from HASARSIZLIK İNDİRİMİ field"
   },
   "Teminat_Servis_Secimi": {
-    "pattern": "(SERVİS SEÇİMİ\\s*\\n[\\s\\S]*?yönlendirilir\\.)",
+    "patterns": [
+      "(?is)SERV[İI]S\\s*SEÇ[İI]M[İI][\\s\\S]{0,800}?(Anlaşmas[ıi]z\\s*Marka\\s*Yetkili\\s*Servis)[\\s\\S]{0,200}?%?\\s*25\\s*oran[ıi]nda\\s*kesinti",
+      "(?is)SERV[İI]S\\s*SEÇ[İI]M[İI][\\s\\S]{0,800}?(Allianz\\s*Anlaşmal[ıi]\\s*Özel\\s*servisler\\s*kapsam[ıi]ndak[ıi]\\s*servisler\\s*d[ıi]ş[ıi]nda)[\\s\\S]{0,200}?Muafiyetler",
+      "(?is)SERV[İI]S\\s*SEÇ[İI]M[İI][\\s\\S]{0,800}?(eko\\s*network\\s*kapsam[ıi]ndak[ıi]\\s*servisler\\s*d[ıi]ş[ıi]nda)"
+    ],
     "group": 1,
-    "description": "Service selection terms - captures complete paragraph after SERVİS SEÇİMİ title including deduction rates, glass service standards, and alternative service redirection policies. 100% success rate across all Allianz PDFs."
+    "description": "Allianz Servis Seçimi – kısa sinyal ifadeleri (pencere: başlıktan sonra max ~800 char)."
   },
   "Teminat_Hasarsizlik_Koruma": {
     "pattern": "HASARSIZLIK KORUMA TEMİNATI\\s*\\n(Poliçe süresi içinde 1 adet cam kırılması hasarı[\\s\\S]*?devam edilecektir\\.)",
@@ -121,5 +129,6 @@
   "Police_Gross_Price": {
     "pattern": "ÖDENECEK PRİM\\s*:\\s*([0-9,\\.]+)",
     "group": 1
-  }
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {}
 }

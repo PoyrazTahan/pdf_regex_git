@@ -276,23 +276,23 @@
     "anadolu_E_128301654_1341722525": null
   },
   "Teminat_Oto_Cam_Klozu": {
-    "anadolu_E_128235850_1338875325": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "anadolu_E_128235850_1338875325": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "anadolu_E_128237662_1338875725": "Orijinal Cam Yok & Hasar Muafiyetli",
     "anadolu_E_128243446_1338876225": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128254487_1338815725": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128281144_1338879725": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128288432_1338839425": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128288531_1338749425": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128294361_1338738725": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128299624_1341722625": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "anadolu_E_128301654_1341722525": "Orijinal Cam Yok & Hasar Muafiyetli"
+    "anadolu_E_128254487_1338815725": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "anadolu_E_128281144_1338879725": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "anadolu_E_128288432_1338839425": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "anadolu_E_128288531_1338749425": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "anadolu_E_128294361_1338738725": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "anadolu_E_128299624_1341722625": "Orijinal Cam Var & Hasar Muafiyetsiz",
+    "anadolu_E_128301654_1341722525": "Orijinal Cam Var & Hasar Muafiyetsiz"
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
     "anadolu_E_128235850_1338875325": "5000000",
     "anadolu_E_128237662_1338875725": "1000000",
     "anadolu_E_128243446_1338876225": "5000000",
     "anadolu_E_128254487_1338815725": "1000000",
-    "anadolu_E_128281144_1338879725": null,
+    "anadolu_E_128281144_1338879725": "9999999999",
     "anadolu_E_128288432_1338839425": "5000000",
     "anadolu_E_128288531_1338749425": "5000000",
     "anadolu_E_128294361_1338738725": "10000000",
@@ -300,16 +300,16 @@
     "anadolu_E_128301654_1341722525": "10000000"
   },
   "Teminat_IMM_Manevi_Tazminat_Bedeli": {
-    "anadolu_E_128235850_1338875325": 5000000,
-    "anadolu_E_128237662_1338875725": 1000000,
-    "anadolu_E_128243446_1338876225": 5000000,
-    "anadolu_E_128254487_1338815725": 1000000,
-    "anadolu_E_128281144_1338879725": 5000000,
-    "anadolu_E_128288432_1338839425": 5000000,
-    "anadolu_E_128288531_1338749425": 5000000,
-    "anadolu_E_128294361_1338738725": 5000000,
-    "anadolu_E_128299624_1341722625": 5000000,
-    "anadolu_E_128301654_1341722525": 5000000
+    "anadolu_E_128235850_1338875325": "5000000",
+    "anadolu_E_128237662_1338875725": "1000000",
+    "anadolu_E_128243446_1338876225": "5000000",
+    "anadolu_E_128254487_1338815725": "1000000",
+    "anadolu_E_128281144_1338879725": "5000000",
+    "anadolu_E_128288432_1338839425": "5000000",
+    "anadolu_E_128288531_1338749425": "5000000",
+    "anadolu_E_128294361_1338738725": "5000000",
+    "anadolu_E_128299624_1341722625": "5000000",
+    "anadolu_E_128301654_1341722525": "5000000"
   },
   "Teminat_Indirim_Arttırim_Bilgileri": {
     "anadolu_E_128235850_1338875325": "hasarsızlık indirimini etkilemez",
@@ -330,7 +330,7 @@
     "anadolu_E_128254487_1338815725": "0",
     "anadolu_E_128281144_1338879725": "15",
     "anadolu_E_128288432_1338839425": "15",
-    "anadolu_E_128288531_1338749425": "[MAPPED_FROM_REGEX]",
+    "anadolu_E_128288531_1338749425": "15",
     "anadolu_E_128294361_1338738725": "15",
     "anadolu_E_128299624_1341722625": "7",
     "anadolu_E_128301654_1341722525": "7"
@@ -403,6 +403,6 @@
       "mapped_fields": 33,
       "errors": []
     },
-    "timestamp": "2025-09-04T11:10:35.108407"
+    "timestamp": "2025-10-05T15:22:07.284751"
   }
 }

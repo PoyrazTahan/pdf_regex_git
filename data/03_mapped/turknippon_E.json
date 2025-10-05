@@ -277,12 +277,12 @@
   },
   "Teminat_Oto_Cam_Klozu": {
     "turknippon_E_127085895_178480190": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "turknippon_E_127096390_178496894": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "turknippon_E_127096390_178496894": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "turknippon_E_127102313_178506139": "Orijinal Cam Yok & Hasar Muafiyetli",
     "turknippon_E_127112233_178521999": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "turknippon_E_127118509_178534255": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "turknippon_E_127118509_178534255": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "turknippon_E_127121357_178538573": "Orijinal Cam Yok & Hasar Muafiyetli",
-    "turknippon_E_127125708_178543708": "Orijinal Cam Yok & Hasar Muafiyetli",
+    "turknippon_E_127125708_178543708": "Orijinal Cam Var & Hasar Muafiyetsiz",
     "turknippon_E_127128547_178550351": "Orijinal Cam Yok & Hasar Muafiyetli",
     "turknippon_E_127129055_178551004": "Orijinal Cam Yok & Hasar Muafiyetli",
     "turknippon_E_127130522_178552738": "Orijinal Cam Yok & Hasar Muafiyetli"
@@ -379,6 +379,6 @@
       "mapped_fields": 31,
       "errors": []
     },
-    "timestamp": "2025-09-04T15:10:44.780465"
+    "timestamp": "2025-10-05T15:22:14.520684"
   }
 }

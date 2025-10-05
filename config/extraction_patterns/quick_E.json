@@ -89,8 +89,12 @@
     "group": 1
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-    "pattern": "IMM KOMBINE\\s*(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?)",
-    "group": 1
+    "patterns": [
+      "[-–—•·]?\\s*[İI]MM\\s*KOMB[İI]NE[\\s\\u00A0]*[:|\\-]?\\s*(S\\s*[İIıi]\\s*N\\s*[İIıi]\\s*R\\s*S\\s*[İIıi]\\s*Z)",
+      "IMM KOMBINE\\s*(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?)"
+    ],
+    "group": 1,
+    "mode": "first"
   },
   "Teminat_IMM_Manevi_Tazminat_Bedeli": {
     "pattern": "MANEVİ TAZMİNAT TEMİNATI\\s*(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?)",
@@ -101,15 +105,17 @@
     "group": 1
   },
   "Teminat_Ikame_Arac": {
-    "patterns": [
-      "(Sigortalı seçimi ile iş bu poliçede belirlenen 2X7.*?C SEGMENT ikame araç temin edilecektir\\.)",
-      "(Sınırsız ikame Araç Hizmeti EQO Kasko ürününde geçerli değildir\\.)",
-      "(\\([İi][Kk][Aa][Mm][Ee][Ss][İi][Zz]\\))",
-      "azami ikame araç\\s*\\nkullanım süresi (\\d+) gündür"
-    ],
-    "mode": "first",
-    "description": "Replacement vehicle service terms. Quick provides detailed service descriptions (2X7 C SEGMENT), EQO exclusion statements, policy type exclusions (İKAMESİZ), or basic duration fallback (45 days). Multi-pattern approach captures comprehensive business terms, all exclusion types, and fallback codes."
-  },
+  "patterns": [
+    "\\(?\\b([İI]KAMES[İI]Z)\\b\\)?",
+    "Sigortalı\\s+seçimi\\s+ile\\s+iş\\s+bu\\s+pol[iı]çede\\s+bel[ie]rl[ie]nen\\s*2X(7|15|30)\\s+[CÇD]\\s*SEGMENT\\s+ikame\\s+araç\\s+temin\\s+edilecektir\\.",
+    "Sınırsız\\s+ikame\\s+Araç\\s+Hizmeti\\s+(EQO)\\s+Kasko\\s+ürününde\\s+geçerli\\s+değildir\\.?",
+    "azami\\s+ikame\\s+araç\\s*\\r?\\nkullanım\\s+süresi\\s*(\\d+)\\s*gündür"
+  ],
+  "group": 1,
+  "mode": "first",
+  "description": "Sırayla: (1) İKAMESİZ → 'İKAMESİZ', (2) EQO cümlesi → 'EQO', (3) 2X7/15/30 → sayı, (4) fallback → sayı. İlk bulunanın 1. grubu döner."
+}
+,
   "Teminat_Yedek_Parca": {
     "pattern": "logolu veya logosuz orijinal parça (kullanılacaktır)",
     "group": 1

@@ -1,64 +1,19 @@
 {
-  "company": "turkiyekatilim_E",
+  "company": "turknippon_E",
   "version": "2.0",
   "field_mappings": {
-    "Teminat_Ikame_Arac": {
-      "type": "pattern_to_value",
-      "mappings": [
-        {
-          "input_pattern": "2X7 GÜN PERT DAHİL",
-          "output": "7"
-        },
-        {
-          "input_pattern": "Yok",
-          "output": "0"
-        },
-        {
-          "input_pattern": null,
-          "output": "7"
-        },
-        {
-          "input_pattern": "C Segment 10 gün(Yılda 2 kez)",
-          "output": "10"
-        },
-        {
-          "input_pattern": "C Segment 15 gün(Yılda 2 kez)",
-          "output": "15"
-        },
-        {
-          "input_pattern": "Muadil 15 gün(Yılda 2 kez)",
-          "output": "15"
-        },
-        {
-          "input_pattern": "C Segment 3 gün(Yılda 2 kez)",
-          "output": "3"
-        },
-        {
-          "input_pattern": "C Segment 30 gün(Yılda 2 kez)",
-          "output": "30"
-        },
-        {
-          "input_pattern": "C Segment 7 gün(Yılda 2 kez)",
-          "output": "7"
-        }
-      ]
-    },
     "Teminat_Hasarsizlik_Koruma": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": null,
-          "output": "Var"
+          "output": "Yok"
         }
       ]
     },
     "ksk_hik_data_value_ext": {
       "type": "pattern_to_value",
       "mappings": [
-        {
-          "input_pattern": "Var",
-          "output": "Var"
-        },
         {
           "input_pattern": "Yok",
           "output": "Yok"
@@ -68,7 +23,14 @@
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
       "type": "numeric_conversion",
       "turkish_format": false,
-      "output_type": "integer"
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "25",
+          "output": 2500,
+          "multiplier": 100
+        }
+      ]
     },
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
       "type": "numeric_conversion",
@@ -76,32 +38,12 @@
       "output_type": "integer",
       "mappings": [
         {
-          "input_pattern": "100,000.00",
-          "output": 100000
-        },
-        {
-          "input_pattern": "1,000,000.00",
-          "output": 1000000
-        },
-        {
-          "input_pattern": "10,000,000.00",
-          "output": 10000000
-        },
-        {
           "input_pattern": "1,500,000.00",
           "output": 1500000
         },
         {
-          "input_pattern": "15,000,000.00",
-          "output": 15000000
-        },
-        {
           "input_pattern": "2,000,000.00",
           "output": 2000000
-        },
-        {
-          "input_pattern": "2,500,000.00",
-          "output": 2500000
         },
         {
           "input_pattern": "3,000,000.00",
@@ -122,7 +64,7 @@
       "mappings": [
         {
           "input_pattern": null,
-          "output": "Tüm Yetkili Servisler ve Özel Servisler"
+          "output": "Yalnızca Anlaşmalı Özel Servisler"
         }
       ]
     },
@@ -130,11 +72,7 @@
       "type": "pattern_to_value",
       "mappings": [
         {
-          "input_pattern": null,
-          "output": "Var"
-        },
-        {
-          "input_pattern": "ORJİNAL PARÇA",
+          "input_pattern": "eşdeğerve/veya muadil parça kullanılacaktır",
           "output": "Var"
         }
       ]
@@ -147,12 +85,21 @@
           "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
         },
         {
-          "input_pattern": null,
-          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
-        },
-        {
           "input_pattern": "Anlaşmalı Cam Servisleri",
           "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+        }
+      ]
+    },
+    "Teminat_Ikame_Arac": {
+      "type": "pattern_to_value",
+      "mappings": [
+        {
+          "input_pattern": "ikame araç teminatı bulunmamaktadır",
+          "output": "0"
+        },
+        {
+          "input_pattern": "maksimum 10 gün ile sınırlıdır",
+          "output": "10"
         }
       ]
     },

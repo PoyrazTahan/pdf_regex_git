@@ -1,5 +1,6 @@
 {
   "company": "axa_E",
+  "description": "AXA_E field mapping configuration for normalizing extracted policy data",
   "version": "1.0",
   "field_mappings": {
     "Teminat_Hasarsizlik_Koruma": {
@@ -7,41 +8,62 @@
       "mappings": [
         {
           "input_pattern": null,
-          "output": "Var"
+          "output": "Var",
+          "description": "Maps null values to business value: Var"
         },
         {
           "input_pattern": null,
-          "output": "Yok"
+          "output": "Yok",
+          "description": "Maps null values to business value: Yok"
         }
-      ]
+      ],
+      "description": "Field mapping for axa_E"
     },
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
       "type": "pattern_to_value",
       "mappings": [
         {
-          "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, bedeni zararlar limitleri ile teminat kapsamına dahil edilmiştir.2.5 milyon TL ile teminat kapsamına dahil edilmiştir.",
-          "output": "0"
+          "input_pattern": "2.5 milyon TL ile teminat kapsamına dahil edilmiştir.",
+          "output": "2500000",
+          "description": "2.5 milyon TL"
         },
         {
-          "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri,2.5 milyon TL ile teminat kapsamına dahil edilmiştir.",
-          "output": "7500000"
+          "input_pattern": "5 milyon TL ile teminat kapsamına dahil edilmiştir.",
+          "output": "5000000",
+          "description": "5 milyon TL"
         },
         {
-          "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, 10 milyon TL ile teminat kapsamına dahil edilmiştir.",
-          "output": "1"
+          "input_pattern": "10 milyon TL ile teminat kapsamına dahil edilmiştir.",
+          "output": "10000000",
+          "description": "10 milyon TL"
         },
         {
-          "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, bedeni zararlar limitleri ile teminat kapsamına dahil edilmiştir.",
-          "output": "[MAPPED_FROM_REGEX]"
+          "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, bedeni zararlar limitleri ile teminat kapsamına dahil edilmiştir.",
+          "output": "IMM_LIMIT",
+          "description": "IMM limitine eşit"
         },
         {
           "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, bedeni zararlar limitleri ile teminat kapsamına dahil",
-          "output": "[MAPPED_FROM_REGEX]"
+          "output": "IMM_LIMIT",
+          "description": "IMM limitine eşit (noktasız varyant)"
         },
         {
-          "input_pattern": "İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, İhtiyari Mali Sorumluluk Sigortası Genel Şartlarında belirtilen Manevi Tazminat talepleri, 2.5 milyon TL ile teminat kapsamına dahil edilmiştir.",
-          "output": "[MAPPED_FROM_REGEX]"
+          "input_pattern": null,
+          "output": "0",
+          "description": "Extraction null ise 0"
         }
+      ],
+      "description": "Açık miktar varsa sayıya çevir; yoksa IMM_LIMIT; null→0."
+    },
+    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
+      "type": "numeric_conversion",
+      "turkish_format": true,
+      "output_type": "integer",
+      "mappings": [
+        { "input_pattern": "SINIRSIZ",  "output": 9999999999 },
+        { "input_pattern": "Sınırsız",  "output": 9999999999 },
+        { "input_pattern": "LİMİTSİZ",  "output": 9999999999 },
+        { "input_pattern": "Limitsiz",  "output": 9999999999 }
       ]
     },
     "Teminat_Servis_Secimi": {
@@ -49,65 +71,75 @@
       "mappings": [
         {
           "input_pattern": "Bu poliçede kasko teminatı AXA Anlaşmalı Marka Yetkili servislerde(ASU), AXA Garantili Servislerinde (AGS), AXA Anlaşmalı Tamirhanelerde (ATU) ve serbest tamirhanelerde geçerlidir. AXA Anlaşmalı Servisler Türkiye sınırları içinde bulunan Özel ve Marka Yetkili Servislerden oluşmaktadır. Bu servis ağı hakkında poliçede gösterilen hasar ihbar hattından veya www.axasigorta.com.tr adresindeki Anlaşmalı Kurumlar sekmesinden bilgi alabilirsiniz. AXA Anlaşmalı Marka Yetkili Servisleri (ASU), AXA Garantili Servisleri (AGS), AXA Anlaşmalı Tamirhaneleri (ATU) dışında AXA anlaşmalı servis sistemine üye olmayan bir başka MARKA Yetkili servisinde yapılacak onarımlarda Eksper tarafından belirlenecek hasar tutarının %20'si (minimum 750 TL olmak üzere) oranında tazminattan muafiyet kesintisi yapılacaktır.",
-          "output": "Yalnızca Anlaşmalı Özel Servisler"
+          "output": "Yalnızca Anlaşmalı Özel Servisler",
+          "description": "Maps extracted text to business value: Yalnızca Anlaşmalı Özel Servisler"
         },
         {
           "input_pattern": "Bu poliçede kasko teminatı sadece AXA Anlaşmalı Tamirhanelerde (ATU) ve AXA Garantili Servislerinde (AGS) geçerlidir. Bu servis ağı ile ilgili poliçede gösterilen hasar ihbar hattından veya www.axasigorta.com.tr adresindeki Anlaşmalı Kurumlar sekmesinden bilgi alabilirsiniz. AXA Anlaşmalı Tamirhaneleri (ATU) ve AXA Garantili Servislerinde (AGS) dışında kalan tüm servis ve tamirhanelerde yapılacak onarımlarda sigortacının azami sorumluluğu onarım poliçe kapsamında belirtilen geçerli servis ağında yapılsa idi ortaya çıkacak tazminat bedeli ile sınırlı olacaktır.•Tutumlu Kasko Cam Servis Muafiyeti Uygulaması:Cam onarımında öncelikli servis AXA Sigorta?nın Anlaşmalı Cam Servisleridir (CASU). AXA Anlaşmalı Marka Yetkili Servislerde veya AXA Sigorta ile anlaşması olmayan herhangi bir serviste/tamirhanede yapılacak cam değişimlerinde, her bir hasarda AXA Sigorta?nın Anlaşmalı Cam Servislerinde (CASU) geçerli olan fiyatlar uygulanacaktır. AXA Sigorta Anlaşmalı Cam Servis ağı hakkında www.axasigorta.com.tr adresindeki Anlaşmalı Kurumlar sekmesinden bilgi alabilirsiniz.•Prim Bilgileri:Prim ödemesi şartlarına poliçenin ön yüzünde yer verilmiştir.•Sigortacının Sorumluluğunun Başlangıcı:Sigortacının sorumluluğu Türk Ticaret Kanunu, Borçlar kanunu ve sigortacılık kanununda belirtiği biçimde başlar ve sonra erer. Bu poliçe ilk primin ya da bu prime bağlı ilk taksitin tahsil edilmesi ile başlamış olur.•Sigorta Bedeli:Sigorta şirketi aracı hasar tarihi itibariyle rayiç değerine kadar teminat altına almıştır. Hasar durumunda eksik/aşkın sigorta uygulanmayacaktır. Ancak, poliçede belirtilen araçta, standardının dışında yer alan,fabrika çıkısında veya sonradan ilave edilmis donanım ve aksesuarlar, bedeli poliçede belirtilmek kaydıyla teminat altına alınır. Söz konusu donanım ve aksesuarların bedeli, sigorta ettiren tarafından beyan edilir.•Hasar Durumunda İstenecek Belgeler:Bir kasko hasarı gerçekleştiğinde aşağıdaki belgelerin sigortalı tarafından tamamlanması zorunludur. Hasar ödemesi ile ilgili belgelerden sigorta şirketinin ihtiyaç duyduklarının sağlanmaması durumunda hasar ödenmeyeceği sigortalı tarafından peşinen kabul edilmiştir. Hasar durumunda sağlanması gereken asgari belgeler aşağıda sıralanmıştır. Hasarın özelliğine göre şirketimiz gerekli olan durumlarda sigortalıdan ek bilgi ve belgeler de talep edebilecektir.Temin Edilmesi Gerekli Belgeler:1-Sigorta poliçenizin ve varsa ek belgelerinizin fotokopisi2-Sigorta prim ödemelerinizi belgeleyen makbuz veya diğer belgelerinizin fotokopisi3-Hasar tazminatının ödenmesini istediğiniz Banka, Şube ve Hesap NumaranızPoliçe No:592903300 İşbu poliçe 9 sayfadan oluşmaktadır. Sayfa no :2Asıldır.AXA GENİŞLETİLMİŞ TUTUMLU KASKO POLİÇESİAXA SİGORTA A.Ş.Meclisi Mebusan Cad. No:15 34433 Salıpazarı, Beyoğlu, İstanbul, Türkiye Tel : 0 212 334 24 24 / 0 850 250 99 99 www.axasigorta.com.tr   iletisim@axasigorta.com.tr Ticaret Sicil No : 98645 Büyük Mükellefler V.D. 649 00 399 464-Sürücü Belgenizin fotokopisi 5-Trafik zabıtası, bulunmadığı veya yeterli olmadığı yerlerde ise genel kolluk tarafından düzenlenmiş Maddi Hasarlı Trafik Kazası Tespit Tutanağı veya Karakol Görgü ve Tespit Tutanağı6-Alkol Raporu7-Aracınızın Trafik ve Tescil Belgesi fotokopileri8-Malik ve Sürücünün T.C.Kimlik Numaraları9-Araç maliki tüzel kişi ise Vergi Numarası, İmza sirküleri, Ticaret sicil gazetesi örneği10-Aracın çalınması durumunda yasal bekleme süresi sonrasında, araç kayıtlarına çalınma durumunu gösteren şerh ve sair açıklamanın konduğunu ve aracın ilgili mevzuata göre devrine engel teşkil edebilecek kısıtlamaların bulunmadığını gösteren belgeler,Kasko genel şartlarının 3.3.3 üncü madde sinin 2 nci paragrafı uyarınca ilgililer hakkında cezai soruşturma açılmış ise bu soruşturmanın tamamlanmasına kadar sigortacı tazminat ödemesini bekletebilir.11-Aracın tam hasarlı olması durumunda aracın trafikten çekildiğine dair durumunu gösteren şerh ve sair açıklamanın konduğunu ve aracın ilgili mevzuata göre devrine engel teşkil edebilecek kısıtlama ların bulunmadığını gösteren belgelerİhtiyari Mali Sorumluluk Sigortası Hasarlarında Temin edilmesi Gerekli Belgeler:1) Kaza raporu.2) Engelli araçlarının tam ziya olması durumunda aracın trafikten çekildiğine dair yazı ve durumunu gösteren şerh ve sair açıklamanın konduğunu ve aracın ilgili mevzuata göre devrine engel teşkil edebilecek kısıtlamaların bulunmadığını gösteren belgeler.Tedavi Tazminat Talepleri Hasarlarında Temin edilmesi Gerekli Belgeler:1)Yaralanan Şahsın T.C kimlik numarası 2)Tedavi masraflarını gösterir onaylı fatura asılları3)Genel Adli Muayene Formu, reçeteler, epikriz raporları4)Tedavinin bittiğine ilişkin kesin Hastane Raporu5)Tedavi masraflarının sigortalımız tarafından ödendiği durumlarda üçüncü şahsın ödemeyi aldığı ve sigortalımızı ibra ettiğine ilişkin belgeÖlüm Tazminat Talepleri Hasarlarında Temin Edilmesi Gerekli Belgeler:1)Veraset ilamı.2)Güncel vukuatlı nüfus kayıt örneği.3)Mağdura ait son 3 aylık döneme ilişkin ücret belgesi.4)Hak sahibine ait banka hesap bilgileri.Maluliyet Tazminat Talepleri Hasarlarında Temin Edilmesi Gerekli Belgeler:1)Sağlık kurulu raporu.2)Hak sahibi gerçek kişiler için: T.C Kimlik No.3)Mağdura ait son 3 aylık döneme ilişkin ücret belgesi.4)Hak sahibine ait banka hesap bilgileri.•Rayiç Değer Tespiti:Onarım masraflarının sigortalı taşıtın rizikonun gerçekleştiği tarihteki rayiç değerinin % 80 ine ulaşması ya da eksper raporu ile taşıtın onarım kabul etmez bir hale geldiğinin tespit edilmesi durumunda, araç tam hasara uğramış sayılır . Bu durumda aracın rayiç değeri; yetkili satıcılar,2. El araç satıcıları , galeriler ve internet sitelerinden aynı emsaldeki araçlar için alınan en az 3 teklifin ortalamasına göre belirlenir. Bu şekilde tespit edilemeyen araç değerlerinde TSB güncel listesi dikkate alınacaktır. Sigortalının beyanı üzerine teminat altına alınan, araç standartının dışında yer alan, fabrika çıkışında ya da sonradan ilave edilmiş donanım ve aksesuarların hasar anındaki piyasa rayiç değerlerinin belirlenmesinde yine yukarda belirtilen süreç takip edilecek olup,bu tutar her halükarda aksesuar bedeli ile sınırlıdır.Poliçe düzenlenirken TSB araç değer listesinde araçla ilgili bilginin olmaması durumunda sigortalının araç değeri ile ilgili sigortalının değer beyanı poliçede belirtilir. Hasar anında rayiç değer tespiti TSB araç değer listesinden belirlenemiyorsa,ekspertiz yoluyla en yakın özelliklerdeki marka, model ve tip dikkate alınarak rayiç değer tespiti yapılır. Bu takdirde belirlenecek değer, sigortalının poliçe yapıldığında beyan ettiği değere hasar tarihine kadar işlemiş enflasyon oranında yapılacak yükleme ile bulunan değeri aşamaz. Yeni Değer Klozu ile ilgili hükümler saklıdır. Türkiye Gümrük Bölgesi dışında yerleşik kişilerin getirdikleri kişisel kullanıma mahsus kara taşıtlarına verilen geçici ithal izni kapsamında ya da geçici giriş karnesi kapsamında (misafir statüsünde) bulunan araçlar ile Büyükelçilikler, Başkonsolosluklar ve Uluslararası Kuruluş temsilcilikleri araçlarının (ister Türkiye?den satın alınmış ya da yurtdışından getirilmiş olsun) tam hasara uğraması halinde rayiç değeri, aracın mahrecindeki değeri veya Türkiye?den satın alınmış ise muaf tutulduğu vergi ve diğer yükümlülükler hariç değeri esas alınarak belirlenecek, hurda araç Gümrük İdaresine teslim edilecektir. Sigortalı aracın yurt dışından ithali sırasında ödenmiş vergilerin tutarı/oranı, aracın rayiç değerinin belirlenmesinde esas alınır. Her ne sebeple olursa olsun sigortalıya aracın ilk ediniminde istisna edilen vergi ve benzeri tutarlar aracın hasar anındaki rayiç bedelinden düşülerek tazminat ödemesi gerçekleştirilir.Tramer?de kaydı olsun ya da olmasın daha önce ağır hasar gördüğü tespit edilen araçların ağır ya da tam hasara uğraması durumunda aracın yukarıdaki koşullara göre belirlenen piyasa rayiç bedelinin %75?i esas alınır. Aracın üzerinde monte edilmiş bulunan ve aracın üretim standardı dışında kalan spoiler, jant, ses ve görüntü cihazları v.b.parça ve aksesuarlar police yapıldığında ya da sonradan ilave edildiğinde sigortacıya bildirilmek ve bununla ilgili ek prim ödenmek koşuluyla rayiç değer tespitinde ayrıca dikkate alınır. Sigorta yapılan aracın prim hesabına esas teşkil eden bir özelliğinin yanlış beyan edilmesi durumunda sigortacının alınan primle alınması gereken prim arasındaki fark oranında ödenecek tazminattan indirim yapma hakkı saklıdır. •Hasar Tazmin Yöntemi:Onanımın, AXA Anlaşmalı Tamirhaneleri ( ATU ) veya AXA Garanti Servislerinde (AGS ) yapılması durumunda da; sigortacının, orijinal parça veya eşdeğer parçaları tedarik etme hakkı, sigortalı tarafından peşinen kabul edilmiş sayılır. Parça tedariğinin kabul edilmeyerek parçanın servis veya sigortalı tarafından temin edildiği durumlarda AXA tarafından ödemenin tedarik indirimleri yapılmak suretiyle gerçekleştirileceği sigortalı tarafından peşinen kabul edilmiştir. Hasar tespitinde araç üzerindeki parçanın orjinal olmadığının tespit edilmesi halinde araç üzerindeki parçanın muadili tedarik edilecek, tedarik edilememesi durumunda benzer özellikteki parça fiyatı ödenecektir.•Parça Türü:Cam hasarları için AXA Anlaşmalı Cam Servis sistemine dahil olan herhangi bir cam servisinde hizmet alınması durumunda cam üreticisi onaylı veya onarım garantili cam kullanılacaktır. Orijinal Parça: i) Bir motorlu aracın üretiminde veya montajında kullanılan parçalarla aynı kalitede olan ve söz konusu motorlu aracın üretiminde veya montajında kullanılan parçaların veya yedek parçaların üretiminde sağlayıcı tarafından getirilen ölçütlere ve üretim standartlarına göre üretilmiş yedek parçalardır.ii) Aracın orijinal parçaları ile aynı üretim bandında üretilen yedek parçalardır.iii)Eşdeğer Parça:Bir motorlu aracın montajında kullanılan esas orijinal parçaların değiştirilmesi amacıyla üretilen, ilgili mevzuat çerçevesinde belirlenen deney, muayene metotlarına göre orijinal parçayla kıyaslanarak tespit edilen kriterlere uygunluğu, Hazine Müsteşarlığınca belirlenen usul ve esaslar Poliçe No:592903300 İşbu poliçe 9 sayfadan oluşmaktadır. Sayfa no :3Asıldır.AXA GENİŞLETİLMİŞ TUTUMLU KASKO POLİÇESİAXA SİGORTA A.Ş.Meclisi Mebusan Cad. No:15 34433 Salıpazarı, Beyoğlu, İstanbul, Türkiye Tel : 0 212 334 24 24 / 0 850 250 99 99 www.axasigorta.com.tr   iletisim@axasigorta.com.tr Ticaret Sicil No : 98645 Büyük Mükellefler V.D. 649 00 399 46çerçevesinde belgelendirilen parçalardır. Cam hasarlarında cam üreticisi onaylı ve Avrupa garanti normlarını (5 normu) taşıyan cam kullanılacaktır. Hasar tespitinde araç üzerindeki parçanın orjinal olmadığının tespit edilmesi halinde araç üzerindeki parçanın muadili tedarik edilecek, tedarik edilememesi durumunda benzer özellikteki parça fiyatı ödenecektir.•Onarım / Tespit Yeri:Poliçe kapsamında oluşacak herhangi bir hasar durumunda AXA Anlaşmalı Tamirhaneleri (ATU) veya AXA Garantili Servislerinde (AGS) onarım hizmeti verilecektir. AXA Anlaşmalı Tamirhaneleri (ATU) ve AXA Garantili Servisleri (AGS) ne ilişkin güncel listelere , www.axasigorta.com.tr adresindeki Anlaşmalı Kurumlar sekmesinden ya da 0850 250 99 99 nolu telefondan bilgi alarak ulaşabilirsiniz. •Kısmi Hasarda Sözleşme FeshiSigorta şirketinin kısmi hasar nedeni ile poliçeyi iptal hakkı saklıdır. Hasar ödemesini takiben sigorta şirketi ayrıca bir ihbara gerek kalmaksızın poliçeyi iptal edebilir.•Tahkim Uygulaması:AXA Sigorta A.Ş. Sigorta tahkim yapısına üye bir sigorta şirketidir. Sigorta tahkim komisyonuna www.sigortatahkim.org web sitesinden, bilgi@sigortatahkim.org mail adresinden, 0216 651 65 65 pbx no?lu telefon numarasından erişim sağlanabilir. •Eksper Tayini:Eksper tayinin de sigortacılık kanunun ilgili maddelerine göre eksper ataması yapılabilir. Ekspertiz ücreti güncel mevzuat kurallarına göre belirlenir ve karşılanır.•Hasar olduğunda şirketimizin 0850 250 99 99 nolu telefonundan hergün ve 24 saat Hasar Danış manınıza ulaşarak yardım ve yönlendirme hizmeti alabilir, hasar ihbarınızı yapabilirsiniz. AXA Anlaşmalı Servisler listesine www.axasigorta.com.tr adresindeki Anlaşmalı Kurumlar sekmesinden Tutumlu Ürün AXA Anlaşmalı Servisleri listesine ulaşarak ya da 0850 250 99 99 no?lu telefondan bilgi alarak ulaşabilirsiniz. •Anahtar Kullanılarak Araç Çalınması Klozu:Kasko Sigortası Genel Şartları Uyarınca;sigortalı araç anahtarları kullanılarak aracın çalınması veya çalınmaya teşebbüsü sonucu meydana gelecek ziya ve hasarlar bu poliçe teminatı dışındadır. Ancak ;- Sigortalı araç anahtarlarının gasp sonucunda ele geçirilmesi yoluyla aracın çalınması veya çalınmaya teşebbüs edilmesi , - Anahtarsız çalıştırma sistemine sahip araçlarda aparatın aracı çalıştırma mesafesinde bulundu rulması sonucu oluşan araç çalınmaları,- Araç anahtarlarının, sigortalının veya aracı kullanımına tahsis ettiği kişinin kendi ev veya işyeri niteliğindeki kapalı ve kilitli bir mekanda muhafazası esnasında,bu mekana,kırma,delme, yıkma,devirme,zorlama,öldürme,yaralama,zor ve şiddet kullanarak veya tehditle ya da araç gereç veya bedeni çeviklik sayesinde tırmanmak suretiyle ele geçirilerek aracın çalınması veya çalınmaya teşebbüs edilmesi, teminat kapsamına alınmıştır. Ayrıca; kanunen geçerli bir belge karşılığında, gözetim, bakım ve onarım amacı ile aracın teslim edildiği otopark,oto yıkama,tamirhane vb. işletmelerden aracın çalınması veya çalınmaya teşebbüs edilmesi sonucu meydana gelecek ziya ve hasarlar, sigortalının yasal sorumlular hakkında yasal bir tahkikat başlatması ve hasarın %20`si sigortalının üzerinde kalmak suretiyle teminat kapsamına alınmıştır.•Kıymet Kazanma Tenzili Klozu: Yaştan bağımsız tüm araçlar için her koşulda süreli kullanımı olan ve zamanla ya da kullanımla değişmesi gereken parçaların, sarf malzemelerin ve/veya daha önceki tamiratlarında kullanılan orijinal olmayan parçaların hasar kapsamında değişiminde, Kıymet kazanma tenzili olarak %20 oranında muafiyet uygulanır. Lastik hasarlarında Aracın ilk tescil tarihi itibari ile 1 yaşına kadar olan araçlarda 10.000 Km yi geçmemiş olmak kaydı ile  kıymet artışı uygulanmayacaktır. 1 yaş üstü araçlarda % 20 oranında kıymet artışı (eskime payı) İndirimi uygulanacaktır. Araç 1 yaşından büyük ancak lastik üretim yaşı 1 yaşından küçük ise lastik aşınma durumu  %20 yi geçmemiş olmak kaydı ile  bu kesinti uygulanmayacaktır.•Sel Su Baskını Ve Deprem Yanardağ Klozu:Sel su baskını ve/veya Deprem yanardağ püskürmesi sonucu oluşacak hasarın % 100`ü sigortacı tarafından karşılanmak üzere kasko teminatına dahil edilmiştir.•Hayvan Koruma Klozu:Poliçede tanımlanan motorlu aracın, 2918 sayılı Karayolları Trafik Kanunu uyarınca karayolu olarak tanımlanan yerlerde işletilmesi sırasında, sahipsiz (barınacak yeri olmayan ve herhangi bir sahip veya koruyucunun kontrolü ya da doğrudan denetimi altında bulunmayan) bir hayvana çarparak zarar vermesi durumunda, en yakın veteriner hekim ya da tedavi ünitesine götürülmesi ve tedavisinin sağlanması için yapılan giderler 2.000 TL'sına kadar teminat altına alınmıştır.•Hibrit Araç Klozu:Bu poliçede plaka ve şasi numarası belirtilmiş olan sigortalıya ait araç ve onun eklentisi niteliğindeki sigortalıya ait pil Kasko Genel Şartlarına göre sigortalanmıştır. Pilin hasarlanması durumunda, aracın ilk tescil tarihinden itibaren ilk 2 yıl 150.000 km aşılmamış ise muafiyet uygulanmayacak, tescil tarihi sonrası 3.yıldan itibaren her bir yıl için 10% eskime payı düşülerek gerçekleştirilecektir. Pil hasarının ilgili araç için belirlenen yetkili servisler tarafından onarımının yapılması,onarımı yapılmayacak ise pilin ilgili yetkili servislerce değiştirilmesi gerekmektedir.Pilin sigortasının üretici firma tarafından yaptırılmış olması durumunda,pil hasarları işbu poliçe kapsamında değerlendirilmeyecektir.Pilin sigortalıya kiralanmış olması durumunda,bu pil ancak tanım numarası poliçe üzerinde ayrıca belirtilmiş olduğu taktirde sigortalıdır.Pile ait hasar tutarı yalnızca kiracının pil hasarından kiralayan pil yükümlülüğünün en son aşamada kiracıya ait bulunduğu hallerde ödenir.Teminat altına alınan pilin sigortalı aracın herhangi bir hasara uğramaksızın tamiri,onarımı,test,servis işlemleri veya değiştirilmesi sırasında veya bir başka araç üzerinde iken hasarlanması poliçe kapsamı dışındadır. Sigorta kapsamına giren bir olaydan doğmadıkça ve böyle bir olayla sonuçlanmadıkça,Pil`in  hatalı üretim ya da kullanımı veyahut   pil`in  hatalı  şarjı sonucunda  pilden  kaynaklanan  ve sigorta lı araçta oluşabilecek yazılım ve/veya elektrik hasarları poliçe kapsamı dışındadır. Pilin her durumda 3.Şahıslara vereceği zararlar ile bataryanın imhasına ilişkin masraflar teminat kapsamı dışındadır. Pilin değişmesini gerektiren durumlarda tedarik süresi kaynaklı oluşabilecek problemler üretici markanın sorumluluğundadır.Elektrikli araçlarda, en yakın şarj istasyonuna limitler dahilinde çekimi yapılacaktır.",
-          "output": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)"
+          "output": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+          "description": "Maps extracted text to business value: Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)"
         }
-      ]
+      ],
+      "description": "Field mapping for axa_E"
     },
     "Teminat_Yedek_Parca": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "sigortacının, orijinal parça tedariki yapma hakkı",
-          "output": "Var"
+          "output": "Var",
+          "description": "Maps extracted text to business value: Var"
         }
-      ]
+      ],
+      "description": "Field mapping for axa_E"
     },
     "Teminat_Oto_Cam_Klozu": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "CASU-ANLAŞMALI CAM SERVİSLERİ",
-          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli",
+          "description": "Maps extracted text to business value: Orijinal Cam Yok & Hasar Muafiyetli"
         },
         {
           "input_pattern": "TÜM SERVİSLER",
-          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz",
+          "description": "Maps extracted text to business value: Orijinal Cam Var & Hasar Muafiyetsiz"
         }
-      ]
+      ],
+      "description": "Field mapping for axa_E"
     },
     "Teminat_Ikame_Arac": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "ikame araç hizmeti bulunmamaktadır",
-          "output": "0"
+          "output": "0",
+          "description": "Maps extracted text to business value: 0"
         },
         {
           "input_pattern": "AXA Sigorta Anlaşmalı Yetkili Servislere ve Serbest Tamirhanelere çekilen araçlar poliçe yılı içerisinde azami 2 kez, olay başına poliçe üzerinde yazan 7 gün ile sınırlı olacak şekilde ikame araç teminatından faydalanabilirler. AXA Sigorta Anlaşmalı Garantili Servislere çekilen araçlar poliçe yılı içerisinde azami 2 kez, olay başına eksper gün süresince 30 günü aşmayacak şekilde ikame araç teminatından faydalanabilirler. İkame araç hizmeti için Eksper, AXA Personeli, Sigortacının yetkili kılacağı kişi ya da kurumlarca yapılacak ekspertiz süresi dikkate alınacaktır.",
-          "output": "7"
+          "output": "7",
+          "description": "Maps extracted text to business value: 7"
         },
         {
           "input_pattern": "AXA Sigorta Anlaşmalı Yetkili Servislere ve Serbest Tamirhanelere çekilen araçlar poliçe yılı içerisinde azami 2 kez, olay başına poliçe üzerinde yazan 15 gün ile sınırlı olacak şekilde ikame araç teminatından faydalanabilirler. AXA Sigorta Anlaşmalı Garantili Servislere çekilen araçlar poliçe yılı içerisinde azami 2 kez, olay başına eksper gün süresince 30 günü aşmayacak şekilde ikame araç teminatından faydalanabilirler. İkame araç hizmeti için Eksper, AXA Personeli, Sigortacının yetkili kılacağı kişi ya da kurumlarca yapılacak ekspertiz süresi dikkate alınacaktır.",
-          "output": "15"
+          "output": "15",
+          "description": "Maps extracted text to business value: 15"
         },
         {
           "input_pattern": "İşbu poliçede İkame araç hizmeti bulunmamaktadır.",
-          "output": "[MAPPED_FROM_REGEX]"
+          "output": "0",
+          "description": "Maps extracted text to business value: "
         },
         {
           "input_pattern": "AXA Sigorta Anlaşmalı Yetkili Servislere ve Serbest Tamirhanelere çekilen araçlar poliçe yılı içerisinde azami 2 kez, olay başına poliçe üzerinde yazan 15 gün ile sınırlı olacak şekilde ikame araç teminatından faydalanabilirler. AXA Sigorta Anlaşmalı Garantili Servislere çekilen araçlar poliçe yılı Poliçe No:590376099 İşbu poliçe 12 sayfadan oluşmaktadır. Sayfa no :9Asıldır.AXA GENİŞLETİLMİŞ MAKSİMUM KASKO POLİÇESİAXA SİGORTA A.Ş.Meclisi Mebusan Cad. No:15 34433 Salıpazarı, Beyoğlu, İstanbul, Türkiye Tel : 0 212 334 24 24 / 0 850 250 99 99 www.axasigorta.com.tr   iletisim@axasigorta.com.tr Ticaret Sicil No : 98645 Büyük Mükellefler V.D. 649 00 399 46içerisinde azami 2 kez, olay başına eksper gün süresince 30 günü aşmayacak şekilde ikame araç teminatından faydalanabilirler. İkame araç hizmeti için Eksper, AXA Personeli, Sigortacının yetkili kılacağı kişi ya da kurumlarca yapılacak ekspertiz süresi dikkate alınacaktır.",
-          "output": "[MAPPED_FROM_REGEX]"
-        }
-      ]
-    },
-    "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-      "type": "numeric_conversion",
-      "output_type": "integer",
-      "turkish_format": true
+          "output": "15",
+          "description": "Maps extracted text to business value: 15"
+        },
+        { "input_pattern": null, "output": "0" }
+      ],
+      "description": "Field mapping for axa_E"
     },
     "Police_Gross_Price": {
       "type": "numeric_conversion",

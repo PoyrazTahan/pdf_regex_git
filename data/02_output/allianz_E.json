@@ -360,19 +360,19 @@
     "allianz_E_128310991_1021062391238": "CAM KIRILMASI TEMİNATI\nCam hasarına ilişkin özel bir kesinti uygulanmamaktadır."
   },
   "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-    "allianz_E_00000000_1021061680951": "15,000,000 TL",
-    "allianz_E_119837036_1021061671414": "2,500,000 TL",
-    "allianz_E_119842266_1021061673999": "10,000,000 TL",
-    "allianz_E_119863652_1021061673041": "2,500,000 TL",
-    "allianz_E_128277942_1021062387608": "10,000,000 TL",
-    "allianz_E_128294536_1021062389312": "5,000,000 TL",
-    "allianz_E_128298391_1021062389684": "500,000 TL",
-    "allianz_E_128298447_1021062389553": "15,000,000 TL",
-    "allianz_E_128300958_1021062389882": "2,500,000 TL",
-    "allianz_E_128302952_1021062391423": "25,000,000 TL",
-    "allianz_E_128304939_1021062390329": "10,000,000 TL",
-    "allianz_E_128308487_1021062391145": "500,000 TL",
-    "allianz_E_128310991_1021062391238": "5,000,000 TL"
+    "allianz_E_00000000_1021061680951": "15,000,000",
+    "allianz_E_119837036_1021061671414": "2,500,000",
+    "allianz_E_119842266_1021061673999": "10,000,000",
+    "allianz_E_119863652_1021061673041": "2,500,000",
+    "allianz_E_128277942_1021062387608": "10,000,000",
+    "allianz_E_128294536_1021062389312": "5,000,000",
+    "allianz_E_128298391_1021062389684": "500,000",
+    "allianz_E_128298447_1021062389553": "15,000,000",
+    "allianz_E_128300958_1021062389882": "2,500,000",
+    "allianz_E_128302952_1021062391423": "25,000,000",
+    "allianz_E_128304939_1021062390329": "10,000,000",
+    "allianz_E_128308487_1021062391145": "500,000",
+    "allianz_E_128310991_1021062391238": "5,000,000"
   },
   "Teminat_Indirim_Arttırim_Bilgileri": {
     "allianz_E_00000000_1021061680951": "- Sigorta poliçesinin kasko primi belirlenirken, sigortacı tarafından, sigorta konusu araç ve sigortalı bilgilerine\ngöre belirlenen kasko tarifesinin üzerine aşağıdaki nedenlerle indirimler/ sürprimler uygulanır..\nDEPREM ARTIRIMI :\n%3\nHASARSIZLIK İNDİRİMİ :\n%65\nPEŞIN İNDIRIMI :\n%11,15\nMüşteri Skoru : Müşterinin tüm portföyü değerlendirilerek belirlenmiştir.",
@@ -435,19 +435,19 @@
     "allianz_E_128310991_1021062391238": "%40"
   },
   "Teminat_Servis_Secimi": {
-    "allianz_E_00000000_1021061680951": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_119837036_1021061671414": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_119842266_1021061673999": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servis/tamirhanenin, Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışında\nbir servis olarak seçilmesi durumunda, \"Muafiyetler\" bölümünde belirtilen hasar uygulama yöntemi dikkate\nalınacaktır. Cam değişimi Allianz anlaşmalı cam servisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik\nbakımından dünya standartlarında ve sertifikalı yerli üretim parçalar olup öncelikle bu camların kullanılması\nesastır. Ancak cam, tampon, radyo-teyp, radyatör, jant vb. parçaların onarımı mümkün ise ve bu parçaların\nonarımı aracın bulunduğu tamirhanede yapılamıyor ise bu parçaların tamir işlemi için sigortalı araç alternatif bir\nAllianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_119863652_1021061673041": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128277942_1021062387608": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128294536_1021062389312": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128298391_1021062389684": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\nALLIANZ KASKO SİGORTA POLİÇESİ\nKAPSAMLI\nMPSPO009\nAllianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •\nwww.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 8000013270\n6/12\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128298447_1021062389553": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128300958_1021062389882": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servis/tamirhanenin, Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışında\nbir servis olarak seçilmesi durumunda, \"Muafiyetler\" bölümünde belirtilen hasar uygulama yöntemi dikkate\nalınacaktır. Cam değişimi Allianz anlaşmalı cam servisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik\nbakımından dünya standartlarında ve sertifikalı yerli üretim parçalar olup öncelikle bu camların kullanılması\nesastır. Ancak cam, tampon, radyo-teyp, radyatör, jant vb. parçaların onarımı mümkün ise ve bu parçaların\nonarımı aracın bulunduğu tamirhanede yapılamıyor ise bu parçaların tamir işlemi için sigortalı araç alternatif bir\nAllianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128302952_1021062391423": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128304939_1021062390329": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\nALLIANZ KASKO SİGORTA POLİÇESİ\nKAPSAMLI - ELEKTRİKLİ\nMPSPO009\nAllianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •\nwww.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 8000013270\n7/14\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128308487_1021062391145": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-    "allianz_E_128310991_1021062391238": "SERVİS SEÇİMİ\nHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\n\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı cam\nservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalı\nyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,\nALLIANZ KASKO SİGORTA POLİÇESİ\nKAPSAMLI - ELEKTRİKLİ\nMPSPO009\nAllianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •\nwww.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 8000013270\n7/13\njant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor ise\nbu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir."
+    "allianz_E_00000000_1021061680951": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_119837036_1021061671414": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_119842266_1021061673999": "Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışında",
+    "allianz_E_119863652_1021061673041": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128277942_1021062387608": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128294536_1021062389312": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128298391_1021062389684": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128298447_1021062389553": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128300958_1021062389882": "Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışında",
+    "allianz_E_128302952_1021062391423": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128304939_1021062390329": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128308487_1021062391145": "Anlaşmasız Marka Yetkili Servis",
+    "allianz_E_128310991_1021062391238": "Anlaşmasız Marka Yetkili Servis"
   },
   "Teminat_Hasarsizlik_Koruma": {
     "allianz_E_00000000_1021061680951": "Poliçe süresi içinde 1 adet cam kırılması hasarı, %100 rüculu. hasarlar ve diğer bir hasar meydana gelmesi\nhalinde, poliçe yenilenirken hasarsızlık indirimi korunarak mevcut poliçedeki hasarsızlık kademesi üzerinden\ndevam edilecektir.",
@@ -478,5 +478,20 @@
     "allianz_E_128304939_1021062390329": "19,474.90",
     "allianz_E_128308487_1021062391145": "12,598.29",
     "allianz_E_128310991_1021062391238": "13,336.39"
+  },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "allianz_E_00000000_1021061680951": null,
+    "allianz_E_119837036_1021061671414": null,
+    "allianz_E_119842266_1021061673999": null,
+    "allianz_E_119863652_1021061673041": null,
+    "allianz_E_128277942_1021062387608": null,
+    "allianz_E_128294536_1021062389312": null,
+    "allianz_E_128298391_1021062389684": null,
+    "allianz_E_128298447_1021062389553": null,
+    "allianz_E_128300958_1021062389882": null,
+    "allianz_E_128302952_1021062391423": null,
+    "allianz_E_128304939_1021062390329": null,
+    "allianz_E_128308487_1021062391145": null,
+    "allianz_E_128310991_1021062391238": null
   }
 }

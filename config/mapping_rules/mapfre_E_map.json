@@ -43,17 +43,60 @@
     },
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
       "type": "numeric_conversion",
-      "turkish_format": true,
-      "output_type": "integer"
+      "turkish_format": false,
+      "output_type": "integer",
+      "mappings": [
+        {
+          "input_pattern": "5.000.000,00",
+          "output": 5000000
+        },
+        {
+          "input_pattern": "10.000.000,00",
+          "output": 10000000
+        },
+        {
+          "input_pattern": "15.000.000,00",
+          "output": 15000000
+        },
+        {
+          "input_pattern": "1.000.000,00",
+          "output": 1000000
+        },
+        {
+          "input_pattern": "7.000.000,00",
+          "output": 7000000
+        },
+        {
+          "input_pattern": "2.000.000,00",
+          "output": 2000000
+        },
+        {
+          "input_pattern": "3.000.000,00",
+          "output": 3000000
+        },
+        {
+          "input_pattern": "4.000.000,00",
+          "output": 4000000
+        },
+        {
+          "input_pattern": "100.000,00",
+          "output": 100000
+        },
+        {
+          "input_pattern": "500.000,00",
+          "output": 500000
+        }
+      ]
     },
     "Teminat_IMM_Manevi_Tazminat_Bedeli": {
       "type": "numeric_conversion",
-      "turkish_format": true,
+      "turkish_format": false,
       "output_type": "integer",
       "mappings": [
         {
           "input_pattern": "25",
-          "output": 100000
+          "output": 100000,
+          "multiplier": 4000
         }
       ]
     },

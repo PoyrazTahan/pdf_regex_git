@@ -1,5 +1,6 @@
 {
   "company": "allianz_E",
+  "description": "ALLIANZ_E field mapping configuration for normalizing extracted policy data",
   "version": "1.0",
   "field_mappings": {
     "Teminat_Hasarsizlik_Koruma": {
@@ -7,119 +8,155 @@
       "mappings": [
         {
           "input_pattern": "Poliçe süresi içinde 1 adet cam kırılması hasarı, %100 rüculu. hasarlar ve diğer bir hasar meydana gelmesihalinde, poliçe yenilenirken hasarsızlık indirimi korunarak mevcut poliçedeki hasarsızlık kademesi üzerindendevam edilecektir.",
-          "output": "Var"
+          "output": "Var",
+          "description": "Maps extracted text to business value: Var"
         },
         {
           "input_pattern": null,
-          "output": "Yok"
+          "output": "Yok",
+          "description": "Maps null values to business value: Yok"
         }
-      ]
+      ],
+      "description": "Field mapping for allianz_E"
     },
     "Teminat_IMM_Bedeni_Maddi_Ayrimsiz_Bedeli": {
-      "type": "numeric_conversion",
-      "output_type": "integer",
-      "turkish_format": true
-    },
+    "type": "pattern_to_value",
+    "mappings": [
+      { "input_pattern": "25,000,000 TL", "output": "25000000" },
+      { "input_pattern": "25.000.000 TL", "output": "25000000" },
+      { "input_pattern": "25,000,000",    "output": "25000000" },
+      { "input_pattern": "25.000.000",    "output": "25000000" },
+
+      { "input_pattern": "15,000,000 TL", "output": "15000000" },
+      { "input_pattern": "15.000.000 TL", "output": "15000000" },
+      { "input_pattern": "15,000,000",    "output": "15000000" },
+      { "input_pattern": "15.000.000",    "output": "15000000" },
+
+      { "input_pattern": "10,000,000 TL", "output": "10000000" },
+      { "input_pattern": "10.000.000 TL", "output": "10000000" },
+      { "input_pattern": "10,000,000",    "output": "10000000" },
+      { "input_pattern": "10.000.000",    "output": "10000000" },
+
+      { "input_pattern": "5,000,000 TL",  "output": "5000000"  },
+      { "input_pattern": "5.000.000 TL",  "output": "5000000"  },
+      { "input_pattern": "5,000,000",     "output": "5000000"  },
+      { "input_pattern": "5.000.000",     "output": "5000000"  },
+
+      { "input_pattern": "2,500,000 TL",  "output": "2500000"  },
+      { "input_pattern": "2.500.000 TL",  "output": "2500000"  },
+      { "input_pattern": "2,500,000",     "output": "2500000"  },
+      { "input_pattern": "2.500.000",     "output": "2500000"  },
+
+      { "input_pattern": "500,000 TL",    "output": "500000"   },
+      { "input_pattern": "500.000 TL",    "output": "500000"   },
+      { "input_pattern": "500,000",       "output": "500000"   },
+      { "input_pattern": "500.000",       "output": "500000"   },
+
+      { "input_pattern": null,            "output": "0"        }
+    ],
+    "description": "IMM tutarı: büyükten küçüğe sıralı literal eşleşme; substring çakışmalarını önler."
+  },
     "Teminat_Servis_Secimi": {
       "type": "pattern_to_value",
       "mappings": [
         {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servis/tamirhanenin, Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışındabir servis olarak seçilmesi durumunda, \"Muafiyetler\" bölümünde belirtilen hasar uygulama yöntemi dikkatealınacaktır. Cam değişimi Allianz anlaşmalı cam servisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlikbakımından dünya standartlarında ve sertifikalı yerli üretim parçalar olup öncelikle bu camların kullanılmasıesastır. Ancak cam, tampon, radyo-teyp, radyatör, jant vb. parçaların onarımı mümkün ise ve bu parçalarınonarımı aracın bulunduğu tamirhanede yapılamıyor ise bu parçaların tamir işlemi için sigortalı araç alternatif birAllianz anlaşmalı servisine yönlendirilir.",
-          "output": "Yalnızca Anlaşmalı Özel Servisler"
+          "input_pattern": "Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışında",
+          "output": "Yalnızca Anlaşmalı Özel Servisler",
+          "description": "Anlaşmasız Marka Yetkili Servis seçimi → %25 kesinti sinyali"
         },
         {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı camservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalıyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,ALLIANZ KASKO SİGORTA POLİÇESİKAPSAMLI - ELEKTRİKLİMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132707/14jant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor isebu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-          "output": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)"
+          "input_pattern": "Anlaşmasız Marka Yetkili Servis",
+          "output": "Tüm Yetkili Servisler ve Özel Servisler (Muafiyetli)",
+          "description": "Network dışı seçilirse ‘Muafiyetler’ yöntemi uygulanır."
         },
         {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı camservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalıyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,jant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor isebu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı camservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalıALLIANZ KASKO SİGORTA POLİÇESİKAPSAMLIMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/12yerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,jant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor isebu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı camservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalıyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,ALLIANZ KASKO SİGORTA POLİÇESİKAPSAMLI - ELEKTRİKLİMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132707/13jant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor isebu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servis/tamirhanenin, Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışındabir servis olarak seçilmesi durumunda, \"Muafiyetler\" bölümünde belirtilen hasar uygulama yöntemi dikkatealınacaktır. Cam değişimi Allianz anlaşmalı cam servisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlikbakımından dünya standartlarında ve sertifikalı yerli üretim parçalar olup öncelikle bu camların kullanılmasıALLIANZ KASKO SİGORTA POLİÇESİEKOMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/11esastır. Ancak cam, tampon, radyo-teyp, radyatör, jant vb. parçaların onarımı mümkün ise ve bu parçalarınonarımı aracın bulunduğu tamirhanede yapılamıyor ise bu parçaların tamir işlemi için sigortalı araç alternatif birAllianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİALLIANZ KASKO SİGORTA POLİÇESİEKOMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/12Hasar onarımının yapılacağı servis/tamirhanenin, Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışındabir servis olarak seçilmesi durumunda, \"Muafiyetler\" bölümünde belirtilen hasar uygulama yöntemi dikkatealınacaktır. Cam değişimi Allianz anlaşmalı cam servisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlikbakımından dünya standartlarında ve sertifikalı yerli üretim parçalar olup öncelikle bu camların kullanılmasıesastır. Ancak cam, tampon, radyo-teyp, radyatör, jant vb. parçaların onarımı mümkün ise ve bu parçalarınonarımı aracın bulunduğu tamirhanede yapılamıyor ise bu parçaların tamir işlemi için sigortalı araç alternatif birAllianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı camservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalıALLIANZ KASKO SİGORTA POLİÇESİKAPSAMLIMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/11yerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,jant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor isebu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİHasar onarımının yapılacağı servisin, Allianz Anlaşmasız Marka Yetkili Servis seçilmesi durumunda poliçenin\"Muafiyetler\" bölümünde belirtilen %25 oranında kesinti uygulanacaktır. Cam değişimi Allianz anlaşmalı camservisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlik bakımından dünya standartlarında ve sertifikalıyerli üretim parçalar olup öncelikle bu camların kullanılması esastır. Ancak cam, tampon, radyo-teyp, radyatör,ALLIANZ KASKO SİGORTA POLİÇESİKAPSAMLIMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/12jant vb. parçaların onarımı mümkün ise ve bu parçaların onarımı aracın bulunduğu tamirhanede yapılamıyor isebu parçaların tamir işlemi için sigortalı araç alternatif bir Allianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
-        },
-        {
-          "input_pattern": "SERVİS SEÇİMİALLIANZ KASKO SİGORTA POLİÇESİEKOMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/11Hasar onarımının yapılacağı servis/tamirhanenin, Allianz Anlaşmalı Özel servisler kapsamındaki servisler dışındabir servis olarak seçilmesi durumunda, \"Muafiyetler\" bölümünde belirtilen hasar uygulama yöntemi dikkatealınacaktır. Cam değişimi Allianz anlaşmalı cam servisinde yapılıyor ise kullanılan parçalar  kalite ve güvenlikbakımından dünya standartlarında ve sertifikalı yerli üretim parçalar olup öncelikle bu camların kullanılmasıesastır. Ancak cam, tampon, radyo-teyp, radyatör, jant vb. parçaların onarımı mümkün ise ve bu parçalarınonarımı aracın bulunduğu tamirhanede yapılamıyor ise bu parçaların tamir işlemi için sigortalı araç alternatif birAllianz anlaşmalı servisine yönlendirilir.",
-          "output": "[MAPPED_FROM_REGEX]"
+          "input_pattern": "eko network kapsamındaki servisler dışında",
+          "output": "Yalnızca Anlaşmalı Özel Servisler",
+          "description": "EKO network dışı servis → network-only"
         }
-      ]
+      ],
+      "description": "Allianz – Servis seçimi iş değeri normalizasyonu (regex tabanlı kısa sinyal eşleşmesi)."
     },
     "Teminat_Yedek_Parca": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "orijinal parçalar kullanılır",
-          "output": "Var"
+          "output": "Var",
+          "description": "Maps extracted text to business value: Var"
         },
         {
           "input_pattern": null,
-          "output": "Yok"
+          "output": "Yok",
+          "description": "Maps null values to business value: Yok"
         }
-      ]
+      ],
+      "description": "Field mapping for allianz_E"
     },
     "Teminat_Oto_Cam_Klozu": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "CAM KIRILMASI TEMİNATISigortalı aracın sadece camlarının kırılması durumundaki tazminat taleplerinde, hasar onarımı Allianz AnlaşmalıCam Servislerinde gerçekleştirilir. Aksi durumda poliçenin \"Muafiyetler\" bölümünde belirtilen, cam hasarlarınailişkin kesinti oranı/tutarı uygulanacaktır.",
-          "output": "Orijinal Cam Yok & Hasar Muafiyetli"
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli",
+          "description": "Maps extracted text to business value: Orijinal Cam Yok & Hasar Muafiyetli"
         },
         {
           "input_pattern": "CAM KIRILMASI TEMİNATICam hasarına ilişkin özel bir kesinti uygulanmamaktadır.",
-          "output": "Orijinal Cam Var & Hasar Muafiyetsiz"
+          "output": "Orijinal Cam Var & Hasar Muafiyetsiz",
+          "description": "Maps extracted text to business value: Orijinal Cam Var & Hasar Muafiyetsiz"
         },
         {
           "input_pattern": "CAM KIRILMASI TEMİNATIALLIANZ KASKO SİGORTA POLİÇESİEKOMPSPO009Allianz Sigorta A.Ş. Allianz Tower Küçükbakkalköy Mah. Kayışdağı Cad. No: 1 34750 Ataşehir / İstanbul • Tel: 0216 556 66 66 • Faks: 0216 556 67 77 • Müşteri Hizmetleri: 0850 399 99 99 •www.allianzsigorta.com.tr • Ticaret Sicil No: 6022 • Mersis No: 0-8000-0132-7000012 • Büyük Mükellefler VD. No: 80000132706/11Sigortalı aracın sadece camlarının kırılması durumundaki tazminat taleplerinde, hasar onarımı Allianz AnlaşmalıCam Servislerinde gerçekleştirilir. Aksi durumda poliçenin \"Muafiyetler\" bölümünde belirtilen, cam hasarlarınailişkin kesinti oranı/tutarı uygulanacaktır.",
-          "output": "[MAPPED_FROM_REGEX]"
-        }
-      ]
+          "output": "Orijinal Cam Yok & Hasar Muafiyetli",
+          "description": "Maps extracted text to business value: "
+        },
+        { "input_pattern": null, "output": "Orijinal Cam Yok & Hasar Muafiyetli" }
+      ],
+      "description": "Field mapping for allianz_E"
     },
     "Teminat_Ikame_Arac": {
       "type": "pattern_to_value",
       "mappings": [
         {
           "input_pattern": "İkame Hariç",
-          "output": "0"
+          "output": "0",
+          "description": "Maps extracted text to business value: 0"
         },
         {
           "input_pattern": "7 Gün - 2 Defa - Standart",
-          "output": "7"
+          "output": "7",
+          "description": "Maps extracted text to business value: 7"
         },
         {
           "input_pattern": "15 Gün - 2 Defa / Üst Sınıf",
-          "output": "15"
+          "output": "15",
+          "description": "Maps extracted text to business value: 15"
         },
         {
           "input_pattern": "15 Gün - 2 Defa - Standart",
-          "output": "[MAPPED_FROM_REGEX]"
+          "output": "15",
+          "description": "Maps extracted text to business value: 15"
+        },
+        {
+          "input_pattern": null,
+          "output": "0",
+          "description": "Extraction null ise 0"
         }
-      ]
-    },
+      ],
+    "description": "Field mapping for allianz_E"
+  },
     "Police_Gross_Price": {
       "type": "numeric_conversion",
       "output_type": "float",
       "turkish_format": false
-    }
+    },
+  "Teminat_IMM_Manevi_Tazminat_Bedeli": {
+    "type": "pattern_to_value",
+    "mappings": [
+      { "input_pattern": null, "output": "0" }
+    ],
+    "description": "Extraction null ise 0’a çevir."
+  }
   }
 }

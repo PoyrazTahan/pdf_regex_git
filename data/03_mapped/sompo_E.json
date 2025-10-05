@@ -275,15 +275,15 @@
     "sompo_E_128310212_307000180966564": 5000000
   },
   "Teminat_IMM_Manevi_Tazminat_Bedeli": {
-    "sompo_E_128280704_307000181214769": 3000000,
+    "sompo_E_128280704_307000181214769": 500000,
     "sompo_E_128281354_307000179998386": 0,
     "sompo_E_128286944_307000181168144": 0,
     "sompo_E_128287366_307000181237205": 0,
-    "sompo_E_128293572_307000181291702": 3000000,
-    "sompo_E_128294096_307000181257964": 2500000,
+    "sompo_E_128293572_307000181291702": 500000,
+    "sompo_E_128294096_307000181257964": 500000,
     "sompo_E_128299480_307000181274633": 0,
     "sompo_E_128304499_307000181292824": 0,
-    "sompo_E_128310212_307000180966564": 2500000
+    "sompo_E_128310212_307000180966564": 500000
   },
   "Teminat_Indirim_Arttırim_Bilgileri": {
     "sompo_E_128280704_307000181214769": "Hasarsızlık İndirimi:Poliçenin ön yüzünde belirtilmiş olan hasarsızlık indirimine istinaden indirim uygulanmıştır.\nMüşteri Özel İndirimi: Sigortalanın poliçe ve hasar geçmişine istinaden indirim uygulanmıştır.\nAktif Meslek İndirimi: Poliçenin ön yüzünde belirtilmiş olan sigortalı mesleğine istinaden indirim uygulanmıştır.\nHASARSIZLIK İNDİRİMİ KLOZU",
@@ -348,6 +348,6 @@
       "mapped_fields": 31,
       "errors": []
     },
-    "timestamp": "2025-09-04T15:06:11.217310"
+    "timestamp": "2025-10-05T15:22:13.217103"
   }
 }
